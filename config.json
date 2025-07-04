@@ -12,8 +12,8 @@
     "output_split_number": 1,
     "sheet_names": {
         
-        "C_ltp_activities":"1WR1rTuo74pWGx3EN8pPkpSwbqLK2iGTYe83E1_1WBw4",
-        "C_modules_all_ages": "1H8CIwngOl35bRXviMwWm84OvD5T8E9OqUi3NRJ7Ue60",
+        "C_ltp_activities":"1rrtM6hy-ERxHiFhJ7-gW08hgRQmUXMxqy6oY_REwN_Y",
+        "C_modules_all_ages": "1ihAUQ3ZNyph6rFD6JSmIg7xM759BJ1Gpr64GTZum_KM",
         "C_surveys": "18OZwZ2QyPUn8oLmVtKGe7_bSXe2u_8GAot5RPS701Ic",
 
         "deployment_localised_sheets" : "1HlvQRgcymKKPJUJHGTt9a6EzC684wglfK71Ig0d4QAE",
@@ -69,11 +69,11 @@
         "translation": {
             "format": "translation_repo",
             "translation_repo": "https://github.com/IDEMSInternational/plh-digital-content",
-            "folder_within_repo": "translations/parent_text_crisis_global",
+            "folder_within_repo": "translations/parent_text_crisis_romania",
             "commit_hash": "",
             "commit_tag": "",
             "languages": [
-                {"language": "lan", "code": "fr"}
+                {"language": "ron", "code": "ro"}
             ]
         },
         "expiration_times": {
@@ -93,7 +93,7 @@
             "format": "safeguarding",
             "sources" : [
                 {
-                    "key": "lan",
+                    "key": "ron",
                     "location": "1mrSKtsQoXYLMowNh816jUVnqjrdBq6of"
                 }
             ]
@@ -105,7 +105,7 @@
             "type": "create_flows",
             "models_module": "models.parenttext_models",
             "sources": ["flow_definitions"],
-            "tags": []
+            "tags": [1, "ltp_activity", 1, "module"]
         },
         {
             "id": "update_expiration_times",
@@ -135,7 +135,7 @@
             "type": "translation",
             "sources": ["translation"],
             "languages": [
-                {"language": "lan", "code": "fr"}
+                {"language": "ron", "code": "ro"}
             ]
         },
         {
