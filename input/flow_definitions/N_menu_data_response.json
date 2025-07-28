@@ -110,14 +110,14 @@
         "options.3.flow": "safeguarding_help",
         "options.4.text": "A fun activity I can do with my child",
         "options.4.flow": "activity_offer - menu",
-        "options.5.text": "Watch a video about ParentText",
+        "options.5.text": "Watch a video about {prog_name}",
         "options.5.flow": "menu_parenttext_instructions",
-        "options.6.text": "Invite a friend to ParentText",
-        "options.6.flow": "share",
-        "options.7.text": "Change my settings        ",
-        "options.7.flow": "menu - settings",
-        "options.8.text": "Nothing, let's continue tomorrow",
-        "options.8.flow": "exit_menu",
+        "options.6.text": "Change my settings        ",
+        "options.6.flow": "menu - settings",
+        "options.7.text": "Nothing, let's continue tomorrow",
+        "options.7.flow": "exit_menu",
+        "options.8.text": "",
+        "options.8.flow": "",
         "options.9.text": "",
         "options.9.flow": ""
       },
@@ -254,12 +254,6 @@
         "msg": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}. ",
         "next_button_option": "",
         "metadata.description": "Message when selecting to exit the menu"
-      },
-      {
-        "ID": "share",
-        "msg": "To invite someone to join, share this link!\n{share link}",
-        "next_button_option": "",
-        "metadata.description": "message for sharing link to join ParentText with other caregiver. Do not change the placeholder {share link}"
       }
     ],
     "settings_profile_data": [

@@ -119,7 +119,7 @@
         "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
         "change": "{natural_disasters_referrals}",
         "condition_var": "",
-        "category": ""
+        "category": "The services below can help keep you and your family safe and informed in case of a natural disaster: \n\n**Inspectorate for Emergency Situations (IGSU) & Department for Emergency Situations (DSU)**  \nOfficial national bodies providing information and response during emergencies and disasters.  \nThey offer:  \n- Safety tips for different types of disasters  \n- Real-time alerts  \n- Emergency preparedness guides  \n🌐 Websites:\n- [www.igsu.ro](https://www.igsu.ro)  \n- [www.dsu.mai.gov.ro](https://www.dsu.mai.gov.ro)  \n- [www.fiipregatit.ro](https://fiipregatit.ro)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -128,7 +128,7 @@
         "node_identifier": "Regex:.*{mental_health_referrals}.*",
         "change": "{mental_health_referrals}",
         "condition_var": "",
-        "category": ""
+        "category": "If you are going through a difficult time or experiencing emotional distress, you are not alone. These free and confidential services are here to support you: \n\n**Telefonul Verde Antisuicid – Suicide Prevention Helpline**  \nProvides support for anyone struggling with suicidal thoughts or emotional distress.  \n📞 0800 801 200 (free of charge)  \n📧 sos@antisuicid.com\n\n**National Emergency Number**  \nFor urgent situations needing immediate help from:  🚑 Medical assistance  🚓 Police  🚒 Fire services  \n📞 Dial 112"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -137,7 +137,7 @@
         "node_identifier": "Regex:.*{health_referrals}.*",
         "change": "{health_referrals}",
         "condition_var": "",
-        "category": ""
+        "category": "If you or someone near you needs urgent medical help, the emergency number below is available at all times.\n\n**National Emergency Number**  \nConnects you to emergency services, including:  \n🚑 Medical assistance  \n🚓 Police  \n🚒 Fire services  \n📞 Dial 112 (free of charge)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -146,7 +146,7 @@
         "node_identifier": "Regex:.*{generic_referrals}.*",
         "change": "{generic_referrals}",
         "condition_var": "",
-        "category": ""
+        "category": "If you or someone you know is in danger or needs help, there are free and confidential services available: \n\n **National Emergency Number**  \nConnects you to emergency services: Medical help, Police and Fire services  \n📞 Dial 112\n\n**National Child Helpline**  \nFree support line for children in vulnerable situations or anyone concerned about a child experiencing violence, exploitation, or abuse.  \n📞 *Dial 119*\n;\n**Anti-Trafficking Hotline (ANITP)**  \nUse this number to report suspected human trafficking or get support.  \n📞 0 800 800 678(free of charge)\n\n**Domestic Violence and Discrimination Helpline**  \nFree 24/7 support for:  \n- Victims of domestic violence  \n- Human trafficking  \n- Gender or multiple discrimination  \n📞 Dial 0800 500 333"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -155,7 +155,7 @@
         "node_identifier": "Regex:.*{family_referrals}.*",
         "change": "{family_referrals}",
         "condition_var": "",
-        "category": ""
+        "category": "\n**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)**  \nLocal public agencies that offer:  \n- Family counselling and social assistance  \n- Protection and support for children at risk  \n- Help for families in crisis situations  \n\n🌐 Find your local DGASPC office: \n[https://dgaspc.ro](https://dgaspc.ro)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -485,10 +485,21 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*ParentText.*",
+        "node_identifier": "Regex:.*{prog_name}.*",
         "original": "ParentText",
-        "language": "lan",
-        "replacement": ""
+        "language": "ron",
+        "replacement": "Busola Părintelui"
+      }
+    ],
+    "parenttext_name_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{prog_name}.*",
+        "change": "{share link}",
+        "condition_var": "",
+        "category": "Parent Compass"
       }
     ]
   }

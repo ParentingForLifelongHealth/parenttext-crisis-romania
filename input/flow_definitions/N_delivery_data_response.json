@@ -153,8 +153,8 @@
     "congrats_data": [
       {
         "ID": "final_completion",
-        "msg": "You have completed the programme. Well done!\nRemember, you can always return to ParentText to review these tips. Just type {MENU}.",
-        "extra_msg": "Was ParentText helpful? If so, share it with a friend. Just send this link: {share link}"
+        "msg": "You’ve completed the programme – well done!\nRemember, you can always return to {prog_name} to review any of the tips. Just type {MENU}.\n\nWe’ll check in with you in a month to see how you’re doing. Your feedback helps us make sure these tips truly support families like yours 🙂",
+        "extra_msg": "Was {prog_name} helpful? If so, share it with a friend. Just send this link: {share link}"
       }
     ],
     "make_options_wrapper_data": [
@@ -236,7 +236,7 @@
       },
       {
         "ID": "first_module_intro",
-        "text": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "text": "You and your family are facing a challenging time. {prog_name} provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "lan": "",
         "vars": ""
       },
@@ -400,7 +400,7 @@
       },
       {
         "ID": "first_module_intro",
-        "question": "You and your family are facing a challenging time. ParentText provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "question": "You and your family are facing a challenging time. {prog_name} provides tips on how you can support your child during this crisis. Would you like to recieve your first tips now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",

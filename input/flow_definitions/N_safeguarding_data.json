@@ -195,7 +195,7 @@
     "safeguarding_start_programme_data": [
       {
         "ID": "join_again_in_program",
-        "msg": "You are already part of ParentText",
+        "msg": "You are already part of {prog_name}",
         "metadata.description": ""
       },
       {
@@ -210,7 +210,7 @@
       },
       {
         "ID": "rejoin_greeting",
-        "msg": "Welcome back to ParentText.",
+        "msg": "Welcome back to {prog_name}.",
         "metadata.description": ""
       }
     ],
@@ -382,7 +382,7 @@
       },
       {
         "ID": "rejoin_greetings",
-        "msg": "Welcome back to ParentText!",
+        "msg": "Welcome back to {prog_name}!",
         "metadata.description": ""
       },
       {
