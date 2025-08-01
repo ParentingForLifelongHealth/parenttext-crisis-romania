@@ -105,7 +105,7 @@
             "type": "create_flows",
             "models_module": "models.parenttext_models",
             "sources": ["flow_definitions"],
-            "tags": [1, "ltp_activity", 1, "module"]
+            "tags": []
         },
         {
             "id": "update_expiration_times",

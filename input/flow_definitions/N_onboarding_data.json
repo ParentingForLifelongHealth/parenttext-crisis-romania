@@ -349,7 +349,7 @@
       {
         "ID": "avatar_woman",
         "type": "intro",
-        "messages.1.text": "<avatar description>",
+        "messages.1.text": "Maria is a 38 old mom of 2. She is a child psychotherapist and a school counselor. Both parents and children feel safe to open up to her. ",
         "messages.1.image": "@(fields.path & \"logo/female_avatar.png\")",
         "messages.1.video": "",
         "skipoption.text": "",
@@ -425,7 +425,7 @@
       {
         "ID": "avatar_man",
         "type": "intro",
-        "messages.1.text": "<avatar description>",
+        "messages.1.text": "Dan is a 42 years old dad and a dedicated pediatrician. Over the years, he has seen how loving & supportive relationships help children thrive and stay healthy. That's why he teaches parents and talks on podcasts about building strong, caring connections with their kids.",
         "messages.1.image": "@(fields.path & \"logo/male_avatar.png\")",
         "messages.1.video": "",
         "skipoption.text": "",

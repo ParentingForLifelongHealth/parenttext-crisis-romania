@@ -353,6 +353,32 @@
         "priority_in_goal_c": "10"
       }
     ],
+    "goals_api_sources": [
+      {
+        "book": "deployment_localised_sheets.json",
+        "model": "ModuleDataGlobal",
+        "resource": "modules",
+        "sheet": "module_data"
+      },
+      {
+        "book": "deployment_localised_sheets.json",
+        "model": "GoalModuleLinkGlobal",
+        "resource": "goal_topic_links",
+        "sheet": "goal_topic_link"
+      },
+      {
+        "book": "deployment_localised_sheets.json",
+        "model": "GoalDataGlobal",
+        "resource": "goals",
+        "sheet": "goal_data"
+      },
+      {
+        "book": "C_ltp_activities.json",
+        "model": "LTPActivities",
+        "resource": "ltp_activities",
+        "sheet": "ltp_activity_crisis_data"
+      }
+    ],
     "wa_templates": [
       {
         "ID": "unfinished_onboarding",
@@ -440,36 +466,10 @@
         "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4095"
       }
     ],
-    "goals_api_sources": [
-      {
-        "book": "deployment_localised_sheets.json",
-        "model": "ModuleDataGlobal",
-        "resource": "modules",
-        "sheet": "module_data"
-      },
-      {
-        "book": "deployment_localised_sheets.json",
-        "model": "GoalModuleLinkGlobal",
-        "resource": "goal_topic_links",
-        "sheet": "goal_topic_link"
-      },
-      {
-        "book": "deployment_localised_sheets.json",
-        "model": "GoalDataGlobal",
-        "resource": "goals",
-        "sheet": "goal_data"
-      },
-      {
-        "book": "C_ltp_activities.json",
-        "model": "LTPActivities",
-        "resource": "ltp_activities",
-        "sheet": "ltp_activity_crisis_data"
-      }
-    ],
     "webhook_settings": [
       {
         "ID": "content_delivery",
-        "url": "https://pt-goals-crisis-palestine-349333393514.europe-west1.run.app/",
+        "url": "https://pt-goals-crisis-romania-349333393514.europe-west1.run.app",
         "token": ""
       },
       {
