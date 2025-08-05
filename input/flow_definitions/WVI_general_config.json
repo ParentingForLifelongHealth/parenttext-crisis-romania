@@ -3432,7 +3432,7 @@
     ],
     "1month_campaign_events_wrapper": [
       {
-        "offset": "30",
+        "offset": "28",
         "unit": "D",
         "event_type": "F",
         "delivery_hour": "",

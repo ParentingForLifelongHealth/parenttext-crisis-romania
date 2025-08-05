@@ -469,7 +469,7 @@
     "webhook_settings": [
       {
         "ID": "content_delivery",
-        "url": "https://pt-goals-crisis-romania-349333393514.europe-west1.run.app",
+        "url": "https://pt-goals-crisis-romania-349333393514.europe-west1.run.app/",
         "token": ""
       },
       {
@@ -1556,29 +1556,6 @@
         "include_if": "",
         "save_name": "",
         "message_text": "reset base1",
-        "data_sheet": "",
-        "data_row_id": "",
-        "choices": "",
-        "image": "",
-        "audio": "",
-        "video": "",
-        "obj_name": "",
-        "obj_id": "",
-        "node_name": "",
-        "_nodeId": "",
-        "no_response": ""
-      },
-      {
-        "row_id": "",
-        "type": "start_new_flow",
-        "from": "",
-        "condition": "completed",
-        "condition_var": "",
-        "condition_type": "",
-        "condition_name": "",
-        "include_if": "",
-        "save_name": "",
-        "message_text": "reset dem",
         "data_sheet": "",
         "data_row_id": "",
         "choices": "",
