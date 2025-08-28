@@ -177,7 +177,7 @@
       },
       {
         "ID": "choose_skill_to_review",
-        "list_var": "fields.s_modules_compl",
+        "list_var": "join(reverse(split(fields.s_modules_compl,\" \")), \" \")",
         "print_type": "module",
         "n_max_opt": "11",
         "msg_no_options.message": "You haven't received any tips yet. ",
@@ -471,24 +471,6 @@
         "wa_template_vars.2": ""
       },
       {
-        "ID": "calm_encourage",
-        "question": "Today’s tips offer you some ways you can stay calm and also encourage your children during times of uncertainty 🌱. \nWould you like to receive them?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
-        "webhook_template_name": "",
-        "webhook_template_args": "",
-        "options.1.text": "1",
-        "options.1.proceed_result_value": "yes",
-        "options.1.stop_message": "",
-        "options.2.text": "2",
-        "options.2.proceed_result_value": "",
-        "options.2.stop_message": "OK, see you tomorrow.",
-        "options.3.text": "",
-        "options.3.proceed_result_value": "",
-        "options.3.stop_message": "",
-        "wa_template_ID": "calm_encourage",
-        "wa_template_vars.1": "",
-        "wa_template_vars.2": ""
-      },
-      {
         "ID": "prepare_to_travel",
         "question": "🧡 Planning to travel with your child soon?\nToday’s tips can help you prepare to stay safe— Would you like to learn more?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
@@ -561,8 +543,8 @@
         "wa_template_vars.2": ""
       },
       {
-        "ID": "building_strength",
-        "question": "🌿 Building strength in tough times starts with simple steps. Would you like to learn how to promote good behaviors and stay strong together?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "ID": "keep_children_safe",
+        "question": "💛 Keeping kids safe can feel overwhelming, but a clear plan helps. Today's tip shows you imple ways to help your child feel safe and supported in uncertain times. \n\nWould you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
         "webhook_template_args": "",
         "options.1.text": "1",
@@ -574,7 +556,43 @@
         "options.3.text": "",
         "options.3.proceed_result_value": "",
         "options.3.stop_message": "",
-        "wa_template_ID": "building_strength",
+        "wa_template_ID": "keep_children_safe",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "protect_from_traffickers",
+        "question": "💛 It can be frightening to think about traffickers, but talking with your child helps protect them. Today’s tip shows you simple ways to keep your child safe and aware.\n\nWould you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "OK, see you tomorrow.",
+        "options.3.text": "",
+        "options.3.proceed_result_value": "",
+        "options.3.stop_message": "",
+        "wa_template_ID": "protect_from_traffickers",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "care_in_a_shelter",
+        "question": "💛 Sometimes families need to stay in a shelter during emergencies or unsafe times. Today’s tip shares simple ways to help your child feel safe and cared for there.\n\nWould you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "OK, see you tomorrow.",
+        "options.3.text": "",
+        "options.3.proceed_result_value": "",
+        "options.3.stop_message": "",
+        "wa_template_ID": "care_in_a_shelter",
         "wa_template_vars.1": "",
         "wa_template_vars.2": ""
       }
@@ -659,6 +677,12 @@
         "msg": "Let’s get started. Press NEXT to begin.",
         "next_button_option": "NEXT",
         "metadata.description": "message received before the first module. It has a NEXT button, where NEXT can be replaced by anything  (anything typed in the chat will work anyway)"
+      },
+      {
+        "ID": "new_day_content_completed_programme",
+        "msg": "You’ve completed the {prog_name} – well done! There are no new tips available, but you can always review any of the completed tips by selecting option 1 in the {MENU}",
+        "next_button_option": "",
+        "metadata.description": ""
       }
     ],
     "completion_tracker_data": [

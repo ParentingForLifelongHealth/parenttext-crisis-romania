@@ -3,62 +3,126 @@
     "version": "0.1.0"
   },
   "sheets": {
+    "READ THIS": [
+      {
+        "-": ""
+      },
+      {
+        "-": ""
+      },
+      {
+        "-": "This is a unique id for each start word. Do not edit this column"
+      },
+      {
+        "-": "A clear explanation of what the start word does and who it is for. Proposed by PLH for your review & suggestions. "
+      },
+      {
+        "-": "Write the start word in English "
+      },
+      {
+        "-": "Write the start word in your local language"
+      },
+      {
+        "-": "Select hybrid if a facilitator is supporting the user experience in any way — whether in person or remotely (e.g. via phone calls, WhatsApp guidance, or in-person sessions). Example: Parents are introduced to the chatbot by a facilitator during an in-person group session or receive onboarding support via WhatsApp group call. \n\nSelect digital if there is no facilitator support at all — parents engage with the chatbot completely on their own through remote channels. Example: Parents click a link shared in a public WhatsApp group and start using the chatbot without any assistance."
+      },
+      {
+        "-": "This field identifies how the user was recruited or introduced to the chatbot. It determines how data will be filtered on dashboards or used for disaggregation (e.g. by partner, pathway, or wave).\n        •        If a single partner has multiple recruitment pathways (such as CFS sessions, WhatsApp campaigns, or hotline referrals), create a unique start word for each pathway.\n        •        In the Description column, briefly explain the recruitment method for that start word (e.g. “Wave 1 parents recruited through CFS Dnipro sessions”).\n\nPLH will use this field to assign the correct user group tags for dashboard filtering."
+      },
+      {
+        "-": "Ignore this field "
+      },
+      {
+        "-": "Do not edit this column"
+      },
+      {
+        "-": "This is the maximum number of users allowed to enter the chatbot through this start word.\n        •        Once this number is reached, new users will be placed on a waiting list and will receive a message letting them know the chatbot is full for now.\n        •        If we see that some parents have dropped out during implementation, the cap can be increased to allow more users in.\n        •        When the cap is raised, the chatbot will automatically send a message to those on the waiting list, inviting them to begin.\n\nTo increase the cap during implementation, please reach out to Deepali."
+      },
+      {
+        "-": "Only applicable if you are working with multiple partners. Ignore for WVI"
+      },
+      {
+        "-": "Once the chatbot is ready, a link will be added here for the chatbot with the start word pre-entered.\nThis link can be shared directly with users or field staff to ensure they enter the correct version of the chatbot.\nThis helps reduce user error and ensures clean data by routing people through the correct entry point. The team can copy and share these links with the relevant on-the-ground staff once available."
+      },
+      {
+        "-": ""
+      },
+      {
+        "-": ""
+      },
+      {
+        "-": ""
+      }
+    ],
     "JoiningTriggers": [
       {
-        "ID": "testers",
-        "Trigger (en)": "test",
-        "Trigger (lan)": "",
-        "Link (en)": "",
-        "Link (lan)": "",
+        "ID": "test_en",
+        "Description": "Joining trigger for testers who do not speak Romanian: This Joining trigger initiates the English version of the chatbot, which is only available for internal testing by the PLH and IDEMS teams. It is not visible or accessible to end users.",
+        "Trigger (en)": "test_eng",
+        "Trigger (ron)": "",
         "Experience (user group)": "digital",
         "Recruitment (user group)": "",
         "Additional (user group)": "",
         "Included in Reach? ": "",
         "Cap Users At": "",
         "Location, if applicable": "",
-        "Description": ""
+        "Link (en)": "",
+        "Link (lan)": ""
       },
       {
-        "ID": "group_a",
-        "Trigger (en)": "trigger_a",
-        "Trigger (lan)": "",
-        "Link (en)": "",
-        "Link (lan)": "",
+        "ID": "test_ro",
+        "Description": "Joining trigger for testers only and initates the chatbot in Romanian. If you are not a caregiver and are testing the chatbot, please use this Joining trigger to use the chatbot. This helps ensure that real user data is not mixed with test data.",
+        "Trigger (en)": "test_ro",
+        "Trigger (ron)": "test_ro",
         "Experience (user group)": "digital",
-        "Recruitment (user group)": "Group_A",
+        "Recruitment (user group)": "",
         "Additional (user group)": "",
-        "Included in Reach? ": "reach",
-        "Cap Users At": "1000",
+        "Included in Reach? ": "",
+        "Cap Users At": "",
         "Location, if applicable": "",
-        "Description": ""
+        "Link (en)": "",
+        "Link (lan)": ""
       },
       {
-        "ID": "group_b",
-        "Trigger (en)": "trigger_b",
-        "Trigger (lan)": "",
-        "Link (en)": "",
-        "Link (lan)": "",
-        "Experience (user group)": "digital",
-        "Recruitment (user group)": "Group_B",
+        "ID": "ro_wave_1",
+        "Description": "Joining trigger for parents who are part of wave 1",
+        "Trigger (en)": "support",
+        "Trigger (ron)": "sprijin",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 1",
         "Additional (user group)": "",
         "Included in Reach? ": "reach",
-        "Cap Users At": "1000",
+        "Cap Users At": "1250",
         "Location, if applicable": "",
-        "Description": ""
+        "Link (en)": "",
+        "Link (lan)": ""
       },
       {
-        "ID": "group_c",
-        "Trigger (en)": "trigger_c",
-        "Trigger (lan)": "",
-        "Link (en)": "",
-        "Link (lan)": "",
-        "Experience (user group)": "digital",
-        "Recruitment (user group)": "Group_C",
+        "ID": "ro_wave_2",
+        "Description": "Joining trigger for parents who are part of wave 2",
+        "Trigger (en)": "tip",
+        "Trigger (ron)": "sfat",
+        "Experience (user group)": "hybrid",
+        "Recruitment (user group)": "Wave 2",
         "Additional (user group)": "",
         "Included in Reach? ": "reach",
-        "Cap Users At": "1000",
+        "Cap Users At": "1250",
         "Location, if applicable": "",
-        "Description": ""
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "ro_outreach",
+        "Description": "Joining trigger for parents via social media outreach",
+        "Trigger (en)": "compass",
+        "Trigger (ron)": "busola",
+        "Experience (user group)": "digital",
+        "Recruitment (user group)": "Outreach",
+        "Additional (user group)": "",
+        "Included in Reach? ": "reach",
+        "Cap Users At": "2500",
+        "Location, if applicable": "",
+        "Link (en)": "",
+        "Link (lan)": ""
       }
     ],
     "content_index": [
@@ -95,54 +159,54 @@
     ],
     "joining_triggers_data": [
       {
-        "ID": "testers",
-        "triggers": "test",
+        "ID": "test_en",
+        "triggers": "test_eng",
         "groups": "digital",
         "cap": "",
         "location": ""
       },
       {
-        "ID": "group_a",
-        "triggers": "trigger_a",
-        "groups": "digital;Group_A;reach",
-        "cap": "1000",
+        "ID": "test_ro",
+        "triggers": "test_ro;test_ro",
+        "groups": "digital",
+        "cap": "",
         "location": ""
       },
       {
-        "ID": "group_b",
-        "triggers": "trigger_b",
-        "groups": "digital;Group_B;reach",
-        "cap": "1000",
+        "ID": "ro_wave_1",
+        "triggers": "support;sprijin",
+        "groups": "hybrid;Wave 1;reach",
+        "cap": "1250",
         "location": ""
       },
       {
-        "ID": "group_c",
-        "triggers": "trigger_c",
-        "groups": "digital;Group_C;reach",
-        "cap": "1000",
+        "ID": "ro_wave_2",
+        "triggers": "tip;sfat",
+        "groups": "hybrid;Wave 2;reach",
+        "cap": "1250",
         "location": ""
       }
     ],
     "cap_data": [
       {
-        "ID": "testers",
-        "var_key": "n_testers",
+        "ID": "test_en",
+        "var_key": "n_test_en",
         "var_value": ""
       },
       {
-        "ID": "group_a",
-        "var_key": "n_group_a",
-        "var_value": "1000"
+        "ID": "test_ro",
+        "var_key": "n_test_ro",
+        "var_value": ""
       },
       {
-        "ID": "group_b",
-        "var_key": "n_group_b",
-        "var_value": "1000"
+        "ID": "ro_wave_1",
+        "var_key": "n_ro_wave_1",
+        "var_value": "1250"
       },
       {
-        "ID": "group_c",
-        "var_key": "n_group_c",
-        "var_value": "1000"
+        "ID": "ro_wave_2",
+        "var_key": "n_ro_wave_2",
+        "var_value": "1250"
       }
     ]
   }

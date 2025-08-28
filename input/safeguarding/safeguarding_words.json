@@ -1104,14 +1104,70 @@
         {
             "English": {
                 "keywords": [
-                    "test"
+                    "test_eng",
+                    "test_ro"
                 ],
                 "mispellings": []
             },
             "Translation": {
                 "ron": {
                     "keywords": [
-                        "test"
+                        "test_eng",
+                        "test_ro"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "support",
+                    "sprijin"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ron": {
+                    "keywords": [
+                        "support",
+                        "sprijin"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "tip",
+                    "sfat"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ron": {
+                    "keywords": [
+                        "tip",
+                        "sfat"
+                    ],
+                    "mispellings": []
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "compass",
+                    "busola"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "ron": {
+                    "keywords": [
+                        "compass",
+                        "busola"
                     ],
                     "mispellings": []
                 }

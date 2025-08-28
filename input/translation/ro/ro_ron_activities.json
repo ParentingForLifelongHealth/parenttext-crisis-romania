@@ -1,1 +1,656 @@
-[]
+[
+  {
+    "SourceText": "*A Friendly Chat*",
+    "text": "*O Discuție Prietenoasă*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Talk to your children about something that they are interested in! 😃",
+    "text": "Discută despre un subiect de interes pentru copilul tău! 😃",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⚽ An easy way to start talking to your children is to ask them about something they are interested in. For example, you could talk about stories, traditions, games, sports, favourite books, movies, friends, music, famous people or school-related topics.",
+    "text": "⚽ O metodă simplă de a începe o conversație cu copilul tău este să îl întrebi despre un lucru care îl interesează. De exemplu, ai putea discuta despre povești, tradiții, jocuri, sport, cărți preferate, filme, prieteni, muzică, persoane celebre sau subiecte legate de școală.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂 You may not find everything your children share to be interesting, but it’s important to show enthusiasm and an eagerness to learn more about their interests. ",
+    "text": "👂 Poate că nu ți se par interesante toate lucrurile pe care copilul tău le împărtășește, dar este important să te arăți entuziasmat și dornic să afli mai multe despre interesele lui. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Paying attention to what matters to your children can make a big difference in your relationship and their happiness.",
+    "text": "Acordând atenție lucrurilor importante pentru copilul tău, poți face o mare diferență pentru relația voastă și fericirea lor.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Reflect on the Positive*",
+    "text": "*Concentrează-te pe Aspectele Pozitive*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Spread Positivity! 🌈",
+    "text": "Răspândește Gânduri Pozitive! 🌈",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Together, take a minute to think about all the things you did today. ",
+    "text": "💡 Împreună, luați-vă un minut să vă gândiți la toate lucrurile pe care le-ați făcut azi. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "☀️ Take turns sharing one positive or fun thing that happened. This could be something small or big, like feeling good because you cleaned the house, took a pause to take care for yourself, learnt a new dance move, or spent time with your family and friends.",
+    "text": "☀️ Pe rând, împărtășiți câte un lucru pozitiv sau distractiv care vi s-a întâmplat. Poate fi ceva mărunt sau important, cum ar fi faptul că vă simțiți bine pentru că ați făcut curățenie în casă, ați luat o pauză pentru a avea grijă de voi înșivă, ați învățat un nou pas de dans sau ați petrecut timp cu familia și prietenii.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Try doing this every day - even more on the days it feels like you have not done anything special.",
+    "text": "⏰ Încercați să faceți acest lucru în fiecare zi - cu atât mai mult în zilele în care simțiți că nu ați făcut nimic special.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*What’s New?*",
+    "text": "*Ceva Nou?*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Learning is fun! 🎓",
+    "text": "Învățatul este distractiv! 🎓",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❓ Ask your children to think of a new, fun skill you could learn together. For example, kicking the ball with the foot to keep it in the air, learning dance steps, cooking a simple meal together, learning simple words in a foreign language, sharing stories about the Romanian culture, playing traditional games and sports, or learning about neighbouring countries.",
+    "text": "❓ Îndemnați-vă copilul să se gândească la o abilitate nouă și distractivă pe care ați putea să o învățați împreună. De exemplu, jocul cu mingea pentru a o menține în aer, învățarea pașilor de dans, pregătirea unei gustări ușoare, învățarea unor cuvinte simple într-o limbă străină, împărtășirea de povești despre cultura românească, practicarea jocurilor și sporturilor tradiționale sau cunoașterea țărilor vecine.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 Take turns trying out the new thing you learned together. Make sure to praise each other and learn and play together!",
+    "text": "🔄 Încercați pe rând lucrurile nou învățate. Asigurați-vă că vă felicițitați reciproc și că învățați și vă jucați împreună!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 Approach learning the skill in a kind and fun way, and do not judge your children or yourself for your ability in the skill.",
+    "text": "💛 Abordează învățarea abilității într-un mod blând și distractiv și nu judeca priceperea de care dă dovadă copilul tău sau chiar tu însuți.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Check-in Chat*",
+    "text": "*Discuție pentru Check-in*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Actively checking in on how each other is feeling helps to keep relationships healthy! ⭐",
+    "text": "Preocuparea activă și reciprocă asupra modului în care se simte celălalt ajută la menținerea unor relații sănătoase! ⭐",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Ask each other questions like: “What made you happy today?” 👂 “What was difficult today?” 👂 “How can I help you?” 👂",
+    "text": "Adresați-vă reciproc întrebări precum: „Ce te-a făcut fericit astăzi?” 👂 „Ce a fost dificil azi?” 👂 „Cum te pot ajuta?” 👂",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "For this to help, your children need to feel safe while sharing things with you. Be open to their responses. 💕",
+    "text": "Pentru ca acest demers sa fie de ajutor, copilul tău trebuie să se simtă în siguranță când împărtășește lucruri cu tine. Fii deschis la răspunsurile lui. 💕",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Older children tend to be more honest when they trust that what they say will not be used against them later.",
+    "text": "Copiii mai mari tind să fie mai sinceri atunci când au încredere că ceea ce spun nu va fi folosit împotriva lor mai târziu.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Be kind to yourself if your children do not want to share their problems with you. 💙 Often, children are afraid to share as they are scared, they will get in trouble. Getting upset with them won’t help - keep showing you love them and give them time! 🌷",
+    "text": "Fii blând cu tine atunci când copilul tău nu vrea să-ți vorbească despre problemele lui. 💙 De multe ori, copiii se tem să vorbească despre problemele lor, deoarece se tem că vor fi pedepsiți. Nu ajută cu nimic să te superi pe el – continuă să îi arăți că îi iubești și acordă-i timp! 🌷",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Express Yourself*",
+    "text": "*Exprimă-te*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Dancing makes people happy!",
+    "text": "Dansul îi face pe oameni fericiți!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌈 This game can be played in pairs or as a group - stand facing each other or in a circle.",
+    "text": "🌈 Acest joc poate fi jucat în perechi sau în grup - stați față în față sau în cerc.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎵 Together, choose a song, a fun sound, or a clapping pattern to follow and choose a person to start the game by creating one dance move.",
+    "text": "🎵 Împreună, alegeți o melodie, un sunet distractiv sau un ritm bătut din palme pe care să-l urmați și alegeți o persoană care să înceapă jocul creând o mișcare de dans.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 The person to their right must copy that dance move and add their own move to it.",
+    "text": "👀 Persoana din dreapta acesteia trebuie să copieze mișcarea de dans și să adauge propria mișcare.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨ Go around the circle, each person adding a new dance move.",
+    "text": "✨ Continuați, pe rând, în cerc, fiecare persoană adăugând un nou pas de dans.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 The first one who forgets someone's dance moves or does it in the wrong order chooses the next song, sound, or pattern and starts the game again.",
+    "text": "🔄 Prima persoană care uită mișcările de dans sau îi execută în ordinea greșită alege următoarea melodie, sunet sau ritm și începe din nou jocul.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎉 Have fun trying out new dance moves with this game!",
+    "text": "🎉 Distrați-vă încercând noi pași de dans cu acest joc!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*2 Truths, 1 Lie*",
+    "text": "*2 Adevăruri și 1 Minciună*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This is a fun, quick game, and the point of it is to learn things about each other. Make your answers as interesting as possible! 🎨",
+    "text": "Acesta este un joc distractiv și rapid, iar scopul lui este să aflați lucruri unul despre celălalt. Oferiți răspunsuri cât mai interesante! 🎨",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Everyone thinks of 3 facts about themselves. 2 must be true, and 1 must be a lie. ",
+    "text": "💡 Fiecare trebuie să se gândească la 3 lucruri despre sine. 2 trebuie să fie adevărate, iar 1 trebuie să fie o minciună. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔷 Here are some examples: I hate apples, I enjoy dancing, and my favourite subject in school was maths.",
+    "text": "🔷 Iată câteva exemple: Urăsc merele, îmi place să dansez, iar materia mea preferată la școală era matematica.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 Share your facts with your children and ask them to guess which one is a lie. ",
+    "text": "👀 Spune-i copilului tău informațiile la care te-ai gândit și roagă-l să ghicească minciuna. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 Now ask them to do the same and guess theirs.",
+    "text": "🔄 Acum roagă-i să facă același lucru și ghicește tu.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Did you learn anything new about your children, or did they learn anything new about you? 💛",
+    "text": "Ai aflat ceva nou despre copilul tău sau a aflat el ceva nou despre tine? 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Yes, No or Maybe*",
+    "text": "*Da, Nu sau Poate*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you tired of hearing your children say yes, no, or maybe to all of your questions? Turn your chat into a game, and don’t allow one-word answers. 🎈",
+    "text": "Te-ai săturat să-ți auzi copilul răspunzând la toate întrebările cu „da”, „nu” sau „poate”? Transformă conversația într-un joc și nu accepta răspunsuri dintr-un singur cuvânt. 🎈",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔴 Older children are known to give one-word answers to avoid talking. ",
+    "text": "🔴 Copiii mai mari sunt cunoscuți pentru faptul că dau răspunsuri dintr-un singur cuvânt pentru a evita să vorbească. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 When you would like to really know how your children are doing, you can turn your chat into a game. ",
+    "text": "💡 Când dorești să afli cu adevărat cum se simte copilul tău, poți transforma conversația într-un joc. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⭐ Take turns asking each other questions. The only rule is that you cannot use one-word responses like Yes, No, Maybe, Fine, and Okay.",
+    "text": "⭐ Puneți-vă întrebări pe rând. Singura regulă este că nu puteți folosi răspunsuri dintr-un singur cuvânt, cum ar fi Da, Nu, Poate, Bine și Ok.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⚽ You can ask about things your children like or what they did today. For example, how was your day? What are you excited about? Is there anything worrying you?",
+    "text": "⚽ Poți să-ți întrebi copilul ce îi place sau ce a făcut astăzi. De exemplu: Cum a fost ziua ta? Ce te bucură? Te îngrijorează ceva?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 It is important to let your children ask a question as well. Trust is built when your children can see that you respect the same rules as them. It also builds when you share your life with them and not only try to learn about their life.",
+    "text": "🔄 Este important să îi permiți și copilului să pună întrebări. Încrederea se construiește atunci când copiii văd că respecți aceleași reguli ca și ei. De asemenea, se construiește atunci când împărtășești și tu experiențele cu ei și nu încerci doar să afli despre experiențele lor.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Get Active*",
+    "text": "*Devin-o Activ*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Exercise is a great way to spend time together, and it is so good for your health. 🌱 Find a sport or a physical activity that both you and your children want to do and try it out together! Be mindful of the safety of the space you are using for exercise. ",
+    "text": "Exercițiile fizice sunt o modalitate excelentă de a petrece timp împreună și sunt foarte bune pentru sănătate. 🌱 Găsiți un sport sau o activitate fizică pe placul tău și a copilului tău și încercați-o împreună! Aveți grijă ca spațiul pe care îl folosiți pentru exercițiile fizice să fie sigur. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Even walking for 10 minutes a day is good for you. ",
+    "text": "⏰ Chiar și o plimbare de 10 minute pe zi este benefică pentru relația voastră. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⚽Together, try walking, running, dancing, stretching, playing games like hide-and-seek, or any other physical activities you both enjoy.",
+    "text": "⚽Împreună, încercați să mergeți pe jos, să alergați, să dansați, să faceți gimnastică, să vă jucați jocuri precum de-a v-ați ascunselea sau orice alte activități fizice care vă plac amândurora.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏆 Together, think of ways to make it even more fun. Can you run to a certain point? Take turns being the coach? Can there be a small, free reward like getting to decide the next activity?",
+    "text": "🏆 Gândiți-vă împreună la modalități de a face această activitate și mai distractivă. Puteți alerga până la un anumit punct? Puteți fi pe rând antrenor? Puteți stabili o mică recompensă, cum ar fi dreptul de a decide următoarea activitate?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌈 Exercise becomes easier and more enjoyable the more you do it. ",
+    "text": "🌈 Exercițiile fizice devin mai ușoare și mai plăcute pe măsură ce le faceți mai des. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 If you or your children do not like the first type of exercise you pick, try a new way to exercise.",
+    "text": "🔄 Dacă nu vă place primul exercițiu ales, încercați un nou mod de a face mișcare.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Take a Pause with Your Children*",
+    "text": "*Ia o Pauză Alături de Copilul Tău*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Take a pause with your children. This helps them deal with stress in a healthy way!",
+    "text": "Ia o pauză alături de copilul tău. Asta îl ajută să facă față stresului într-un mod sănătos!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ You could take a pause together at any time, or you could try at a specific time like before meals or bedtime.",
+    "text": "⏰ Puteți lua o pauză împreună în orice moment sau puteți încerca o oră stabilită, cum ar fi înainte de masă sau înainte de culcare.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂 Sit down together and close your eyes. Focus on your breath and listen as it goes in and out. Notice how you feel.",
+    "text": "👂 Așezați-vă împreună și închideți ochii. Concentrați-vă asupra respirației și ascultați aerul pe măsură ce intră și iese. Observați cum vă simțiți.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⭐ Take 5 more deep breaths.",
+    "text": "⭐ Respirați adânc încă de 5 ori.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 When you are ready, open your eyes again. Do you feel any different? ",
+    "text": "👀 Când sunteți pregătiți, deschideți ochii. Vă simțiți diferit? ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❓ Ask your children what it was like to take a pause. Listen and accept whatever they say about it.",
+    "text": "❓ Întreabă-ți copilul cum a fost să ia o pauză. Ascultă și acceptă orice îți spune.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*This Is Who I Am*",
+    "text": "*Acesta Sunt Eu*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Self-esteem is the way you value yourself, either in a positive or negative way. Helping your children have high self-esteem is a recipe for success! 🏆",
+    "text": "Stima de sine înseamnă modul în care te valorizezi, fie în mod pozitiv, fie negativ. Să-ți ajuți copilul să aibă o stimă de sine ridicată este o rețetă pentru succes! 🏆",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⭐Share with your children 3 things you like about yourself!",
+    "text": "⭐Împărtășește-i copilului tău 3 lucruri care îți plac la tine!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣ Ask your children to tell you 3 things they like about themselves.",
+    "text": "3️⃣ Cere-i copilului tău să îți spună 3 lucruri care îi plac la el însuși.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "For example, I am great at treating others kindly. I am great at cooking traditional food. I am great at football. ⚽",
+    "text": "De exemplu, sunt foarte blând cu ceilalți. Sunt foarte bun la gătit mâncăruri tradiționale. Sunt foarte bun la fotbal. ⚽",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If any of your children do not feel comfortable sharing these, ask them to write them down. 📝",
+    "text": "Dacă nu se simte confortabil să împărtășească aceste lucruri, roagă-l să le scrie. 📝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Weekly Goal Setting*",
+    "text": "*Stabilirea Obiectivelor Săptămânale*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s set some goals ⭐",
+    "text": "Hai să ne stabilim niște obiective ⭐",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ It can be helpful to set smaller weekly goals that are easier to reach, especially when life feels uncertain. ",
+    "text": "⏰ Poate fi util să vă stabiliți obiective săptămânale mai mici, mai ușor de atins, mai ales când simțiți că viața este incertă. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡Ask each of your children for one goal that they would like to achieve this week. ",
+    "text": "💡Întreabă-ți copilul ce obiectiv ar dori să atingă în această săptămână. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 Make sure this goal is **specific** and **achievable** to reach in 1 week, like: reading one page from a book every day, exercising for 10 minutes three times a week, cleaning their room at least once per week, or spending quality time with family or friends daily.",
+    "text": "🔄 Asigură-te că acest obiectiv este **specific** și **realizabil** într-o săptămână, de exemplu: citirea unei pagini dintr-o carte în fiecare zi, exerciții fizice timp de 10 minute de trei ori pe săptămână, curățarea camerei cel puțin o dată pe săptămână sau petrecerea unui timp de calitate cu familia sau prietenii în fiecare zi.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 You can also share your own weekly goals with your children and support each other so you can both achieve your goals.",
+    "text": "💚 De asemenea, poți să îi comunici copilului obiectivele tale săptămânale, astfel încât să vă puteți sprijini reciproc în atingerea lor.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎉 Make sure to praise and celebrate your children for their hard work towards reaching their goals.",
+    "text": "🎉 Nu uita să îi apreciezi eforturile și să sărbătoriți împreună toate munca depusă pentru atingerea obiectivelor.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔔 If your children do not reach their goals, that is okay. Discuss with them the steps they still need to take or how they could reach it a different way.",
+    "text": "🔔 Atunci când copilul tău nu reușește să-și atingă obiectivele, nu-i nimic. Discută cu el despre ceea ce mai trebuie să facă sau despre cum ar putea să-și atingă obiectivele într-un mod diferit.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*One-on-One Time*",
+    "text": "*Timp Petrecut în Doi*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 Spending time just with your children and taking an interest in them can improve your relationship. ",
+    "text": "💚 Petrecerea timpului doar cu copilul și interesul pe care i-l acorzi vă pot îmbunătăți relația. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 When your children are playing alone or occupying themselves, join them and show interest in what they are doing.",
+    "text": "👀 Când copilul tău se joacă singur sau este ocupat cu ceva, alătură-te și arată-i că ești interesat de ceea ce face.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂Ask questions about their activity and listen to them.",
+    "text": "👂Pune-i întrebări și ascultă-l.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let your children lead the activity and follow them to build their confidence and autonomy. 😃",
+    "text": "Lasă-l să conducă activitatea și urmează-l pentru a-i dezvolta încrederea și autonomia. 😃",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 Say what you see - describing everything and supporting your children’s actions.",
+    "text": "👀 Spune-i ce vezi - descrie totul și susține-l în acțiunile sale.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Be positive, praise your children and enjoy spending this time with them. 😃💚",
+    "text": "Fii optimist, apreciază-ți copilul și bucură-te de timpul petrecut împreună cu el. 😃💚",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Animals*",
+    "text": "*Animale*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🧸 **Active Animals** ",
+    "text": "🧸 **Animale active** ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Take turns with your children doing animal actions. You might hop like a frog, stretch like a cat, run like a dog, slither like a snake, or flap like a bird. Add your own actions and animals!",
+    "text": "Împreună cu copilul tău, imitați pe rând mișcările animalelor. Puteți sări ca o broască, să vă întindeți ca o pisică, să alergați ca un câine, să vă târâți ca un șarpe sau să zburați ca o pasăre. Adăugați propriile mișcări și animale!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡**All the Animals We Can Think Of** ",
+    "text": "💡**Toate animalele la care ne putem gândi** ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Think about groups of animals and talk about them with your children! ",
+    "text": "Gândește-te împreună cu copilul tău la grupuri de animale și vorbiți despre ele! ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What are all the animals we can think of that have feathers? What are all the animals we can think of that eat plants? 🌱 What animals can we think of that lay eggs?",
+    "text": "Ce animale cu pene cunoaștem? Ce animale care mănâncă plante cunoaștem? 🌱 Ce animale care depun ouă cunoaștem?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Active Counting*",
+    "text": "*Numărătoarea Activă*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👋 Clap, hop, jump: Play the following game with your children. Make it active!",
+    "text": "👋 Aplaudă, țopăie, sari: Joacă următorul joc cu copilul tău. Fiți activi!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣ Clap hands 1 time. ",
+    "text": "1️⃣ Bate din palme 1 dată. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2️⃣ Clap hands 2 times.",
+    "text": "2️⃣ Bate din palme de 2 ori.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣ Jump 1 time. ",
+    "text": "1️⃣ Sari 1 dată. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2️⃣ Jump 2 times.",
+    "text": "2️⃣ Sari de 2 ori.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣ Hop 1 time.",
+    "text": "1️⃣ Țopăie 1 dată.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣ Hop 3 times.",
+    "text": "3️⃣ Țopăie de 3 ori.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Can you hop, then jump, then clap? ",
+    "text": "💡 Poți să țopăi, apoi să sari și apoi să bați din palme? ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏆 Can you clap twice, jump once, and hop three times?",
+    "text": "🏆 Poți să bați din palme de două ori, să sari o dată și să țopăi de trei ori?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Remembering Instructions",
+    "text": "💡 Amintirea instrucțiunilor",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Take turns playing a game where you give 2-3 instructions that the other person has to remember to follow. Make sure physical movement is included!",
+    "text": "Jucați pe rând un joc în care dați 2-3 instrucțiuni pe care cealaltă persoană trebuie să le țină minte și să le urmeze. Asigurați-vă că includeți și mișcări fizice!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "For example:",
+    "text": "De exemplu:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Hop twice, turn around.",
+    "text": "Sari de două ori și învârte-te.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Jump to the kitchen, pick up a spoon, then run back. ✅",
+    "text": "Sari până la bucătărie, ia o lingură, apoi aleargă înapoi. ✅",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*Active Songs*",
+    "text": "*Cântece Active*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😃 Young children love physical games but they need reminders about how to play. 💡",
+    "text": "😃 Copiii mici adoră jocurile fizice, dar au nevoie să li se reamintească cum se joacă. 💡",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎵 Songs with movements are fun and active and give instructions on how to move!",
+    "text": "🎵 Cântecele însoțite de mișcări sunt distractive și active și oferă indicații despre felul în care trebuie să te miști!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sing songs to your children in which they have to follow instructions like:",
+    "text": "Cântă-i copilului tău cântece care conțin instrucțiuni pe care trebuie să le urmeze, cum ar fi:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ Start and stop ❌",
+    "text": "✅ Start and stop ❌",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⬇️ Slow down and speed up ⬆️",
+    "text": "⬇️ Încetinire și accelerare ⬆️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Îmi pare rău, nu înțeleg ce vrei să spui.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "3",
+    "text": "3",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

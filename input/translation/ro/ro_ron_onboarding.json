@@ -1,1 +1,548 @@
-[]
+[
+  {
+    "SourceText": "variables have been reset",
+    "text": "variabilele au fost resetate",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
+    "text": "Se pare că nu este un moment potrivit. Te rugăm tastează 1 dacă dorești să continui.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please select your language:",
+    "text": "Te rugăm să selectezi limba:\nPlease select your language:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "[Other language: please select your language]",
+    "text": "[Altă limbă: te rugăm să selectezi limba]",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Îmi pare rău, nu înțeleg ce vrei să spui.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Welcome to {prog_name}. Every parent everywhere needs support. We hope we can help. 💚",
+    "text": "Bun venit pe {prog_name}. Fiecare părinte, oriunde s-ar afla, are nevoie de sprijin. Sperăm să putem ajuta. 💚",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ In {prog_name} you'll receive lessons to help you support your child through tough times.",
+    "text": "✅ În {prog_name} vei primi lecții care să te ajute să-ți susții copilul în momentele dificile.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🧡 You are a great parent. Thank you for joining us. ",
+    "text": "🧡 Ești un părinte minunat. Îți mulțumim că ni te-ai alăturat. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ Participating in {prog_name} is optional.",
+    "text": "✅ Participarea în {prog_name} este opțională.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ We won’t ever ask for your name. Anything you share is safe, private, and anonymous.",
+    "text": "✅ Nu îți vom cere niciodată numele. Tot ceea ce împărtășești este sigur, privat și anonim.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅Your anonymous information may also be shared with others working to help families like yours build strength and hope in tough times. All your information will be private and can’t be linked back to you.",
+    "text": "✅Informațiile tale anonime pot fi, de asemenea, partajate cu alte persoane care lucrează pentru a ajuta familii ca a ta să-și recâștige puterea și speranța în momente dificile. Toate informațiile tale vor rămâne confidențiale și nu vor putea fi asociate cu tine.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❌You can stop when you want. Just type {STOP}",
+    "text": "❌Poți opri când dorești. Doar tastează {STOP}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ To read our privacy policy, visit {consent}. If you are over 16 and consent to our privacy policy, select YES. Type \"EXIT\" if you do not want to participate.",
+    "text": "✅ Pentru a citi politica noastră de confidențialitate, accesați {consent}. Dacă ai peste 16 ani și ești de acord cu politica noastră de confidențialitate, selectează DA. Tastează „IEȘIRE” dacă nu dorești să participi.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you sure you do not want to get these messages? If you do not want to receive any more messages, please press NO. If you made a mistake, please press BACK and choose another option.",
+    "text": "Ești sigur că nu vrei să primești aceste mesaje? Dacă nu mai vrei să primești mesaje, apasă NU. Dacă ai greșit, apasă ÎNAPOI și alege altă opțiune.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay. If you decide you want these tips later, type {joining_trigger}.",
+    "text": "Este în regulă. Dacă te hotărăști că vrei aceste sfaturi mai târziu, scrie {joining_trigger}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you! To complete this programme, you won’t be alone. You’ll have a parenting guide by your side. There are two supportive parenting experts you can choose from:",
+    "text": "Mulțumesc! Pentru a finaliza acest program, nu vei fi singur. Vei avea un ghid parental alături de tine. Poți alege dintre doi experți în educație parentală care te vor susține:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Maria is a 38 old mom of 2. She is a child psychotherapist and a school counselor. Both parents and children feel safe to open up to her.",
+    "text": "Maria este o mamă a doi copii, în vârstă de 38 de ani. Este psihoterapeut pentru copii și consilier școlar. Atât părinții, cât și copiii se simt în siguranță să se deschidă față de ea.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Who would you like to be your guide?",
+    "text": "Cine ai vrea să-ți fie ghid?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❔Before we get started, we have a few questions to make this journey personalised:",
+    "text": "❔Înainte de a începe, avem câteva întrebări pentru a personaliza această călătorie:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How old are you?",
+    "text": "Câți ani ai?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you a WOMAN or MAN?",
+    "text": "Ești FEMEIE sau BĂRBAT?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is your relationship status?",
+    "text": "Care este statutul tău relațional?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How many children do you take care of?",
+    "text": "Câți copii ai în grijă?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "These tips are designed for those who look after children. Would you still like to receive the tips so you can share the advice with friends and family?",
+    "text": "Aceste sfaturi sunt destinate celor care au grijă de copii. Ai dori să primești în continuare sfaturile, pentru a le putea împărtăși prietenilor și familiei?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for your time. If you decide you want these tips later, type {joining_trigger}.",
+    "text": "Îți mulțumim pentru timpul tău. Dacă vrei să primești aceste sfaturi mai târziu, tastează {joining_trigger}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is the highest level of education you have completed?",
+    "text": "Care este ultimul nivel de educație pe care l-ai absolvit?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📲 How would you prefer to receive content — with audio guides, with video guides, or just text?",
+    "text": "📲 Cum ai prefera să primești conținutul — cu ghid audio, cu ghid video sau doar text?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks for answering our questions. We're ready to get started. 💚",
+    "text": "Îți mulțumim pentru răspunsuri. Suntem gata să începem. 💚",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "To start, you can watch this video to learn about {prog_name}.",
+    "text": "Pentru început, poți viziona acest videoclip pentru a afla mai multe despre {prog_name}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "English",
+    "text": "English",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Romanian",
+    "text": "Română",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "YES",
+    "text": "DA",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NO",
+    "text": "NU",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "BACK",
+    "text": "ÎNAPOI",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "URMĂTORUL",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Under 16 years old",
+    "text": "Sub 16 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "16-19 years old",
+    "text": "16-19 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "20-35 years old",
+    "text": "20-35 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Over 35 years old",
+    "text": "Peste 35 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Woman",
+    "text": "Femeie",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Man",
+    "text": "Bărbat",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Single (not in a relationship)",
+    "text": "Singur/ă (nu sunt într-o relație)",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Married",
+    "text": "Căsăorit/ă",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Partnered but not married",
+    "text": "Într-o relație, dar necăsătorit/ă",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Divorced or separated",
+    "text": "Divorțat/ă sau separat/ă",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Widowed",
+    "text": "Văduv/ă",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to say",
+    "text": "Prefer să nu răspund",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "None",
+    "text": "Nici unul",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "One to three",
+    "text": "Între unu și trei",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "More than four",
+    "text": "Mai mulți de patru",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I want the tips",
+    "text": "Vreau sfaturile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I do not want the tips",
+    "text": "Nu vreau sfaturile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Primary school",
+    "text": "Școala Primară",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Secondary school",
+    "text": "Școală Gimnazială",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "High school/Vocational school",
+    "text": "Liceul/Școala Profesională",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Higher education",
+    "text": "Studii superioare",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to answer",
+    "text": "Prefer să nu răspund",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Video",
+    "text": "Video",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Audio",
+    "text": "Audio",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Text / Images",
+    "text": "Text / Imagini",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "english",
+    "text": "english",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "romanian",
+    "text": "română",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "da",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "exit",
+    "text": "ieșire",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "back",
+    "text": "înapoi",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "nu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "under 16 years old",
+    "text": "sub 16 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "16-19 years old",
+    "text": "16-19 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "20-35 years old",
+    "text": "20-35 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "over 35 years old",
+    "text": "peste 35 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "woman",
+    "text": "femeie",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "man",
+    "text": "bărbat",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "single (not in a relationship)",
+    "text": "singur/ă (nu sunt într-o relație)",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "married",
+    "text": "căsăorit/ă",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "partnered but not married",
+    "text": "într-o relație, dar necăsătorit/ă",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "divorced or separated",
+    "text": "divorțat/ă sau separat/ă",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "widowed",
+    "text": "văduv/ă",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to say",
+    "text": "prefer să nu răspund",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "none",
+    "text": "nici unul",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "one to three",
+    "text": "între unu și trei",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "more than four",
+    "text": "mai mulți de patru",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i want the tips",
+    "text": "vreau sfaturile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i do not want the tips",
+    "text": "nu vreau sfaturile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "primary school",
+    "text": "școala primară",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "secondary school",
+    "text": "școală gimnazială",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "high school/vocational school",
+    "text": "liceul/școala profesională",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "higher education",
+    "text": "studii superioare",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to answer",
+    "text": "prefer să nu răspund",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "video",
+    "text": "video",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "audio",
+    "text": "audio",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "text / images",
+    "text": "text / imagini",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

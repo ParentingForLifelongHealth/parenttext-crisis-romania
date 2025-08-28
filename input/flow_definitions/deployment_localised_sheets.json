@@ -125,6 +125,21 @@
         "tags.3": ""
       },
       {
+        "type": "create_triggers",
+        "sheet_name": "testing_triggers",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "trigger",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
         "type": "create_flow",
         "sheet_name": "demo_ltp_activity",
         "data_sheet": "",
@@ -133,7 +148,7 @@
         "data_model": "",
         "template_arguments": "ltp_activity_data",
         "operation": "",
-        "status": "draft",
+        "status": "",
         "group": "",
         "tags.1": "ltp_activity",
         "tags.2": "",
@@ -200,6 +215,50 @@
         "tags.3": ""
       }
     ],
+    "testing_triggers": [
+      {
+        "type": "K",
+        "keywords": "reset",
+        "match_type": "O",
+        "flow": "reset_variables",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "newday",
+        "match_type": "O",
+        "flow": "campaign_demo",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "test_ltp",
+        "match_type": "O",
+        "flow": "demo_ltp_activity",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "test_module",
+        "match_type": "O",
+        "flow": "demo_module - lang_media_gender_onb_survey",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "test_pause",
+        "match_type": "O",
+        "flow": "demo_pause - lang_media_gender_onb_survey",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "test_survey",
+        "match_type": "O",
+        "flow": "test_surveys",
+        "groups": ""
+      }
+    ],
     "goal_data": [
       {
         "ID": "core",
@@ -217,7 +276,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Care for Yourself",
-        "name.ron": "Add translation"
+        "name.ron": "Ai Grijă de Tine"
       },
       {
         "ID": "make_a_routine",
@@ -226,7 +285,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Make a Routine for Time Together",
-        "name.ron": "Add translation"
+        "name.ron": "Creează o Rutină pentru Timpul Petrecut Împreună"
       },
       {
         "ID": "help_children_cope",
@@ -235,7 +294,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Help Children Cope with Uncertain Situations",
-        "name.ron": "Add translation"
+        "name.ron": "Ajută Copiii să Facă Față Situațiilor Incerte"
       },
       {
         "ID": "when_someone_dies",
@@ -244,7 +303,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Help Children when Someone Dies",
-        "name.ron": "Add translation"
+        "name.ron": "Ajută Copiii Când Cineva Moare"
       },
       {
         "ID": "protect_sexual_violence",
@@ -253,7 +312,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Protect our Children from Sexual Violence",
-        "name.ron": "Add translation"
+        "name.ron": "Protejează Copiii de Violența Sexuală"
       },
       {
         "ID": "keep_children_safe",
@@ -262,7 +321,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Keep Children Safe",
-        "name.ron": "Add translation"
+        "name.ron": "Asigurarea siguranței copiilor"
       },
       {
         "ID": "prepare_to_travel",
@@ -271,7 +330,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Prepare to Travel",
-        "name.ron": "Add translation"
+        "name.ron": "Pregătește-te pentru deplasare"
       },
       {
         "ID": "travel_safely",
@@ -280,7 +339,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Travel Safely",
-        "name.ron": "Add translation"
+        "name.ron": "Deplasați-vă în siguranță"
       },
       {
         "ID": "protect_from_traffickers",
@@ -289,7 +348,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Protect Your Children from Traffickers",
-        "name.ron": "Add translation"
+        "name.ron": "Proteja-ți Copiii de Traficanți"
       },
       {
         "ID": "care_in_a_shelter",
@@ -298,7 +357,7 @@
         "age": "0|1|2|3| 4 | 5 | 6 | 7 | 8 | 9|10|11|12|13|14|15|16|17",
         "child_gender": "male|female",
         "name.eng": "Care for your Children in a Shelter",
-        "name.ron": "Add translation"
+        "name.ron": "Îngrijirea copiilor într-un adăpost"
       }
     ],
     "goal_topic_link": [

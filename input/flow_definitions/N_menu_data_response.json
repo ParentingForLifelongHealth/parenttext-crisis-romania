@@ -110,7 +110,7 @@
         "options.3.flow": "safeguarding_help",
         "options.4.text": "A fun activity I can do with my child",
         "options.4.flow": "activity_offer - menu",
-        "options.5.text": "Watch a video about {prog_name}",
+        "options.5.text": "Watch chatbot intro video",
         "options.5.flow": "menu_parenttext_instructions",
         "options.6.text": "Change my settings        ",
         "options.6.flow": "menu - settings",
@@ -310,12 +310,18 @@
         "msg": "Please contact {gdprcontact} for account deletion, for a copy of all of your data we have, or to update any data we have.",
         "next_button_option": "",
         "metadata.description": ""
+      },
+      {
+        "ID": "menu_parenttext_instructions",
+        "msg": "Here is a video about {prog_name}.",
+        "next_button_option": "",
+        "metadata.description": ""
       }
     ],
     "settings_profile_data": [
       {
         "ID": "media",
-        "current_info_msg": "Your current media setting is",
+        "current_info_msg": "You are receiving content with",
         "missing.msg": "You didn't provide this info.",
         "update_inquiry": "Would you like to change it?",
         "update_inquiry_yes": "Yes",
@@ -326,7 +332,7 @@
         "variable": "@fields.type_of_media",
         "missing.value": "",
         "var.1.val": "low",
-        "var.1.alias": "Text / Images",
+        "var.1.alias": "text and images",
         "var.2.val": "medium",
         "var.2.alias": "Audio",
         "var.3.val": "",

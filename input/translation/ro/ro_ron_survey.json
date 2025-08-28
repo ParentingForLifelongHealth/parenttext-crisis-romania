@@ -1,0 +1,608 @@
+[
+  {
+    "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
+    "text": "Se pare că nu este un moment potrivit. Te rugăm să tastezi 1 dacă dorești să continui.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You will continue with your progress tomorrow.",
+    "text": "Vei continua cu progresul tău mâine.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Can you believe it’s been a month? ⏳",
+    "text": "Îți vine să crezi că a trecut o lună?⏳",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We’d love to check in and see how you’re doing ❤️. It’ll take less than 5 minutes.",
+    "text": "Ne-ar plăcea să te contactăm și să vedem ce mai faci ❤️. Va dura mai puțin de 5 minute.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Is now a good time? 🙂",
+    "text": "Este un moment potrivit acum? 🙂",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press a number on your keypad: ",
+    "text": "Apăsă un număr de pe tastatură: ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Yes",
+    "text": "1. Da",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. No",
+    "text": "2. Nu",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay.",
+    "text": "Este în regulă.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Îmi pare rău, nu înțeleg ce vrei să spui.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We’ll ask 3 quick questions first 💬",
+    "text": "Întâi vom pune 3 întrebări rapide 💬",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This helps us share tips that are right for families like yours ❤️ 🕊️",
+    "text": "Acest lucru ne ajută să împărtășim sfaturi potrivite pentru familii ca a ta ❤️ 🕊️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Parenting is so important. How many days in the past week did you play with your children, help them learn something new, or talk with your children about how they’re doing?",
+    "text": "Creșterea copiilor este foarte importantă. În câte zile din ultima săptămână te-ai jucat cu copiii tăi, i-ai ajutat să învețe ceva nou sau ai vorbit cu ei despre cum se simt?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’re doing what you can, and that matters 💛, every small moment of connection counts 💪.",
+    "text": "Faci ce poți, și asta contează 💛, fiecare mic moment de conexiune contează 💪.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s wonderful to hear 🌟💖, your time and care make a big difference in your child’s life.",
+    "text": "Mă bucur să aud asta 🌟💖, timpul și grija ta fac o mare diferență în viața copilului tău.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s completely okay 💙, we’re here to support you, no matter where you’re at 💫🤝",
+    "text": "E perfect în regulă 💙, suntem aici să te sprijinim, indiferent unde te afli 💫🤝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We know life can be stressful. Over the last week, how often did you feel nervous, anxious or on edge?",
+    "text": "Știm că viața poate fi stresantă. În ultima săptămână, cât de des te-ai simțit nervos, anxios sau agitat?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s great to hear 💛Thank you for sharing ☀️",
+    "text": "Mă bucur să aud asta 💛 Mulțumesc pentru împărtășire ☀️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for sharing 💙 We’re sorry to hear life has been stressful, and hope we can help 🤝",
+    "text": "Mulțumim pentru că ai împărtășit 💙 Ne pare rău să auzim că viața a fost stresantă și sperăm că te putem ajuta 🤝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay 💙, no need to share more than you want to 🙏",
+    "text": "E în regulă 💙, nu este nevoie să împărtășești mai mult decât vrei 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Over the past week, how often were you not able to stop or control worrying?",
+    "text": "În ultima săptămână, cât de des nu ai putut să te oprești sau să îți controlezi îngrijorarea?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "So glad to hear you’re feeling free from worry 💫  Thank you for taking a moment with us 🙏",
+    "text": "Mă bucur să aud că te simți eliberat de griji 💫 Îți mulțumim că ai petrecut un moment cu noi 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you again for sharing with us 💛 Worry can be so difficult, and we hope ParentText can help.",
+    "text": "Mulțumim încă o dată că ne-ai împărtășit experiența ta 💛 Îngrijorarea poate fi o emoție foarte dificilă, și sperăm că Busola Părintelui te poate ajuta.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "No problem! Thank you for taking a moment with us 🙏",
+    "text": "Nicio problemă! Mulțumim că ne-ați acordat un moment 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Finally, we’d like to ask 5 more questions before your first tip!",
+    "text": "În final, am dori să îți punem încă 5 întrebări înainte de primul sfat!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’ll take only 2 minutes ⏱️,  and your answers help make these tips better for you and other families 💛",
+    "text": "Va dura doar 2 minute ⏱️, iar răspunsurile tale ajută la îmbunătățirea acestor sfaturi pentru tine și alte familii 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to continue?",
+    "text": "Ai vrea să continui?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How many days in the past week did you feel hopeful, purposeful, or like you have meaning?",
+    "text": "În câte zile din ultima săptămână te-ai simțit plin de speranță, cu un scop sau ca și cum ai avea sens?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s okay if those feelings were rare this week. Some weeks are heavier than others 🙏",
+    "text": "E în regulă dacă acele sentimente au fost rare săptămâna asta. Unele săptămâni sunt mai grele decât altele 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s encouraging to hear 💛 Hope is a powerful ☀️",
+    "text": "Acest lucru este încurajator 💛 Speranța este puternică ☀️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s encouraging to hear 💛 Hope is a powerful strength ☀️",
+    "text": "Acest lucru este încurajator 💛 Speranța este puternică ☀️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Prefer not to answer: That’s completely fine 💙 Thank you for taking a moment with this question 🙏",
+    "text": "Preferi să nu răspunzi: E perfect în regulă 💙 Mulțumesc că ți-ai făcut timp să răspunzi la această întrebare 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your role as a parent is so important.  How many days in the past week did you know who your children were spending time with (both in person or online)?",
+    "text": "Rolul tău ca părinte este foarte important. În câte zile din ultima săptămână ai știut cu cine își petreceau copiii tăi timpul (atât față în față, cât și online)?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s understandable if this was hard to do recently. Even small moments of checking in can matter 🌱",
+    "text": "Este de înțeles dacă acest lucru a fost greu de făcut recent. Chiar și momentele scurte în care verifici pot conta 🌱",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That kind of care and attention makes a big difference 💛 You’re helping your children stay safe and connected 🌟",
+    "text": "Acest tip de grijă și atenție face o mare diferență 💛 Îți ajuți copiii să rămână în siguranță și conectați 🌟",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s completely okay 💙 Thank you for taking the time to reflect 🙏",
+    "text": "Este perfect în regulă 💙 Mulțumesc că ți-ai făcut timp să reflectezi 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We know life can be difficult. Over the last week, how often have you been bothered by little interest or pleasure in doing things?",
+    "text": "Știm că viața poate fi dificilă. În ultima săptămână, cât de des ai fost deranjat de sentimente precum lipsa de interes sau plăcere în a face lucruri?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s great to hear ✨",
+    "text": "Mă bucur să aud asta ✨",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for sharing. We know these feelings can be difficult, and we hope we can help 🙏",
+    "text": "Mulțumim pentru că ai împărtășit. Știm că aceste sentimente pot fi dificile și sperăm că te putem ajuta 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s completely okay 💙 Thank you for taking a moment with this 🙏",
+    "text": "Este perfect în regulă 💙 Îți mulțumim că ai acordat un moment pentru asta 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Over the last week, how often have you been bothered by feeling down, depressed, or hopeless?",
+    "text": "În ultima săptămână, cât de des te-ai simțit abătut, deprimat sau fără speranță?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s wonderful to hear 🌿",
+    "text": "Este minunat să auzi asta 🌿",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That sounds really hard 💛 We are sorry things have been difficult, and we hope we can help 🙏",
+    "text": "Sună foarte greu 💛 Ne pare rău că lucrurile au fost dificile și sperăm să putem ajuta 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s completely okay 💙 No pressure to share more than you want to 🙏",
+    "text": "E perfect în regulă 💙 Nu te simți obligat să împărtășești mai mult decât dorești 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Final question! We know parenting can be stressful, especially at times when children misbehave 🙏",
+    "text": "Ultima întrebare! Știm că a fi părinte poate fi stresant, mai ales în momentele în care copiii se poartă urât 🙏",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How many days in the past week did you speak calmly with your children, when you were upset with them?",
+    "text": "În câte zile din săptămâna trecută le-ai vorbit calm copiilor tăi atunci când erai supărat pe ei?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you so much again for answering 💛 We hope ParentText strengthens you and your children!",
+    "text": "Îți mulțumim încă o dată pentru răspunsuri 💛 Sperăm ca Busola Părintelui să te întărească pe tine și pe copiii tăi!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Lastly, today we want to ask 2 questions to make these tips better for others 🎉",
+    "text": "În cele din urmă, astăzi vrem să îți punem 2 întrebări pentru a face aceste sfaturi mai utile și pentru alții 🎉",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Did these parenting tips help you and your family?",
+    "text": "Aceste sfaturi parentale au fost utile pentru tine și familia ta?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "From using these tips, have you reached out to a trusted friend, family member, person, organisation, or helpline for support?",
+    "text": "După ce ai folosit aceste sfaturi, ai contactat un prieten de încredere, un membru al familiei, o persoană, o organizație sau o linie telefonică de asistență pentru a cere ajutor?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks for your responses! You will help make ParentText better for families 🎉See you back for another tip soon.",
+    "text": "Îți mulțumim pentru răspunsuri! Ne ajuți să îmbunătățim Busola Părintelui pentru familii 🎉 Ne revedem curând cu un alt sfat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you so much for participating in these tips! You are so brave and such an amazing caregiver.",
+    "text": "Îți mulțumim mult pentru participarea la aceste sfaturi! Ești un părinte minunat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today you will receive your final tips. First, we have 3 questions to ask about how you and your children are doing. ❤️",
+    "text": "Astăzi vei primi ultimele sfaturi. Înainte de a începe, avem 3 întrebări despre cum te simți tu și copiii tăi. ❤️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for your answers. ❤️",
+    "text": "Îți mulțumim pentru răspunsuri. ❤️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We have 8 quick questions. Your answers help us make these tips better for parents and children finding strength and hope during tough times.",
+    "text": "Avem 8 întrebări rapide. Răspunsurile tale ne ajută să îmbunătățim aceste sfaturi pentru părinți și copii, ajutându-i să găsească putere și speranță în momente dificile.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’re doing what you can, and that matters 💛, every small moment of connection counts 💪",
+    "text": "Faci ce poți, și asta contează 💛, fiecare mic moment de conexiune contează 💪",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "3",
+    "text": "3",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "URMĂTORUL",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "0 days",
+    "text": "0 zile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "1 day",
+    "text": "1 zi",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "2 days",
+    "text": "2 zile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "3 days",
+    "text": "3 zile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "4 days",
+    "text": "4 zile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "5 days",
+    "text": "5 zile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "6 days",
+    "text": "6 zile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "7 days",
+    "text": "7 zile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to answer",
+    "text": "Prefer să nu răspund",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Not at all",
+    "text": "Deloc",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Some days",
+    "text": "În unele zile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "More than half the days",
+    "text": "Mai mult de jumătate din zile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Nearly every day",
+    "text": "Aproape în fiecare zi",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Da",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "Nu",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, ALL of the tips helped",
+    "text": "Da, TOATE sfaturile au fost de ajutor",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, MANY of the tips helped",
+    "text": "Da, MULTE dintre sfaturi au fost de ajutor",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, a FEW of the tips helped",
+    "text": "Da, PUȚINE sfaturi au fost de ajutor",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NONE of the tips helped",
+    "text": "Niciunul dintre sfaturi nu a fost de ajutor",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "3",
+    "text": "3",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "0 days",
+    "text": "0 zile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "1 day",
+    "text": "1 zi",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "2 days",
+    "text": "2 zile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "3 days",
+    "text": "3 zile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "4 days",
+    "text": "4 zile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "5 days",
+    "text": "5 zile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "6 days",
+    "text": "6 zile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "7 days",
+    "text": "7 zile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to answer",
+    "text": "prefer să nu răspund",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "not at all",
+    "text": "deloc",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "some days",
+    "text": "în unele zile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "more than half the days",
+    "text": "mai mult de jumătate din zile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "nearly every day",
+    "text": "aproape în fiecare zi",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "da",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "nu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, all of the tips helped",
+    "text": "da, toate sfaturile au fost de ajutor",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, many of the tips helped",
+    "text": "da, multe dintre sfaturi au fost de ajutor",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, a few of the tips helped",
+    "text": "da, puține sfaturi au fost de ajutor",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "none of the tips helped",
+    "text": "niciunul dintre sfaturi nu a fost de ajutor",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

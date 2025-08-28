@@ -369,6 +369,15 @@
         "change": "{consent_link}",
         "condition_var": "",
         "category": "Add url"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{gdpr_contact}.*",
+        "change": "{gdpr_contact}",
+        "condition_var": "",
+        "category": "Add email"
       }
     ],
     "urls_transl": [
@@ -389,6 +398,15 @@
         "original": "{consent_link}",
         "language": "ron",
         "replacement": "Add translation"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{gdpr_contact}.*",
+        "original": "{gdpr_contact}",
+        "language": "ron",
+        "replacement": "Add email"
       }
     ],
     "joining_triggers_add_group": [
@@ -496,6 +514,15 @@
         "original": "{prog_name}",
         "language": "ron",
         "replacement": "Busola Părintelui"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "original": "ParentText",
+        "language": "ron",
+        "replacement": "Busola Părintelui"
       }
     ],
     "parenttext_name_eng": [
@@ -505,6 +532,15 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*{prog_name}.*",
         "change": "{prog_name}",
+        "condition_var": "",
+        "category": "Parent Compass"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "change": "ParentText",
         "condition_var": "",
         "category": "Parent Compass"
       }
