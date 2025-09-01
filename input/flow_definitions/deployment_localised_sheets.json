@@ -141,66 +141,6 @@
       },
       {
         "type": "create_flow",
-        "sheet_name": "demo_ltp_activity",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "template_arguments": "ltp_activity_data",
-        "operation": "",
-        "status": "",
-        "group": "",
-        "tags.1": "ltp_activity",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
-        "type": "create_flow",
-        "sheet_name": "demo_content",
-        "data_sheet": "short_demo_module_data",
-        "data_row_id": "lang_media_gender_onb_survey",
-        "new_name": "demo_module",
-        "data_model": "",
-        "template_arguments": "module_content_data;woman;low;module",
-        "operation": "",
-        "status": "draft",
-        "group": "",
-        "tags.1": "module",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
-        "type": "create_flow",
-        "sheet_name": "demo_content",
-        "data_sheet": "short_demo_module_data",
-        "data_row_id": "lang_media_gender_onb_survey",
-        "new_name": "demo_pause",
-        "data_model": "",
-        "template_arguments": "take_a_pause_data;woman;low;pause",
-        "operation": "",
-        "status": "draft",
-        "group": "",
-        "tags.1": "module",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
-        "type": "create_flow",
-        "sheet_name": "reset_onboarding",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "",
-        "template_arguments": "",
-        "operation": "",
-        "status": "draft",
-        "group": "",
-        "tags.1": "onboarding",
-        "tags.2": "",
-        "tags.3": ""
-      },
-      {
-        "type": "create_flow",
         "sheet_name": "uncaught_message_flow",
         "data_sheet": "",
         "data_row_id": "",
@@ -211,6 +151,36 @@
         "status": "",
         "group": "",
         "tags.1": "safeguarding",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "lang_selection",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SurveyQuestionRowModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      },
+      {
+        "type": "survey_question",
+        "sheet_name": "",
+        "data_sheet": "lang_selection",
+        "data_row_id": "lang",
+        "new_name": "demo",
+        "data_model": "",
+        "template_arguments": "survey_defaults",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "demo",
         "tags.2": "",
         "tags.3": ""
       }
@@ -257,6 +227,36 @@
         "match_type": "O",
         "flow": "test_surveys",
         "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "lang",
+        "match_type": "O",
+        "flow": "survey - demo - question - lang",
+        "groups": ""
+      }
+    ],
+    "lang_selection": [
+      {
+        "ID": "lang",
+        "type": "multiple_choice",
+        "messages.1.text": "Please select your language:",
+        "choices.1.text": "English",
+        "choices.1.value": "eng",
+        "choices.1.show": "",
+        "choices.2.text": "Romanian",
+        "choices.2.value": "ron",
+        "choices.2.show": "",
+        "postprocessing.flow": "set_contact_language",
+        "postprocessing.assignments.1.variable": "lang code",
+        "postprocessing.assignments.1.value": "@answer",
+        "postprocessing.assignments.2.variable": "completed language",
+        "postprocessing.assignments.2.value": "yes",
+        "postprocessing.assignments.3.variable": "attachment language",
+        "postprocessing.assignments.3.value": "ron",
+        "postprocessing.assignments.4.variable": "",
+        "postprocessing.assignments.4.value": "",
+        "expiration.message": ""
       }
     ],
     "goal_data": [
@@ -541,7 +541,7 @@
       {
         "ID": "deployment_name",
         "name": "deployment",
-        "value": "CrisisGeneral"
+        "value": "CrisisRomania"
       }
     ],
     "local_triggers": [],

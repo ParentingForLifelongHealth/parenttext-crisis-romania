@@ -182,7 +182,7 @@
         "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
         "original": "{natural_disasters_referrals}",
         "language": "ron",
-        "replacement": "Add referral"
+        "replacement": "Serviciile de mai jos pot fi de folos pentru a te ține pe tine și pe familia ta în siguranță și informat în cazul unui dezastru natural:\n \n **Inspectoratul General pentru Situații de Urgență (IGSU) & Departmentul pentru Situații de Urgență (DSU)** \n Organismele naționale oficiale care furnizează informații și răspuns în situații de urgență și dezastre. \n Acestea oferă: \n - Sfaturi privind siguranța în timpul diferitelor tipuri de dezastre\n - Alerte în timp real\n - Ghiduri de pregătire pentru situații de urgențe\n 🌐 Site-uri web:\n - [www.igsu.ro](https://www.igsu.ro) \n - [www.dsu.mai.gov.ro (https://www.dsu.mai.gov.ro) \n - [www.fiipregatit.ro](https://fiipregatit.ro)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -191,7 +191,7 @@
         "node_identifier": "Regex:.*{mental_health_referrals}.*",
         "original": "{mental_health_referrals}",
         "language": "ron",
-        "replacement": "Add referral"
+        "replacement": "Dacă treci printr-o perioadă dificilă sau experimentezi suferință emoțională, nu ești singur. Aceste servicii gratuite și confidențiale sunt aici pentru a te sprijini: \n \n **Telefonul Verde Antisuicid – Linia de Prevenire a Suicidului** \n Oferă sprijin pentru oricine se confruntă cu gânduri suicidare sau suferință emoțională. \n 📞 0800 801 200 (gratuit) \n 📧 sos@antisuicid.com\n \n **Numărul Național de Urgență** \n Pentru situații urgente care necesită ajutor imediat de la: 🚑 Salvare 🚓 Poliție 🚒 Pompieri \n 📞 Sună la: 112"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -200,7 +200,7 @@
         "node_identifier": "Regex:.*{health_referrals}.*",
         "original": "{health_referrals}",
         "language": "ron",
-        "replacement": "Add referral"
+        "replacement": "Dacă tu sau cineva din apropiere are nevoie de ajutor medical urgent, numărul de urgență de mai jos este disponibil în permanență.\n \n **Numărul Național de Urgență** \n Te conectează la serviciile de urgență, inclusiv: \n 🚑 Ambulană \n 🚓 Poliție \n 🚒 Pompieri \n 📞 Sună la: 112"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -209,7 +209,7 @@
         "node_identifier": "Regex:.*{generic_referrals}.*",
         "original": "{generic_referrals}",
         "language": "ron",
-        "replacement": "Add referral"
+        "replacement": "\"Dacă tu sau cineva cunoscut este în pericol sau are nevoie de ajutor, există servicii gratuite și confidențiale disponibile: \n\n **Numărul Național de Urgență**  \nTe conectează la serviciile de urgență: ajutor medical, poliție și pompieri  \n📞 Sună la: 112\n\n**Linia Telefonică pentru Copii - Telefonul Copilului**  \nLinie gratuită de sprijin pentru copii aflați în situații vulnerabile sau pentru oricine este îngrijorat de un copil care experimentează violență, exploatare sau abuz.  \n📞 Sună la: 119\n\n**Linia Telefonică Îpotriva traficului de persoane (ANITP)**  \nFolosește acest număr pentru a raporta suspiciuni de trafic de persoane sau pentru a primi sprijin.  \n📞 Sună la: 0 800 800 678 (gratuit)\n\n**Linia de Ajutor pentru Violență Domestică și Discriminare**  \nSprijin gratuit 24/7 pentru:  \n- Victimele violenței domestice  \n- Victimele traficului de persoane\n- Victimele discriminării de gen sau a deiscriminării multiple  \n📞 Sună la: 0800 500 333\""
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -218,7 +218,7 @@
         "node_identifier": "Regex:.*{family_referrals}.*",
         "original": "{family_referrals}",
         "language": "ron",
-        "replacement": "Add referral"
+        "replacement": "**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \n [https://dgaspc.ro](https://dgaspc.ro)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -227,7 +227,7 @@
         "node_identifier": "Regex:.*{child_protection_referrals}.*",
         "original": "{child_protection_referrals}",
         "language": "ron",
-        "replacement": "Add referral"
+        "replacement": "**Linia Telefonică pentru Copii - Telefonul Copilului** \n Linie gratuită de sprijin pentru copii aflați în situații vulnerabile sau pentru oricine este îngrijorat de un copil care experimentează violență, exploatare sau abuz. \n 📞 Sună la: 119\n \n **Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \n [https://dgaspc.ro](https://dgaspc.ro)"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -280,15 +280,6 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{START}.*",
-        "change": "{START}",
-        "condition_var": "",
-        "category": "START"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
         "node_identifier": "Regex:.*{PAUSE}.*",
         "change": "{PAUSE}",
         "condition_var": "",
@@ -303,7 +294,7 @@
         "node_identifier": "Regex:.*{HELP}.*",
         "original": "{HELP}",
         "language": "ron",
-        "replacement": "Add translation"
+        "replacement": "AJUTOR"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -312,7 +303,7 @@
         "node_identifier": "Regex:.*{MENU}.*",
         "original": "{MENU}",
         "language": "ron",
-        "replacement": "Add translation"
+        "replacement": "MENIU"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -321,7 +312,7 @@
         "node_identifier": "Regex:.*{PLAY}.*",
         "original": "{PLAY}",
         "language": "ron",
-        "replacement": "Add translation"
+        "replacement": "JOC"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -330,16 +321,7 @@
         "node_identifier": "Regex:.*{STOP}.*",
         "original": "{STOP}",
         "language": "ron",
-        "replacement": "Add translation"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{START}.*",
-        "original": "{START}",
-        "language": "ron",
-        "replacement": "Add translation"
+        "replacement": "STOP"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -348,7 +330,7 @@
         "node_identifier": "Regex:.*{PAUSE}.*",
         "original": "{PAUSE}",
         "language": "ron",
-        "replacement": "Add translation"
+        "replacement": "PAUZĂ"
       }
     ],
     "urls": [
@@ -418,15 +400,21 @@
         "change": "{joining_trigger}",
         "condition_var": "@fields.joining_trigger_id",
         "category": "{joining_trigger}",
-        "category:group_a": "{joining_trigger_group_a}",
-        "condition:group_a": "group_a",
-        "condition_type:group_a": "has_only_phrase",
-        "category:group_b": "{joining_trigger_group_b}",
-        "condition:group_b": "group_b",
-        "condition_type:group_b": "has_only_phrase",
-        "category:group_c": "{joining_trigger_group_c}",
-        "condition:group_c": "group_c",
-        "condition_type:group_c": "has_only_phrase"
+        "category:test_en": "{joining_trigger_test_en}",
+        "condition:test_en": "test_en",
+        "condition_type:test_en": "has_only_phrase",
+        "category:test_ro": "{joining_trigger_test_ro}",
+        "condition:test_ro": "test_ro",
+        "condition_type:test_ro": "has_only_phrase",
+        "category:ro_wave_1": "{joining_trigger_ro_wave_1}",
+        "condition:ro_wave_1": "support",
+        "condition_type:ro_wave_1": "has_only_phrase",
+        "category:ro_wave_2": "{joining_trigger_ro_wave_2}",
+        "condition:ro_wave_2": "tip",
+        "condition_type:ro_wave_2": "has_only_phrase",
+        "category:ro_outreach": "{joining_trigger_ro_outreach}",
+        "condition:ro_outreach": "compass",
+        "condition_type:ro_outreach": "has_only_phrase"
       }
     ],
     "joining_triggers_eng": [
@@ -434,37 +422,46 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger}.*",
-        "change": "{joining_trigger}",
+        "node_identifier": "Regex:.*{joining_trigger_test_en}.*",
+        "change": "{joining_trigger_test_en}",
         "condition_var": "",
-        "category": "TEST"
+        "category": "test_eng"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_a}.*",
-        "change": "{joining_trigger_group_a}",
+        "node_identifier": "Regex:.*{joining_trigger_test_ro}.*",
+        "change": "{joining_trigger_test_ro}",
         "condition_var": "",
-        "category": "TEST_GROUP_A"
+        "category": "test_ro"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_b}.*",
-        "change": "{joining_trigger_group_b}",
+        "node_identifier": "Regex:.*{joining_trigger_ro_wave_1}.*",
+        "change": "{joining_trigger_ro_wave_1}",
         "condition_var": "",
-        "category": "TEST_GROUP_B"
+        "category": "support"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_c}.*",
-        "change": "{joining_trigger_group_c}",
+        "node_identifier": "Regex:.*{joining_trigger_ro_wave_2}.*",
+        "change": "{joining_trigger_ro_wave_2}",
         "condition_var": "",
-        "category": "TEST_GROUP_C"
+        "category": "tip"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ro_outreach}.*",
+        "change": "{joining_trigger_ro_outreach}",
+        "condition_var": "",
+        "category": "compass"
       }
     ],
     "joining_triggers_transl": [
@@ -472,37 +469,46 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger}.*",
-        "change": "{joining_trigger}",
+        "node_identifier": "Regex:.*{joining_trigger_test_en}.*",
+        "original": "{joining_trigger}",
         "language": "ron",
-        "replacement": "test"
+        "replacement": "test_eng"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_a}.*",
-        "change": "{joining_trigger}",
+        "node_identifier": "Regex:.*{joining_trigger_test_ro}.*",
+        "original": "{joining_trigger}",
         "language": "ron",
-        "replacement": "TEST_GROUP_A"
+        "replacement": "test_ro"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_b}.*",
-        "change": "{joining_trigger}",
+        "node_identifier": "Regex:.*{joining_trigger_ro_wave_1}.*",
+        "original": "{joining_trigger}",
         "language": "ron",
-        "replacement": "TEST_GROUP_B"
+        "replacement": "sprijin"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_group_c}.*",
-        "change": "{joining_trigger}",
+        "node_identifier": "Regex:.*{joining_trigger_ro_wave_2}.*",
+        "original": "{joining_trigger}",
         "language": "ron",
-        "replacement": "TEST_GROUP_C"
+        "replacement": "sfat"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_ro_outreach}.*",
+        "original": "{joining_trigger}",
+        "language": "ron",
+        "replacement": "busola"
       }
     ],
     "parenttext_name_transl": [

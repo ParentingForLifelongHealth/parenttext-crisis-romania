@@ -72,7 +72,7 @@
         "ID": "test_ro",
         "Description": "Joining trigger for testers only and initates the chatbot in Romanian. If you are not a caregiver and are testing the chatbot, please use this Joining trigger to use the chatbot. This helps ensure that real user data is not mixed with test data.",
         "Trigger (en)": "test_ro",
-        "Trigger (ron)": "test_ro",
+        "Trigger (ron)": "",
         "Experience (user group)": "digital",
         "Recruitment (user group)": "",
         "Additional (user group)": "",
@@ -167,7 +167,7 @@
       },
       {
         "ID": "test_ro",
-        "triggers": "test_ro;test_ro",
+        "triggers": "test_ro",
         "groups": "digital",
         "cap": "",
         "location": ""
@@ -184,6 +184,13 @@
         "triggers": "tip;sfat",
         "groups": "hybrid;Wave 2;reach",
         "cap": "1250",
+        "location": ""
+      },
+      {
+        "ID": "ro_outreach",
+        "triggers": "compass;busola",
+        "groups": "digital;Outreach;reach",
+        "cap": "2500",
         "location": ""
       }
     ],
