@@ -544,7 +544,43 @@
         "value": "CrisisRomania"
       }
     ],
-    "local_triggers": [],
+    "local_triggers": [
+      {
+        "type": "K",
+        "keywords": "AJUTOR",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "MENIU",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "JOC",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "STOP",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      },
+      {
+        "type": "K",
+        "keywords": "PAUZĂ",
+        "match_type": "O",
+        "flow": "uncaught_message_flow",
+        "groups": ""
+      }
+    ],
     "reset_onboarding": [
       {
         "row_id": "",
