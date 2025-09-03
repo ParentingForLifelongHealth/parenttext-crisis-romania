@@ -628,29 +628,5 @@
     "text": "⬇️ Încetinire și accelerare ⬆️",
     "type": "text",
     "note": ""
-  },
-  {
-    "SourceText": "Sorry, I don't understand what you mean.",
-    "text": "Îmi pare rău, nu înțeleg ce vrei să spui.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "1",
-    "text": "1",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "2",
-    "text": "2",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "3",
-    "text": "3",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }
 ]

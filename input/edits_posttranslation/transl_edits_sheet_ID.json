@@ -338,15 +338,6 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{share link}.*",
-        "change": "{share link}",
-        "condition_var": "",
-        "category": "Add url"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
-        "original_row_id": "",
         "node_identifier": "Regex:.*{consent_link}.*",
         "change": "{consent_link}",
         "condition_var": "",

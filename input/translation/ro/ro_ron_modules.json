@@ -588,12 +588,6 @@
     "note": ""
   },
   {
-    "SourceText": "1️⃣ *NO IS OK!*",
-    "text": "1️⃣**E OK SĂ SPUI NU!**",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "Teach your child that no one has the right to touch them or make them uncomfortable.",
     "text": "Învață-ți copilul că nimeni nu are dreptul să-l atingă sau să-l facă să se simtă inconfortabil.",
     "type": "text",
@@ -642,12 +636,6 @@
     "note": ""
   },
   {
-    "SourceText": "3️⃣**RECOGNIZE**",
-    "text": "3️⃣**RECUNOAȘTE**",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "It’s not always easy to see, but some signs may show a child has been hurt: ",
     "text": "Nu este întotdeauna ușor de observat, dar unele semne pot indica faptul că un copil a fost victima unui abuz: ",
     "type": "text",
@@ -690,12 +678,6 @@
     "note": ""
   },
   {
-    "SourceText": "4️⃣**LISTEN**",
-    "text": "4️⃣**ASCULTĂ**",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "Take a deep breath so you can respond calmly.",
     "text": "Respiră adânc astfel încât să poți răspunde cu calm.",
     "type": "text",
@@ -726,8 +708,8 @@
     "note": ""
   },
   {
-    "SourceText": "5️⃣**RESPOND**: What might help what is going on?**",
-    "text": "5️⃣**REACȚIONEAZĂ**",
+    "SourceText": "5️⃣ **RESPOND**: What might help what is going on?",
+    "text": "5️⃣ **RĂSPUNDE**: Ce ar putea ajuta la ceea ce se întâmplă?",
     "type": "text",
     "note": ""
   },
@@ -1350,8 +1332,8 @@
     "note": ""
   },
   {
-    "SourceText": "Thank you for joining us today. Talking to children about traffickers can be hard for both you and  your children. Remember to be kind and patient with yourself and your children. There is 1 more tip to go.",
-    "text": "Îți mulțumim că ai fost alături de noi azi. Discuțiile cu copiii despre traficanții de persoane pot fi dificile atât pentru tine, cât și pentru copiii tăi. Amintește-ți să fii blând și să ai răbdare cu tine și cu ei. A mai rămas 1 singur sfat.",
+    "SourceText": "Thank you for joining us today. Talking to children about traffickers can be hard for both you and  your children. Remember to be kind and patient with yourself and your children.",
+    "text": "Îți mulțumim că ni te-ai alăturat astăzi. Discuțiile cu copiii despre traficanți pot fi dificile atât pentru tine, cât și pentru ei. Amintește-ți să fii bun și răbdător cu tine și cu copiii tăi.",
     "type": "text",
     "note": ""
   },
@@ -1524,33 +1506,9 @@
     "note": ""
   },
   {
-    "SourceText": "Sorry, I don't understand what you mean.",
-    "text": "Îmi pare rău, nu înțeleg ce vrei să spui.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "NEXT",
     "text": "URMĂTORUL",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "1",
-    "text": "1",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "2",
-    "text": "2",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "3",
-    "text": "3",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }
 ]

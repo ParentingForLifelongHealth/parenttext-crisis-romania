@@ -6,6 +6,12 @@
     "note": ""
   },
   {
+    "SourceText": "Variables have been reset",
+    "text": "Variabilele au fost resetate",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
     "text": "Se pare că nu este un moment potrivit. Te rugăm tastează 1 dacă dorești să continui.",
     "type": "text",
@@ -14,12 +20,6 @@
   {
     "SourceText": "Please select your language:",
     "text": "Te rugăm să selectezi limba:\nPlease select your language:",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "[Other language: please select your language]",
-    "text": "[Altă limbă: te rugăm să selectezi limba]",
     "type": "text",
     "note": ""
   },
@@ -72,8 +72,8 @@
     "note": ""
   },
   {
-    "SourceText": "✅ To read our privacy policy, visit {consent}. If you are over 16 and consent to our privacy policy, select YES. Type \"EXIT\" if you do not want to participate.",
-    "text": "✅ Pentru a citi politica noastră de confidențialitate, accesați {consent}. Dacă ai peste 16 ani și ești de acord cu politica noastră de confidențialitate, selectează DA. Tastează „IEȘIRE” dacă nu dorești să participi.",
+    "SourceText": "✅ To read our privacy policy, visit {consent}. If you are over 18 and consent to our privacy policy, select YES. Type \"EXIT\" if you do not want to participate.",
+    "text": "✅ Pentru a citi politica noastră de confidențialitate, accesați {consent}. Dacă ai peste 18 ani și ești de acord cu politica noastră de confidențialitate, selectează DA. Tastează \"IEȘIRE\" dacă nu vrei să participi.",
     "type": "text",
     "note": ""
   },
@@ -84,8 +84,14 @@
     "note": ""
   },
   {
-    "SourceText": "That's okay. If you decide you want these tips later, type {joining_trigger}.",
-    "text": "Este în regulă. Dacă te hotărăști că vrei aceste sfaturi mai târziu, scrie {joining_trigger}.",
+    "SourceText": "If you ever want to receive these tips in the future just type {joining_trigger}.",
+    "text": "Dacă vei dori vreodată să primești aceste sfaturi, în viitor, pur și simplu tastează {joining_trigger}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We hope to see you again soon.",
+    "text": "Sperăm să ne revedem curând.",
     "type": "text",
     "note": ""
   },
@@ -96,8 +102,14 @@
     "note": ""
   },
   {
-    "SourceText": "Maria is a 38 old mom of 2. She is a child psychotherapist and a school counselor. Both parents and children feel safe to open up to her.",
-    "text": "Maria este o mamă a doi copii, în vârstă de 38 de ani. Este psihoterapeut pentru copii și consilier școlar. Atât părinții, cât și copiii se simt în siguranță să se deschidă față de ea.",
+    "SourceText": "Maria is a 38 years old mom of two. She is a child psychotherapist and a school counselor. Both parents and children feel safe to open up to her.",
+    "text": "Maria are 38 de ani și este mama a doi copii. Ea lucrează ca psihoterapeut pentru copii și consilier școlar. Atât părinții, cât și copiii se simt în siguranță și confortabil să se deschidă față de ea.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Dan is a 42 years old dad and a dedicated paediatrician. Over the years, he has seen how loving & supportive relationships help children thrive and stay healthy. That's why he teaches parents and talks on podcasts about building strong, caring connections with their kids.",
+    "text": "Dan are 42 de ani, este tată și un pediatru dedicat. De-a lungul anilor, a observat cât de mult contează relațiile bazate pe iubire și sprijin pentru dezvoltarea armonioasă și sănătoasă a copiilor. De aceea, el îndrumă părinții și vorbește în podcasturi despre modul în care se pot construi legături profunde și pline de afecțiune cu cei mici.",
     "type": "text",
     "note": ""
   },
@@ -144,8 +156,8 @@
     "note": ""
   },
   {
-    "SourceText": "Thank you for your time. If you decide you want these tips later, type {joining_trigger}.",
-    "text": "Îți mulțumim pentru timpul tău. Dacă vrei să primești aceste sfaturi mai târziu, tastează {joining_trigger}.",
+    "SourceText": "📍 Do you live in a rural or urban area?",
+    "text": "📍Locuiești într-o zonă rurală sau urbană?",
     "type": "text",
     "note": ""
   },
@@ -210,26 +222,38 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Under 16 years old",
-    "text": "Sub 16 ani",
+    "SourceText": "Maria",
+    "text": "Maria",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "16-19 years old",
-    "text": "16-19 ani",
+    "SourceText": "Dan",
+    "text": "Dan",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "20-35 years old",
-    "text": "20-35 ani",
+    "SourceText": "18-24 years old",
+    "text": "18-24 ani",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Over 35 years old",
-    "text": "Peste 35 ani",
+    "SourceText": "25-34 years old",
+    "text": "25-34 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "35-44 years old",
+    "text": "35-44 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Over 55 years old",
+    "text": "Peste 55 ani",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -308,6 +332,18 @@
   {
     "SourceText": "I do not want the tips",
     "text": "Nu vreau sfaturile",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Rural",
+    "text": "Rural",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Urban",
+    "text": "Urban",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -396,26 +432,38 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "under 16 years old",
-    "text": "sub 16 ani",
+    "SourceText": "maria",
+    "text": "maria",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "16-19 years old",
-    "text": "16-19 ani",
+    "SourceText": "dan",
+    "text": "dan",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "20-35 years old",
-    "text": "20-35 ani",
+    "SourceText": "18-24 years old",
+    "text": "18-24 ani",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "over 35 years old",
-    "text": "peste 35 ani",
+    "SourceText": "25-34 years old",
+    "text": "25-34 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "35-44 years old",
+    "text": "35-44 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "over 55 years old",
+    "text": "peste 55 ani",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -494,6 +542,18 @@
   {
     "SourceText": "i do not want the tips",
     "text": "nu vreau sfaturile",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "rural",
+    "text": "rural",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "urban",
+    "text": "urban",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },

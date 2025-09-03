@@ -547,35 +547,35 @@
     "local_triggers": [
       {
         "type": "K",
-        "keywords": "AJUTOR",
+        "keywords": "ajutor",
         "match_type": "O",
         "flow": "uncaught_message_flow",
         "groups": ""
       },
       {
         "type": "K",
-        "keywords": "MENIU",
+        "keywords": "meniu",
         "match_type": "O",
         "flow": "uncaught_message_flow",
         "groups": ""
       },
       {
         "type": "K",
-        "keywords": "JOC",
+        "keywords": "joc",
         "match_type": "O",
         "flow": "uncaught_message_flow",
         "groups": ""
       },
       {
         "type": "K",
-        "keywords": "STOP",
+        "keywords": "stop",
         "match_type": "O",
         "flow": "uncaught_message_flow",
         "groups": ""
       },
       {
         "type": "K",
-        "keywords": "PAUZĂ",
+        "keywords": "pauză",
         "match_type": "O",
         "flow": "uncaught_message_flow",
         "groups": ""

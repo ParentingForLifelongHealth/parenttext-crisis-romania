@@ -186,8 +186,8 @@
     "note": ""
   },
   {
-    "SourceText": "Prefer not to answer: That’s completely fine 💙 Thank you for taking a moment with this question 🙏",
-    "text": "Preferi să nu răspunzi: E perfect în regulă 💙 Mulțumesc că ți-ai făcut timp să răspunzi la această întrebare 🙏",
+    "SourceText": "That’s completely fine 💙 Thank you for taking a moment with this question 🙏",
+    "text": "Este complet în regulă 💙 Mulțumim pentru că ai acordat un moment acestei întrebări 🙏",
     "type": "text",
     "note": ""
   },
@@ -300,8 +300,8 @@
     "note": ""
   },
   {
-    "SourceText": "Thanks for your responses! You will help make ParentText better for families 🎉See you back for another tip soon.",
-    "text": "Îți mulțumim pentru răspunsuri! Ne ajuți să îmbunătățim Busola Părintelui pentru familii 🎉 Ne revedem curând cu un alt sfat.",
+    "SourceText": "Thanks for your responses! You will help make ParentText better for families. 🎉 See you back for another tip soon.",
+    "text": "Îți mulțumim pentru răspunsuri! Ne vei ajuta să îmbunătățim Busola Părintelui pentru familii. 🎉 Ne vedem în curând pentru un alt sfat.",
     "type": "text",
     "note": ""
   },
@@ -314,6 +314,12 @@
   {
     "SourceText": "Today you will receive your final tips. First, we have 3 questions to ask about how you and your children are doing. ❤️",
     "text": "Astăzi vei primi ultimele sfaturi. Înainte de a începe, avem 3 întrebări despre cum te simți tu și copiii tăi. ❤️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’ll take only 2 minutes ⏱️, and your answers help make these tips better for you and other families 💛",
+    "text": "Va dura doar 2 minute ⏱️, iar răspunsurile tale ne vor ajuta să îmbunătățim aceste sfaturi pentru tine și pentru alte familii 💛",
     "type": "text",
     "note": ""
   },
@@ -344,12 +350,6 @@
   {
     "SourceText": "2",
     "text": "2",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "3",
-    "text": "3",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -482,12 +482,6 @@
   {
     "SourceText": "2",
     "text": "2",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
-    "SourceText": "3",
-    "text": "3",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },

@@ -270,8 +270,8 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "@(word_count(fields.s_modules_compl) +1). Return to Main Menu",
-    "text": "@(word_count(fields.s_modules_compl) +1). Întoarce-te la Meniul Principal",
+    "SourceText": "@(word_count(join(reverse(split(fields.s_modules_compl,\" \")), \" \")) +1). Return to Main Menu",
+    "text": "@(word_count(join(reverse(split(fields.s_modules_compl,\" \")), \" \")) +1). Revenire la Meniul Principal",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.count is a number (counter for list)"
   },
@@ -320,12 +320,6 @@
   {
     "SourceText": "We’ll check in with you in a month to see how you’re doing. Your feedback helps us make sure these tips truly support families like yours 🙂",
     "text": "Vom lua legătura cu tine peste o lună pentru a afla cum te simți. Feedback-ul tău ne ajută să ne asigurăm că aceste sfaturi sunt cu adevărat utile pentru familii ca a ta 🙂",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Was {prog_name} helpful? If so, share it with a friend. Just send this link: {share link}",
-    "text": "A fost {prog_name} utilă? Dacă da, distribuie unui prieten. Trebuie doar să trimiți acest link: {share link}",
     "type": "text",
     "note": ""
   },
@@ -462,8 +456,8 @@
     "note": ""
   },
   {
-    "SourceText": "Today’s tips can help you prepare to stay safe— Would you like to learn more?",
-    "text": "Sfaturile de azi te pot ajuta să fii pregătit pentru a rămâne în siguranță. Vrei să afli mai multe?",
+    "SourceText": "Today’s tips can help you prepare to stay safe. Would you like to learn more?",
+    "text": "Sfaturile de azi te pot ajuta să fi pregătit pentru a rămâne în siguranță. Ai vrea să afli mai multe?",
     "type": "text",
     "note": ""
   },
@@ -486,8 +480,32 @@
     "note": ""
   },
   {
-    "SourceText": "🕊️ In war and other tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?",
-    "text": "🕊️ În timpul unui conflict armat sau al altor perioade dificile, copiii observă mai multe lucruri decât credem noi. Sfaturile de astăzi te ajută să discuți cu copilul tău despre moarte, astfel încât acesta să se simtă mai în siguranță, mai puțin confuz și mai susținut. Dorești să primești sfaturile?",
+    "SourceText": "🕊️ In tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?",
+    "text": "În perioadele dificile, copiii observă mai multe decât credem noi. Sfaturile de azi te ajută să vorbești cu copilul tău despre moarte, astfel încât să se simtă mai în siguranță, mai puțin confuz și mai susținut. Ți-ar plăcea să primești sfaturile?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 Keeping kids safe can feel overwhelming, but a clear plan helps. Today's tip shows you simple ways to help your child feel safe and supported in uncertain times. ",
+    "text": "💛 Asigurarea siguranței copiilor poate părea copleșitoare, dar un plan clar ajută. Sfatul de azi îți arată modalități simple de a-ți ajuta copilul să se simtă în siguranță și sprijinit în perioade incerte. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to continue now?",
+    "text": "Vrei să continui acum?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 It can be frightening to think about traffickers, but talking with your child helps protect them. Today’s tip shows you simple ways to keep your child safe and aware.",
+    "text": "💛 Poate fi înfricoșător să te gândești la traficanți, dar discuțiile cu copilul tău ajută la protejarea acestuia. Sfatul de astăzi îți oferă câteva modalități simple prin care îl poți ajuta să fie în siguranță și mai conștient de riscuri.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 Sometimes families need to stay in a shelter during emergencies or unsafe times. Today’s tip shares simple ways to help your child feel safe and cared for there.",
+    "text": "💛 Uneori, familiile trebuie să stea într-un adăpost în timpul situațiilor de urgență sau în perioade nesigure. Sfatul de azi oferă câteva modalități simple prin care îți poți ajuta copilul să se simtă în siguranță și îngrijit acolo.",
     "type": "text",
     "note": ""
   },
@@ -540,20 +558,20 @@
     "note": ""
   },
   {
-    "SourceText": "Your current media setting is Text / Images.",
-    "text": "Setarea actuală pentru conținutul media este Text / Imagini.",
+    "SourceText": "You are receiving content with text and images.",
+    "text": "Primești conținut cu text și imagini.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Your current media setting is Audio.",
-    "text": "Setarea actuală pentru conținutul media este Audio.",
+    "SourceText": "You are receiving content with Audio.",
+    "text": "Primești conținut cu Sunet.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Your current media setting is",
-    "text": "Setarea actuală pentru conținutul media este",
+    "SourceText": "You are receiving content with",
+    "text": "Primești conținut cu",
     "type": "text",
     "note": ""
   },
@@ -624,8 +642,20 @@
     "note": ""
   },
   {
+    "SourceText": "You’ve completed the {prog_name} – well done! There are no new tips available, but you can always review any of the completed tips by selecting option 1 in the {MENU}",
+    "text": "Ai finalizat sfaturile de pe {prog_name} – felicitări! Nu sunt disponibile sfaturi noi, dar poți oricând să revezi sfaturile completate selectând opțiunea 1 din {MENU}",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Thanks for reaching out 🤍 It really shows how much you care about your children. Right now, the programme is full, but we’ve added you to the waiting list. As soon as a spot opens up, we’ll let you know.",
     "text": "Îți mulțumim de interes 🤍. Acest lucru arată cât de mult îți pasă de copiii tăi. În acest moment, programul a ajuns la numărul maxim de utilizatori, dar te-am adăugat pe lista de așteptare. De îndată ce se va elibera un loc, te vom anunța.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a video about {prog_name}.",
+    "text": "Iată un videoclip despre {prog_name}.",
     "type": "text",
     "note": ""
   },
@@ -756,12 +786,6 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Proceed to the next tip",
-    "text": "Treci la următorul sfat",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
     "SourceText": "Nothing. Let's continue tomorrow.",
     "text": "Nimic. Să continuăm mâine.",
     "type": "quick_replies",
@@ -872,6 +896,12 @@
   {
     "SourceText": "Get more help",
     "text": "Obține ajutor suplimentar",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Watch chatbot intro video",
+    "text": "Urmărește videoclipul introductiv despre chatbot",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1128,12 +1158,6 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "proceed to the next tip",
-    "text": "treci la următorul sfat",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
     "SourceText": "na",
     "text": "na",
     "type": "arguments",
@@ -1238,6 +1262,12 @@
   {
     "SourceText": "get more help",
     "text": "obține ajutor suplimentar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "watch chatbot intro video",
+    "text": "urmărește videoclipul introductiv despre chatbot",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
