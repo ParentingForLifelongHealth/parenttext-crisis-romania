@@ -1,1 +1,2 @@
-parenttext_pipeline @ git+https://github.com/IDEMSInternational/parenttext-pipeline.git@main
+parenttext_pipeline @ git+https://github.com/IDEMSInternational/parenttext-pipeline.git@200-make-importer-compatible-with-textit
+rpft @ git+https://github.com/IDEMSInternational/rapidpro-flow-toolkit.git@main

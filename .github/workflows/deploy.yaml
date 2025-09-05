@@ -1,0 +1,44 @@
+# This workflow deploys the compiled flow.
+# It can only be triggered manually.
+name: Deploy Flows
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Find Artifact and Deploy
+    runs-on: ubuntu-latest
+    permissions:
+      # Required to read workflow run information via the API.
+      actions: read
+      # Required to check out the repository code.
+      contents: read
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download compiled flow artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: compiled-flow
+          path: ./
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Import to RapidPro
+        run: |
+          python -m parenttext_pipeline.importer \
+            -t ${{ vars.RAPIDPRO_TYPE }}
+            -H ${{ secrets.RAPIDPRO_HOST }} \
+            -u ${{ secrets.RAPIDPRO_USERNAME }} \
+            -p ${{ secrets.RAPIDPRO_PASSWORD }} \
+            -d ${{ vars.RAPIDPRO_DEPLOYMENT_NAME }} \
+            ./parenttext_all.json
