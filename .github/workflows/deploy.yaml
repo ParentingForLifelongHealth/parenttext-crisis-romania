@@ -57,7 +57,7 @@ jobs:
       - name: Import to RapidPro
         run: |
           python -m parenttext_pipeline.importer \
-            -t ${{ vars.RAPIDPRO_TYPE }}
+            -t ${{ vars.RAPIDPRO_TYPE }} \
             -H ${{ secrets.RAPIDPRO_HOST }} \
             -u ${{ secrets.RAPIDPRO_USERNAME }} \
             -p ${{ secrets.RAPIDPRO_PASSWORD }} \
