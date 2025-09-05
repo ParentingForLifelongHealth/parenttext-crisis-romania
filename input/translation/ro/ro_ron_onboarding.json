@@ -168,8 +168,20 @@
     "note": ""
   },
   {
-    "SourceText": "📲 How would you prefer to receive content — with audio guides, with video guides, or just text?",
-    "text": "📲 Cum ai prefera să primești conținutul — cu ghid audio, cu ghid video sau doar text?",
+    "SourceText": "{prog_name} is easiest to use when you receive content with video guides. Videos are fun and engaging, but we understand if you have limited mobile data. To save on data, you can choose to receive the same content with an audio guide or just text. ",
+    "text": "{prog_name} este cel mai ușor de utilizat atunci când primești conținut video. Videoclipurile sunt distractive și captivante, dar înțelegem dacă datele mobile sunt limitate. Pentru a economisi datele mobile, poți alege să primești același conținut în format audio sau doar text. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📲 How would you prefer to receive content — with video guides, with audio guides, or just text?",
+    "text": "📲 Cum ai prefera să primești conținutul — în format video, audio sau doar text?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! Thanks for letting us know your preference. 👌 Before we continue, here’s something important about the illustrations you’ll see in {prog_name}. They are AI adaptations of original work by Orli Setton created for Parenting for Lifelong Health, and shared under a CC BY-SA 4.0 International licence.",
+    "text": "Minunat! Îți mulțumim că ne-ai comunicat preferința ta. 👌 Înainte de a continua, vă rugăm să rețineți un aspect important referitor la ilustrațiile pe care le veți vedea în {prog_name}. Acestea sunt adaptări AI ale lucrărilor originale ale lui Orli Setton, create pentru Parenting for Lifelong Health și distribuite sub licența internațională CC BY-SA 4.0.",
     "type": "text",
     "note": ""
   },
