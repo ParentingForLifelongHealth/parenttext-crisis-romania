@@ -21,7 +21,7 @@ jobs:
         id: find_run
         run: |
           run_id=$(gh api \
-            "/repos/${{ github.repository }}/actions/workflows/compile.yml/runs?head_sha=${{ github.sha }}" \
+            "/repos/${{ github.repository }}/actions/workflows/compile.yaml/runs?head_sha=${{ github.sha }}" \
             --jq '.workflow_runs | map(select(.status == "completed" and .conclusion == "success")) | .[0].id')
 
           if [ -z "$run_id" ] || [ "$run_id" == "null" ]; then
