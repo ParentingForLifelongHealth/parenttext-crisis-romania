@@ -127,7 +127,9 @@
                         "criz\u0103",
                         "crize"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "criza"
+                    ]
                 }
             }
         },
@@ -172,7 +174,9 @@
                         "victim\u0103",
                         "victimizat"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "victima"
+                    ]
                 }
             }
         },
@@ -195,7 +199,9 @@
                         "urgen\u021b\u0103",
                         "112.0"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "urgenta"
+                    ]
                 }
             }
         },
@@ -246,7 +252,11 @@
                         "urm\u0103ritor",
                         "urm\u0103rit"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "urmarire",
+                        "urmaritor",
+                        "urmarit"
+                    ]
                 }
             }
         },
@@ -271,7 +281,11 @@
                         "urm\u0103ritor",
                         "urm\u0103rit"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "urmarire",
+                        "urmaritor",
+                        "urmarit"
+                    ]
                 }
             }
         },
@@ -297,7 +311,9 @@
                         "suferit",
                         "torturat"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "suferinta"
+                    ]
                 }
             }
         },
@@ -346,7 +362,10 @@
                         "vomat",
                         "v\u0103rs\u0103turi"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "voma",
+                        "varsaturi"
+                    ]
                 }
             }
         },
@@ -370,7 +389,10 @@
                         "vomit\u0103",
                         "vomitat"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "voma",
+                        "vomita"
+                    ]
                 }
             }
         },
@@ -394,7 +416,10 @@
                         "transmitere sexual\u0103",
                         "boli"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "boala",
+                        "transmitere sexuala"
+                    ]
                 }
             }
         },
@@ -418,7 +443,10 @@
                         "boal\u0103",
                         "boln\u0103vicios"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "boala",
+                        "bolnavicios"
+                    ]
                 }
             }
         },
@@ -442,7 +470,9 @@
                         "boal\u0103",
                         "boli"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "boala"
+                    ]
                 }
             }
         },
@@ -464,7 +494,10 @@
                         "s\u0103n\u0103tate",
                         "s\u0103n\u0103tos"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "sanatate",
+                        "sanatos"
+                    ]
                 }
             }
         },
@@ -486,7 +519,9 @@
                         "spital",
                         "clinic\u0103"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "clinica"
+                    ]
                 }
             }
         },
@@ -645,7 +680,9 @@
                         "tulburare",
                         "tulbur\u0103ri"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "tulburari"
+                    ]
                 }
             }
         },
@@ -707,7 +744,9 @@
                         "sinuciga\u0219",
                         "sinucideri"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "sinucigas"
+                    ]
                 }
             }
         },
@@ -753,7 +792,10 @@
                         "m\u00e2hnire",
                         "m\u00e2hnit"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "mahnire",
+                        "mahnit"
+                    ]
                 }
             }
         },
@@ -775,7 +817,9 @@
                         "trisit",
                         "\u00eentristat"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "intristat"
+                    ]
                 }
             }
         },
@@ -796,7 +840,10 @@
                         "spaim\u0103",
                         "\u00eensp\u0103im\u00e2ntat"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "spaima",
+                        "inspaimantat"
+                    ]
                 }
             }
         },
@@ -814,7 +861,9 @@
                     "keywords": [
                         "team\u0103"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "teama"
+                    ]
                 }
             }
         },
@@ -832,7 +881,9 @@
                     "keywords": [
                         "\u00eengrijorat"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "ingrijorat"
+                    ]
                 }
             }
         },
@@ -853,7 +904,10 @@
                         "fric\u0103",
                         "\u00eenfrico\u0219at"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "frica",
+                        "infricosat"
+                    ]
                 }
             }
         },
@@ -877,7 +931,9 @@
                         "panic\u0103",
                         "panicat"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "panica"
+                    ]
                 }
             }
         },
@@ -969,7 +1025,9 @@
                         "alunecare teren",
                         "pr\u0103bu\u015fire"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "prabusire"
+                    ]
                 }
             }
         },
@@ -995,7 +1053,10 @@
                         "inundadat",
                         "inunda\u021bii"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "inundatii",
+                        "inundatie"
+                    ]
                 }
             }
         },
@@ -1049,7 +1110,9 @@
                         "furtun\u0103",
                         "ploaie",
                         "ap\u0103",
-                        "vijelie"
+                        "vijelie",
+                        "tornada",
+                        "furtuna"
                     ]
                 }
             }
@@ -1072,7 +1135,9 @@
                         "uscat",
                         "ariditate"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "inundatii"
+                    ]
                 }
             }
         },
@@ -1110,7 +1175,10 @@
                         "v\u00e2nt",
                         "furtun\u0103"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "vant",
+                        "furtuna"
+                    ]
                 }
             }
         }
@@ -1279,7 +1347,10 @@
                         "opre\u0219te",
                         "suspend\u0103"
                     ],
-                    "mispellings": []
+                    "mispellings": [
+                        "opreste",
+                        "suspenda"
+                    ]
                 }
             }
         }
