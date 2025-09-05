@@ -59,11 +59,11 @@ jobs:
       - name: Import to RapidPro
         run: |
           python -m parenttext_pipeline.importer \
-            -t ${{ vars.RAPIDPRO_TYPE }} \
-            -H ${{ secrets.RAPIDPRO_HOST }} \
-            -u ${{ secrets.RAPIDPRO_USERNAME }} \
-            -p ${{ secrets.RAPIDPRO_PASSWORD }} \
-            -d ${{ vars.RAPIDPRO_DEPLOYMENT_NAME }} \
+            -t "${{ vars.RAPIDPRO_TYPE }}" \
+            -H "${{ secrets.RAPIDPRO_HOST }}" \
+            -u "${{ secrets.RAPIDPRO_USERNAME }}" \
+            -p "${{ secrets.RAPIDPRO_PASSWORD }}" \
+            -d "${{ vars.RAPIDPRO_DEPLOYMENT_NAME }}" \
             ./parenttext_all.json
       - name: Upload failure screenshot
         uses: actions/upload-artifact@v4
