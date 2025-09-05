@@ -65,3 +65,10 @@ jobs:
             -p ${{ secrets.RAPIDPRO_PASSWORD }} \
             -d ${{ vars.RAPIDPRO_DEPLOYMENT_NAME }} \
             ./parenttext_all.json
+      - name: Upload failure screenshot
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: import_failure
+          path: ./import_failure.png
+          retention-days: 1
