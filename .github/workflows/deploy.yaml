@@ -10,20 +10,41 @@ jobs:
     name: Find Artifact and Deploy
     runs-on: ubuntu-latest
     permissions:
-      # Required to read workflow run information via the API.
       actions: read
-      # Required to check out the repository code.
       contents: read
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Find successful compile run for this commit
+        id: find_run
+        run: |
+          run_id=$(gh api \
+            "/repos/${{ github.repository }}/actions/workflows/compile.yml/runs?head_sha=${{ github.sha }}" \
+            --jq '.workflow_runs | map(select(.status == "completed" and .conclusion == "success")) | .[0].id')
+
+          if [ -z "$run_id" ] || [ "$run_id" == "null" ]; then
+            echo "::error::No successful 'Compile Flows' run found for commit ${{ github.sha }}. Please ensure the compile action has succeeded for this commit before deploying."
+            exit 1
+          fi
+          
+          echo "Found successful run with ID: $run_id"
+          echo "run_id=$run_id" >> $GITHUB_OUTPUT
+        env:
+          # The GITHUB_TOKEN is automatically provided by GitHub and is required for API authentication.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Download compiled flow artifact
         uses: actions/download-artifact@v4
         with:
+          # The name of the artifact to download. This must match the name used in the compile workflow.
           name: compiled-flow
+          # Specify the exact workflow run to download the artifact from.
+          # This ensures we get the artifact from the commit we're deploying, not just the latest one.
+          run-id: ${{ steps.find_run.outputs.run_id }}
           path: ./
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
