@@ -73,7 +73,7 @@
   },
   {
     "SourceText": "✅ To read our privacy policy, visit {consent}. If you are over 18 and consent to our privacy policy, select YES. Type \"EXIT\" if you do not want to participate.",
-    "text": "✅ Pentru a citi politica noastră de confidențialitate, accesați {consent}. Dacă ai peste 18 ani și ești de acord cu politica noastră de confidențialitate, selectează DA. Tastează \"IEȘIRE\" dacă nu vrei să participi.",
+    "text": "✅ Pentru a citi politica noastră de confidențialitate, accesează {consent}. Dacă ai peste 18 ani și ești de acord cu politica noastră de confidențialitate, selectează DA. Tastează \"IEȘIRE\" dacă nu vrei să participi.",
     "type": "text",
     "note": ""
   },
@@ -97,7 +97,7 @@
   },
   {
     "SourceText": "Thank you! To complete this programme, you won’t be alone. You’ll have a parenting guide by your side. There are two supportive parenting experts you can choose from:",
-    "text": "Mulțumesc! Pentru a finaliza acest program, nu vei fi singur. Vei avea un ghid parental alături de tine. Poți alege dintre doi experți în educație parentală care te vor susține:",
+    "text": "Mulțumim! Pentru a finaliza acest program, nu vei fi singur. Vei avea un ghid parental alături de tine. Poți alege dintre doi experți în educație parentală care te vor susține:",
     "type": "text",
     "note": ""
   },
@@ -181,7 +181,7 @@
   },
   {
     "SourceText": "Great! Thanks for letting us know your preference. 👌 Before we continue, here’s something important about the illustrations you’ll see in {prog_name}. They are AI adaptations of original work by Orli Setton created for Parenting for Lifelong Health, and shared under a CC BY-SA 4.0 International licence.",
-    "text": "Minunat! Îți mulțumim că ne-ai comunicat preferința ta. 👌 Înainte de a continua, vă rugăm să rețineți un aspect important referitor la ilustrațiile pe care le veți vedea în {prog_name}. Acestea sunt adaptări AI ale lucrărilor originale ale lui Orli Setton, create pentru Parenting for Lifelong Health și distribuite sub licența internațională CC BY-SA 4.0.",
+    "text": "Minunat! Îți mulțumim că ne-ai comunicat preferința ta. 👌 Înainte de a continua, te rugăm să reții un aspect important referitor la ilustrațiile pe care le vei vedea în {prog_name}. Acestea sunt adaptări AI ale lucrărilor originale ale lui Orli Setton, create pentru Parenting for Lifelong Health și distribuite sub licența internațională CC BY-SA 4.0.",
     "type": "text",
     "note": ""
   },

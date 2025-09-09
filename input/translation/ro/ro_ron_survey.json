@@ -31,7 +31,7 @@
   },
   {
     "SourceText": "Press a number on your keypad: ",
-    "text": "Apăsă un număr de pe tastatură: ",
+    "text": "Apasă o cifră pe tastatură:  ",
     "type": "text",
     "note": ""
   },

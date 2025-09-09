@@ -477,41 +477,46 @@
       {
         "ID": "help_children_cope",
         "name": "help_children_cope",
-        "uuid": "2831b64f-c9a9-47d9-9a50-f5fdf0939608"
+        "uuid": "2831b64f-c9a9-47d9-9a50-f5fdf0939603"
       },
       {
         "ID": "make_a_routine",
         "name": "make_a_routine",
-        "uuid": "a05091c4-f68f-42fd-bb48-444db89694b4"
-      },
-      {
-        "ID": "calm_encourage",
-        "name": "calm_encourage",
-        "uuid": "61c277d5-a5c0-49df-8875-7f927a236a0d"
+        "uuid": "2831b64f-c9a9-47d9-9a50-f5fdf0939608"
       },
       {
         "ID": "prepare_to_travel",
         "name": "prepare_to_travel",
-        "uuid": "c2c5d2d8-bc44-438b-8a28-67613a2b6752"
+        "uuid": "a05091c4-f68f-42fd-bb48-444db89694b4"
       },
       {
         "ID": "travel_safely",
         "name": "travel_safely",
-        "uuid": "aa16b81b-76ff-4463-af7d-8b30013e2e25"
+        "uuid": "61c277d5-a5c0-49df-8875-7f927a236a0d"
       },
       {
         "ID": "protect_sexual_violence",
         "name": "protect_sexual_violence",
-        "uuid": "41bc4999-915f-443c-854c-b17a90c82ce7"
+        "uuid": "c2c5d2d8-bc44-438b-8a28-67613a2b6752"
       },
       {
         "ID": "when_someone_dies",
         "name": "when_someone_dies",
+        "uuid": "aa16b81b-76ff-4463-af7d-8b30013e2e25"
+      },
+      {
+        "ID": "keep_children_safe",
+        "name": "keep_children_safe",
+        "uuid": "41bc4999-915f-443c-854c-b17a90c82ce7"
+      },
+      {
+        "ID": "protect_from_traffickers",
+        "name": "protect_from_traffickers",
         "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4094"
       },
       {
-        "ID": "building_strength",
-        "name": "building_strength",
+        "ID": "care_in_a_shelter",
+        "name": "care_in_a_shelter",
         "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4091"
       },
       {
@@ -523,6 +528,11 @@
         "ID": "1month",
         "name": "1month",
         "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4095"
+      },
+      {
+        "ID": "1month_reminder",
+        "name": "1month_reminder",
+        "uuid": "2a1c42a2-1469-4f8b-867c-707c9d3e4096"
       }
     ],
     "webhook_settings": [
