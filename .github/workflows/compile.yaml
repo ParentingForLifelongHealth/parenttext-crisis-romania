@@ -39,6 +39,21 @@ jobs:
           path: ./temp/rpft.log
           retention-days: 1
 
+      - name: Upload missing translations log
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: missing-translations
+          path: ./temp/missing_*
+          retention-days: 1
+      - name: Upload partially translated log
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: missing-translations
+          path: ./temp/partially_transl_*
+          retention-days: 1
+
       - name: Upload compiled flow artifact
         uses: actions/upload-artifact@v4
         with:
