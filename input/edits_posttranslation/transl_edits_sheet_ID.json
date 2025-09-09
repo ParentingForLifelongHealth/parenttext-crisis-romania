@@ -126,7 +126,7 @@
         "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
         "change": "{natural_disasters_referrals}",
         "condition_var": "",
-        "category": "The services below can help keep you and your family safe and informed in case of a natural disaster: \n\n**Inspectorate for Emergency Situations (IGSU) & Department for Emergency Situations (DSU)**  \nOfficial national bodies providing information and response during emergencies and disasters.  \nThey offer:  \n- Safety tips for different types of disasters  \n- Real-time alerts  \n- Emergency preparedness guides  \n🌐 Websites:\n- [www.igsu.ro](https://www.igsu.ro)  \n- [www.dsu.mai.gov.ro](https://www.dsu.mai.gov.ro)  \n- [www.fiipregatit.ro](https://fiipregatit.ro)"
+        "category": "The services below can help keep you and your family safe and informed in case of a natural disaster: \n\n**Inspectorate for Emergency Situations (IGSU) & Department for Emergency Situations (DSU)**  \nOfficial national bodies providing information and response during emergencies and disasters.  \nThey offer:  \n- Safety tips for different types of disasters  \n- Real-time alerts  \n- Emergency preparedness guides  \n🌐 Websites:\n- www.igsu.ro\n- www.dsu.mai.gov.ro\n- www.fiipregatit.ro"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -135,7 +135,7 @@
         "node_identifier": "Regex:.*{mental_health_referrals}.*",
         "change": "{mental_health_referrals}",
         "condition_var": "",
-        "category": "If you are going through a difficult time or experiencing emotional distress, you are not alone. These free and confidential services are here to support you: \n\n**Telefonul Verde Antisuicid – Suicide Prevention Helpline**  \nProvides support for anyone struggling with suicidal thoughts or emotional distress.  \n📞 0800 801 200 (free of charge)  \n📧 sos@antisuicid.com\n\n**National Emergency Number**  \nFor urgent situations needing immediate help from:  🚑 Medical assistance  🚓 Police  🚒 Fire services  \n📞 Dial 112"
+        "category": "If you are going through a difficult time or experiencing emotional distress, you are not alone. These free and confidential services are here to support you: \n\n**Telefonul Verde Antisuicid – Suicide Prevention Helpline**  \nProvides support for anyone struggling with suicidal thoughts or emotional distress.  \n📞 0800 801 200 (free of charge)  \n📧 sos@antisuicid.com\n\n**National Emergency Number**  \nFor urgent situations needing immediate help from:\n🚑 Medical assistance \n🚓 Police \n🚒 Fire services  \n📞 Dial 112"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -153,7 +153,7 @@
         "node_identifier": "Regex:.*{generic_referrals}.*",
         "change": "{generic_referrals}",
         "condition_var": "",
-        "category": "If you or someone you know is in danger or needs help, there are free and confidential services available: \n\n **National Emergency Number**  \nConnects you to emergency services: Medical help, Police and Fire services  \n📞 Dial 112\n\n**National Child Helpline**  \nFree support line for children in vulnerable situations or anyone concerned about a child experiencing violence, exploitation, or abuse.  \n📞 *Dial 119*\n;\n**Anti-Trafficking Hotline (ANITP)**  \nUse this number to report suspected human trafficking or get support.  \n📞 0 800 800 678(free of charge)\n\n**Domestic Violence and Discrimination Helpline**  \nFree 24/7 support for:  \n- Victims of domestic violence  \n- Human trafficking  \n- Gender or multiple discrimination  \n📞 Dial 0800 500 333"
+        "category": "If you or someone you know is in danger or needs help, there are free and confidential services available: \n\n **National Emergency Number**  \nConnects you to emergency services: Medical help, Police and Fire services  \n📞 Dial 112\n\n**National Child Helpline**  \nFree support line for children in vulnerable situations or anyone concerned about a child experiencing violence, exploitation, or abuse.  \n📞 *Dial 119*\n\n**Anti-Trafficking Hotline (ANITP)**  \nUse this number to report suspected human trafficking or get support.  \n📞 0 800 800 678 (free of charge)\n\n**Domestic Violence and Discrimination Helpline**  \nFree 24/7 support for:  \n- Victims of domestic violence  \n- Human trafficking  \n- Gender or multiple discrimination  \n📞 Dial 0800 500 333"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -162,7 +162,7 @@
         "node_identifier": "Regex:.*{family_referrals}.*",
         "change": "{family_referrals}",
         "condition_var": "",
-        "category": "\n**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)**  \nLocal public agencies that offer:  \n- Family counselling and social assistance  \n- Protection and support for children at risk  \n- Help for families in crisis situations  \n\n🌐 Find your local DGASPC office: \n[https://dgaspc.ro](https://dgaspc.ro)"
+        "category": "\n**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)**  \nLocal public agencies that offer:  \n- Family counselling and social assistance  \n- Protection and support for children at risk  \n- Help for families in crisis situations  \n\n🌐 Find your local DGASPC office: \nhttps://dgaspc.ro"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -171,7 +171,7 @@
         "node_identifier": "Regex:.*{child_protection_referrals}.*",
         "change": "{child_protection_referrals}",
         "condition_var": "",
-        "category": "Add referral"
+        "category": "**Linia Telefonică pentru Copii - Telefonul Copilului** \n Linie gratuită de sprijin pentru copii aflați în situații vulnerabile sau pentru oricine este îngrijorat de un copil care experimentează violență, exploatare sau abuz. \n 📞 Sună la: 119\n \n **Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \nhttps://dgaspc.ro"
       }
     ],
     "referrals_transl": [
@@ -182,7 +182,7 @@
         "node_identifier": "Regex:.*{natural_disasters_referrals}.*",
         "original": "{natural_disasters_referrals}",
         "language": "ron",
-        "replacement": "Serviciile de mai jos pot fi de folos pentru a te ține pe tine și pe familia ta în siguranță și informat în cazul unui dezastru natural:\n \n **Inspectoratul General pentru Situații de Urgență (IGSU) & Departmentul pentru Situații de Urgență (DSU)** \n Organismele naționale oficiale care furnizează informații și răspuns în situații de urgență și dezastre. \n Acestea oferă: \n - Sfaturi privind siguranța în timpul diferitelor tipuri de dezastre\n - Alerte în timp real\n - Ghiduri de pregătire pentru situații de urgențe\n 🌐 Site-uri web:\n - [www.igsu.ro](https://www.igsu.ro) \n - [www.dsu.mai.gov.ro (https://www.dsu.mai.gov.ro) \n - [www.fiipregatit.ro](https://fiipregatit.ro)"
+        "replacement": "Serviciile de mai jos pot fi de folos pentru a te ține pe tine și pe familia ta în siguranță și informat în cazul unui dezastru natural:\n \n **Inspectoratul General pentru Situații de Urgență (IGSU) & Departmentul pentru Situații de Urgență (DSU)** \n Organismele naționale oficiale care furnizează informații și răspuns în situații de urgență și dezastre. \n Acestea oferă: \n - Sfaturi privind siguranța în timpul diferitelor tipuri de dezastre\n - Alerte în timp real\n - Ghiduri de pregătire pentru situații de urgențe\n 🌐 Site-uri web:\n - www.igsu.ro\n - www.dsu.mai.gov.ro\n - www.fiipregatit.ro"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -191,7 +191,7 @@
         "node_identifier": "Regex:.*{mental_health_referrals}.*",
         "original": "{mental_health_referrals}",
         "language": "ron",
-        "replacement": "Dacă treci printr-o perioadă dificilă sau experimentezi suferință emoțională, nu ești singur. Aceste servicii gratuite și confidențiale sunt aici pentru a te sprijini: \n \n **Telefonul Verde Antisuicid – Linia de Prevenire a Suicidului** \n Oferă sprijin pentru oricine se confruntă cu gânduri suicidare sau suferință emoțională. \n 📞 0800 801 200 (gratuit) \n 📧 sos@antisuicid.com\n \n **Numărul Național de Urgență** \n Pentru situații urgente care necesită ajutor imediat de la: 🚑 Salvare 🚓 Poliție 🚒 Pompieri \n 📞 Sună la: 112"
+        "replacement": "Dacă treci printr-o perioadă dificilă sau experimentezi suferință emoțională, nu ești singur. Aceste servicii gratuite și confidențiale sunt aici pentru a te sprijini: \n \n **Telefonul Verde Antisuicid – Linia de Prevenire a Suicidului** \n Oferă sprijin pentru oricine se confruntă cu gânduri suicidare sau suferință emoțională. \n 📞 0800 801 200 (gratuit) \n 📧 sos@antisuicid.com\n \n **Numărul Național de Urgență** \n Pentru situații urgente care necesită ajutor imediat de la:\n🚑 Salvare\n🚓 Poliție\n🚒 Pompieri \n📞 Sună la: 112"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -218,7 +218,7 @@
         "node_identifier": "Regex:.*{family_referrals}.*",
         "original": "{family_referrals}",
         "language": "ron",
-        "replacement": "**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \n [https://dgaspc.ro](https://dgaspc.ro)"
+        "replacement": "**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \nhttps://dgaspc.ro"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -227,7 +227,7 @@
         "node_identifier": "Regex:.*{child_protection_referrals}.*",
         "original": "{child_protection_referrals}",
         "language": "ron",
-        "replacement": "**Linia Telefonică pentru Copii - Telefonul Copilului** \n Linie gratuită de sprijin pentru copii aflați în situații vulnerabile sau pentru oricine este îngrijorat de un copil care experimentează violență, exploatare sau abuz. \n 📞 Sună la: 119\n \n **Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \n [https://dgaspc.ro](https://dgaspc.ro)"
+        "replacement": "**Linia Telefonică pentru Copii - Telefonul Copilului** \n Linie gratuită de sprijin pentru copii aflați în situații vulnerabile sau pentru oricine este îngrijorat de un copil care experimentează violență, exploatare sau abuz. \n 📞 Sună la: 119\n \n **Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \nhttps://dgaspc.ro"
       },
       {
         "type_of_edit": "replace_bit_of_text",
