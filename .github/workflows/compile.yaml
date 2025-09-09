@@ -50,7 +50,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: missing-translations
+          name: partially-translated
           path: ./temp/partially_transl_*
           retention-days: 1
 
