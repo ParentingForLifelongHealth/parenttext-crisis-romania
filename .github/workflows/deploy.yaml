@@ -1,74 +1,19 @@
-# This workflow deploys the compiled flow.
-# It can only be triggered manually.
-name: Deploy Flows
+name: Deploy Flows to RapidPro
 
 on:
   workflow_dispatch:
 
 jobs:
-  deploy:
-    name: Find Artifact and Deploy
-    runs-on: ubuntu-latest
-    permissions:
-      actions: read
-      contents: read
-
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Find successful compile run for this commit
-        id: find_run
-        run: |
-          run_id=$(gh api \
-            "/repos/${{ github.repository }}/actions/workflows/compile.yaml/runs?head_sha=${{ github.sha }}" \
-            --jq '.workflow_runs | map(select(.status == "completed" and .conclusion == "success")) | .[0].id')
-
-          if [ -z "$run_id" ] || [ "$run_id" == "null" ]; then
-            echo "::error::No successful 'Compile Flows' run found for commit ${{ github.sha }}. Please ensure the compile action has succeeded for this commit before deploying."
-            exit 1
-          fi
-          
-          echo "Found successful run with ID: $run_id"
-          echo "run_id=$run_id" >> $GITHUB_OUTPUT
-        env:
-          # The GITHUB_TOKEN is automatically provided by GitHub and is required for API authentication.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Download compiled flow artifact
-        uses: actions/download-artifact@v4
-        with:
-          # The name of the artifact to download. This must match the name used in the compile workflow.
-          name: compiled-flow
-          # Specify the exact workflow run to download the artifact from.
-          # This ensures we get the artifact from the commit we're deploying, not just the latest one.
-          run-id: ${{ steps.find_run.outputs.run_id }}
-          path: ./
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
-      - name: Set up Playwright
-        run: playwright install chromium
-
-      - name: Import to RapidPro
-        run: |
-          python -m parenttext_pipeline.importer \
-            -t "${{ vars.RAPIDPRO_TYPE }}" \
-            -H "${{ secrets.RAPIDPRO_HOST }}" \
-            -u "${{ secrets.RAPIDPRO_USERNAME }}" \
-            -p "${{ secrets.RAPIDPRO_PASSWORD }}" \
-            -d "${{ vars.RAPIDPRO_DEPLOYMENT_NAME }}" \
-            ./parenttext_all.json
-      - name: Upload failure screenshot
-        uses: actions/upload-artifact@v4
-        if: failure()
-        with:
-          name: import_failure
-          path: ./import_failure.png
-          retention-days: 1
+  call-deploy-workflow:
+    name: Call Deploy
+    uses: IDEMSInternational/parenttext-core/.github/workflows/deploy_rapidpro.yml@main
+    
+    with:
+      rapidpro_type: $${{ vars.RAPIDPRO_TYPE }}
+      rapidpro_deployment_name: $${{ vars.RAPIDPRO_DEPLOYMENT_NAME }}
+    
+    secrets:
+      RAPIDPRO_HOST: ${{ secrets.RAPIDPRO_HOST }}
+      RAPIDPRO_USERNAME: ${{ secrets.RAPIDPRO_USERNAME }}
+      RAPIDPRO_PASSWORD: ${{ secrets.RAPIDPRO_PASSWORD }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -8,55 +8,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-compile:
-    # This job compiles the flow definition file.
-    name: Build and Compile
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'npm'
-      - name: Install Node dependencies
-        run: npm ci
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
-      - name: Compile Flows
-        run: python -m parenttext_pipeline.cli compile_flows
-      - name: Upload compile log
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: compile-log
-          path: ./temp/rpft.log
-          retention-days: 1
-
-      - name: Upload missing translations log
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: missing-translations
-          path: ./temp/missing_*
-          retention-days: 1
-      - name: Upload partially translated log
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: partially-translated
-          path: ./temp/partially_transl_*
-          retention-days: 1
-
-      - name: Upload compiled flow artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: compiled-flow
-          path: ./output/parenttext_all.json
-          retention-days: 1
+  call-compile-workflow:
+    name: Call Compile
+    uses: IDEMSInternational/parenttext-core/.github/workflows/compile.yml@main
