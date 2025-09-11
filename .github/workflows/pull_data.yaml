@@ -1,0 +1,13 @@
+name: Pull Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-pull-workflow:
+    name: Call Pull Data
+    uses: IDEMSInternational/parenttext-core/.github/workflows/pull_data.yml@main
+    
+    secrets:
+      GCP_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
+      PAT: ${{ secrets.PAT }}

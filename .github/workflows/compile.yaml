@@ -1,0 +1,13 @@
+name: Compile Flows
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  call-compile-workflow:
+    name: Call Compile
+    uses: IDEMSInternational/parenttext-core/.github/workflows/compile.yml@main

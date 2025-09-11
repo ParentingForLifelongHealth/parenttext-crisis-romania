@@ -1,0 +1,19 @@
+name: Deploy Flows to RapidPro
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-deploy-workflow:
+    name: Call Deploy
+    uses: IDEMSInternational/parenttext-core/.github/workflows/deploy_rapidpro.yml@main
+    
+    with:
+      rapidpro_type: $${{ vars.RAPIDPRO_TYPE }}
+      rapidpro_deployment_name: $${{ vars.RAPIDPRO_DEPLOYMENT_NAME }}
+    
+    secrets:
+      RAPIDPRO_HOST: ${{ secrets.RAPIDPRO_HOST }}
+      RAPIDPRO_USERNAME: ${{ secrets.RAPIDPRO_USERNAME }}
+      RAPIDPRO_PASSWORD: ${{ secrets.RAPIDPRO_PASSWORD }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
