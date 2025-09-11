@@ -205,7 +205,7 @@
   },
   {
     "SourceText": "Let’s get started. Press NEXT to begin.",
-    "text": "Să începem. Apasă URMĂTORUL pentru a începe.",
+    "text": "Să începem. Apasă CONTINUĂ pentru a începe.",
     "type": "text",
     "note": ""
   },
@@ -775,7 +775,7 @@
   },
   {
     "SourceText": "NEXT",
-    "text": "URMĂTORUL",
+    "text": "CONTINUĂ",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
