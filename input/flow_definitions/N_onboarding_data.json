@@ -112,8 +112,8 @@
         "postprocessing.assignments.1.value": "@answer",
         "postprocessing.assignments.2.variable": "completed language",
         "postprocessing.assignments.2.value": "yes",
-        "postprocessing.assignments.3.variable": "attachment language",
-        "postprocessing.assignments.3.value": "ron",
+        "postprocessing.assignments.3.variable": "",
+        "postprocessing.assignments.3.value": "",
         "postprocessing.assignments.4.variable": "",
         "postprocessing.assignments.4.value": "",
         "expiration.message": ""

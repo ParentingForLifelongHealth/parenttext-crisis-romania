@@ -552,6 +552,11 @@
         "ID": "deployment_name",
         "name": "deployment",
         "value": "CrisisRomania"
+      },
+      {
+        "ID": "attach_lang",
+        "name": "attachment language",
+        "value": "ron"
       }
     ],
     "local_triggers": [
