@@ -9,8 +9,8 @@ jobs:
     uses: IDEMSInternational/parenttext-core/.github/workflows/deploy_rapidpro.yml@main
     
     with:
-      rapidpro_type: $${{ vars.RAPIDPRO_TYPE }}
-      rapidpro_deployment_name: $${{ vars.RAPIDPRO_DEPLOYMENT_NAME }}
+      rapidpro_type: ${{ vars.RAPIDPRO_TYPE }}
+      rapidpro_deployment_name: ${{ vars.RAPIDPRO_DEPLOYMENT_NAME }}
     
     secrets:
       RAPIDPRO_HOST: ${{ secrets.RAPIDPRO_HOST }}
