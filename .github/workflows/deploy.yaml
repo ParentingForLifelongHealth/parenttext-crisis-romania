@@ -16,4 +16,3 @@ jobs:
       RAPIDPRO_HOST: ${{ secrets.RAPIDPRO_HOST }}
       RAPIDPRO_USERNAME: ${{ secrets.RAPIDPRO_USERNAME }}
       RAPIDPRO_PASSWORD: ${{ secrets.RAPIDPRO_PASSWORD }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
