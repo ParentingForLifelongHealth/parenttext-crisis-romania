@@ -1,6 +1,8 @@
 # Intermediary output files
 temp/
 output/
+canto/
+transcoded/
 
 #credentials files
 credentials.json
