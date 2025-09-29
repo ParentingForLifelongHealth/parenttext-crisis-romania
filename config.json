@@ -97,6 +97,28 @@
                     "location": "15bf51uZx4pfcoJxVrjjAUarAAnQ_BbNZ"
                 }
             ]
+        },
+         "media_assets": {
+            "format": "media_assets",
+            "mappings": {
+                "Language": {
+                    "Romanian": "ron"
+                },
+                "Caregiver Gender": {
+                    "F": "female",
+                    "M": "male"
+                }
+            },
+            "path_template": [
+            "{% if format == 'image' %}{% if folder == 'Illustrations' %}image/{{ name }}{%else%}logo/{{ name }}{% endif %}{% else %}voiceover/{{ format }}/{{ (annotations['Caregiver Gender'] or 'unknown') }}/{{ (language or 'unknown') }}/{{ name }}{% endif %}"
+            ],
+            "storage": {
+                "system": "canto",
+                "location": "Q3U7C",
+                "annotations": {
+                    "site_base_url": "https://parentingforlifelonghealth.canto.com"
+                }
+            }
         }
     },
     "steps": [
