@@ -11,7 +11,7 @@
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names": {
-        "T_trial": "1BifL5eSoEo3b7WS8KsrnXDYg3t36yYLqzr75Y8V9Vhw",
+        
         "C_ltp_activities":"1rrtM6hy-ERxHiFhJ7-gW08hgRQmUXMxqy6oY_REwN_Y",
         "C_modules_all_ages": "1ihAUQ3ZNyph6rFD6JSmIg7xM759BJ1Gpr64GTZum_KM",
         "C_surveys": "1NlLM1oJwFkfeCVn_RsZxpZJ-j9Yu55zn132w8Gt1lts",
@@ -46,7 +46,6 @@
                 "N_menu_data_response",
                 "N_joining_triggers",
                 "C_surveys",
-                "T_trial",
                 "deployment_localised_sheets"
             ]
         },
