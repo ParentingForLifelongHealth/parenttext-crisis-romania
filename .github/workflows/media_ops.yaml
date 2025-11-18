@@ -7,6 +7,8 @@ jobs:
   call-compile-workflow:
     name: Call Media Ops
     uses: IDEMSInternational/parenttext-core/.github/workflows/media_ops.yaml@media_workflows
+    with:
+      compile_workflow_name: compile.yaml
     secrets:
       GCP_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
       CANTO_APP_ID: ${{ secrets.CANTO_APP_ID }}
