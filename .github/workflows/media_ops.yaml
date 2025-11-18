@@ -1,0 +1,9 @@
+name: Media Ops
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-compile-workflow:
+    name: Call Media Ops
+    uses: IDEMSInternational/parenttext-core/.github/workflows/media_ops.yaml@media_workflows
