@@ -1,1 +1,1 @@
-parenttext_pipeline @ git+https://github.com/IDEMSInternational/parenttext-pipeline.git@main
+parenttext_pipeline @ git+https://github.com/IDEMSInternational/parenttext-pipeline.git@212-stateless-mediaops
