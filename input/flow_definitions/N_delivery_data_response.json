@@ -428,6 +428,24 @@
         "wa_template_vars.2": ""
       },
       {
+        "ID": "care_for_yourself",
+        "question": "New tips are ready for you. Would you like to continue now?\n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "OK, see you tomorrow.",
+        "options.3.text": "",
+        "options.3.proceed_result_value": "",
+        "options.3.stop_message": "",
+        "wa_template_ID": "daily_interaction",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
         "ID": "help_children_cope",
         "question": "💛 We’re thinking of you today. There are simple things you can do to help your child cope. Would you like to learn about them? \n\nPress a number on your keypad: \n1. Yes\n2. No, remind me tomorrow",
         "webhook_template_name": "",
