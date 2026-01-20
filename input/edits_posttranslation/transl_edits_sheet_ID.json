@@ -162,7 +162,7 @@
         "node_identifier": "Regex:.*{family_referrals}.*",
         "change": "{family_referrals}",
         "condition_var": "",
-        "category": "\n**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)**  \nLocal public agencies that offer:  \n- Family counselling and social assistance  \n- Protection and support for children at risk  \n- Help for families in crisis situations  \n\n🌐 Find your local DGASPC office: \nhttps://dgaspc.ro"
+        "category": "\n**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)**  \nLocal public agencies that offer:  \n- Family counselling and social assistance  \n- Protection and support for children at risk  \n- Help for families in crisis situations  \n\n🌐 Find your local DGASPC office: \nhttps://copii.gov.ro/1/contacte-dgaspc/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -218,7 +218,7 @@
         "node_identifier": "Regex:.*{family_referrals}.*",
         "original": "{family_referrals}",
         "language": "ron",
-        "replacement": "**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \nhttps://dgaspc.ro"
+        "replacement": "**Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \nhttps://copii.gov.ro/1/contacte-dgaspc/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -227,7 +227,7 @@
         "node_identifier": "Regex:.*{child_protection_referrals}.*",
         "original": "{child_protection_referrals}",
         "language": "ron",
-        "replacement": "**Linia Telefonică pentru Copii - Telefonul Copilului** \n Linie gratuită de sprijin pentru copii aflați în situații vulnerabile sau pentru oricine este îngrijorat de un copil care experimentează violență, exploatare sau abuz. \n 📞 Sună la: 119\n \n **Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \nhttps://dgaspc.ro"
+        "replacement": "**Linia Telefonică pentru Copii - Telefonul Copilului** \n Linie gratuită de sprijin pentru copii aflați în situații vulnerabile sau pentru oricine este îngrijorat de un copil care experimentează violență, exploatare sau abuz. \n 📞 Sună la: 119\n \n **Direcțiile Generale de Asistență Socială și Protecția Copilului (DGASPC)** \n Agenții publice locale care oferă:: \n - Consiliere familială și asistență socială \n - Protecție și sprijin pentru copiii aflați în risc \n - Ajutor pentru familiile aflate în situații de criză\n \n 🌐 Găsește sediul DGASPC din zona ta: \nhttps://copii.gov.ro/1/contacte-dgaspc/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -338,19 +338,28 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{consent_link}.*",
-        "change": "{consent_link}",
+        "node_identifier": "Regex:.*{consent}.*",
+        "change": "{consent}",
         "condition_var": "",
-        "category": "Add url"
+        "category": "https://bit.ly/romania-ptext-pp-consent"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{gdpr_contact}.*",
-        "change": "{gdpr_contact}",
+        "node_identifier": "Regex:.*{tnc_link}.*",
+        "change": "{tnc_link}",
         "condition_var": "",
-        "category": "Add email"
+        "category": "https://bit.ly/romania-ptext-tc"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{gdprcontact}.*",
+        "change": "{gdprcontact}",
+        "condition_var": "",
+        "category": "privacy@idems.international"
       }
     ],
     "urls_transl": [
@@ -358,31 +367,31 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{share link}.*",
-        "original": "{share link}",
+        "node_identifier": "Regex:.*{consent}.*",
+        "original": "{consent}",
         "language": "ron",
-        "replacement": "Add translation"
+        "replacement": "https://bit.ly/romania-ptext-pp-consent"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{consent_link}.*",
-        "original": "{consent_link}",
+        "node_identifier": "Regex:.*{tnc_link}.*",
+        "original": "{tnc_link}",
         "language": "ron",
-        "replacement": "Add translation"
+        "replacement": "https://bit.ly/romania-ptext-tc"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{gdpr_contact}.*",
-        "original": "{gdpr_contact}",
+        "node_identifier": "Regex:.*{gdprcontact}.*",
+        "original": "{gdprcontact}",
         "language": "ron",
-        "replacement": "Add email"
+        "replacement": "privacy@idems.international"
       }
     ],
-    "joining_triggers_add_group": [
+    "MANUALjoining_triggers_add_group": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
@@ -408,13 +417,83 @@
         "condition_type:ro_outreach": "has_only_phrase"
       }
     ],
+    "joining_triggers_add_group": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger}.*",
+        "change": "{joining_trigger}",
+        "condition_var": "@fields.joining_trigger_id",
+        "category": "{joining_trigger}",
+        "category:test_en_digital": "{joining_trigger_test_en_digital}",
+        "condition:test_en_digital": "test_en_digital",
+        "condition_type:test_en_digital": "has_only_phrase",
+        "category:test_ro_digital": "{joining_trigger_test_ro_digital}",
+        "condition:test_ro_digital": "test_ro_digital",
+        "condition_type:test_ro_digital": "has_only_phrase",
+        "category:test_en_hybrid": "{joining_trigger_test_en_hybrid}",
+        "condition:test_en_hybrid": "test_en_hybrid",
+        "condition_type:test_en_hybrid": "has_only_phrase",
+        "category:test_ro_hybrid": "{joining_trigger_test_ro_hybrid}",
+        "condition:test_ro_hybrid": "test_ro_hybrid",
+        "condition_type:test_ro_hybrid": "has_only_phrase",
+        "category:ro_wave_1": "{joining_trigger_ro_wave_1}",
+        "condition:ro_wave_1": "ro_wave_1",
+        "condition_type:ro_wave_1": "has_only_phrase",
+        "category:ro_wave_2": "{joining_trigger_ro_wave_2}",
+        "condition:ro_wave_2": "ro_wave_2",
+        "condition_type:ro_wave_2": "has_only_phrase",
+        "category:ro_outreach": "{joining_trigger_ro_outreach}",
+        "condition:ro_outreach": "ro_outreach",
+        "condition_type:ro_outreach": "has_only_phrase"
+      }
+    ],
+    "joining_triggers_ids": [
+      {
+        "test_en_digital": "test_ro_digital"
+      },
+      {
+        "test_en_digital": "test_en_hybrid"
+      },
+      {
+        "test_en_digital": "test_ro_hybrid"
+      },
+      {
+        "test_en_digital": "ro_wave_1"
+      },
+      {
+        "test_en_digital": "ro_wave_2"
+      },
+      {
+        "test_en_digital": "ro_outreach"
+      }
+    ],
     "joining_triggers_eng": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_test_en}.*",
-        "change": "{joining_trigger_test_en}",
+        "node_identifier": "Regex:.*{joining_trigger_test_en_digital}.*",
+        "change": "{joining_trigger_test_en_digital}",
+        "condition_var": "",
+        "category": "test_eng_dig"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_test_ro_digital}.*",
+        "change": "{joining_trigger_test_ro_digital}",
+        "condition_var": "",
+        "category": "test_ro_dig"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_test_en_hybrid}.*",
+        "change": "{joining_trigger_test_en_hybrid}",
         "condition_var": "",
         "category": "test_eng"
       },
@@ -422,8 +501,8 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_test_ro}.*",
-        "change": "{joining_trigger_test_ro}",
+        "node_identifier": "Regex:.*{joining_trigger_test_ro_hybrid}.*",
+        "change": "{joining_trigger_test_ro_hybrid}",
         "condition_var": "",
         "category": "test_ro"
       },
@@ -460,7 +539,25 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_test_en}.*",
+        "node_identifier": "Regex:.*{joining_trigger_test_en_digital}.*",
+        "original": "{joining_trigger}",
+        "language": "ron",
+        "replacement": "test_eng_dig"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_test_ro_digital}.*",
+        "original": "{joining_trigger}",
+        "language": "ron",
+        "replacement": "test_ro_dig"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{joining_trigger_test_en_hybrid}.*",
         "original": "{joining_trigger}",
         "language": "ron",
         "replacement": "test_eng"
@@ -469,7 +566,7 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{joining_trigger_test_ro}.*",
+        "node_identifier": "Regex:.*{joining_trigger_test_ro_hybrid}.*",
         "original": "{joining_trigger}",
         "language": "ron",
         "replacement": "test_ro"

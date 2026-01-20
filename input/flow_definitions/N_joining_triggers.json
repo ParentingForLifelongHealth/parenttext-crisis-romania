@@ -55,12 +55,12 @@
     ],
     "JoiningTriggers": [
       {
-        "ID": "test_en",
-        "Description": "Joining trigger for testers who do not speak Romanian: This Joining trigger initiates the English version of the chatbot, which is only available for internal testing by the PLH and IDEMS teams. It is not visible or accessible to end users.",
-        "Trigger (en)": "test_eng",
+        "ID": "test_en_digital",
+        "Description": "Joining trigger for testers who do not speak Romanian: This Joining trigger initiates the English version of the chatbot, which is only available for internal testing by the PLH and IDEMS teams. It is not visible or accessible to end users.\nDIGITAL UX",
+        "Trigger (en)": "test_eng_dig",
         "Trigger (ron)": "",
-        "Experience (user group)": "digital",
-        "Recruitment (user group)": "",
+        "Experience (user group)": "Digital",
+        "Recruitment (user group)": "testers",
         "Additional (user group)": "",
         "Included in Reach? ": "",
         "Cap Users At": "",
@@ -69,12 +69,40 @@
         "Link (lan)": ""
       },
       {
-        "ID": "test_ro",
-        "Description": "Joining trigger for testers only and initates the chatbot in Romanian. If you are not a caregiver and are testing the chatbot, please use this Joining trigger to use the chatbot. This helps ensure that real user data is not mixed with test data.",
+        "ID": "test_ro_digital",
+        "Description": "Joining trigger for testers only and initates the chatbot in Romanian. If you are not a caregiver and are testing the chatbot, please use this Joining trigger to use the chatbot. This helps ensure that real user data is not mixed with test data.\nDIGITAL UX",
+        "Trigger (en)": "test_ro_dig",
+        "Trigger (ron)": "",
+        "Experience (user group)": "Digital",
+        "Recruitment (user group)": "testers",
+        "Additional (user group)": "",
+        "Included in Reach? ": "",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "test_en_hybrid",
+        "Description": "Joining trigger for testers who do not speak Romanian: This Joining trigger initiates the English version of the chatbot, which is only available for internal testing by the PLH and IDEMS teams. It is not visible or accessible to end users.\nHYBRID UX",
+        "Trigger (en)": "test_eng",
+        "Trigger (ron)": "",
+        "Experience (user group)": "Hybrid",
+        "Recruitment (user group)": "testers",
+        "Additional (user group)": "",
+        "Included in Reach? ": "",
+        "Cap Users At": "",
+        "Location, if applicable": "",
+        "Link (en)": "",
+        "Link (lan)": ""
+      },
+      {
+        "ID": "test_ro_hybrid",
+        "Description": "Joining trigger for testers only and initates the chatbot in Romanian. If you are not a caregiver and are testing the chatbot, please use this Joining trigger to use the chatbot. This helps ensure that real user data is not mixed with test data.\nHYBRID UX",
         "Trigger (en)": "test_ro",
         "Trigger (ron)": "",
-        "Experience (user group)": "digital",
-        "Recruitment (user group)": "",
+        "Experience (user group)": "Hybrid",
+        "Recruitment (user group)": "testers",
         "Additional (user group)": "",
         "Included in Reach? ": "",
         "Cap Users At": "",
@@ -87,42 +115,42 @@
         "Description": "Joining trigger for parents who are part of wave 1",
         "Trigger (en)": "support",
         "Trigger (ron)": "sprijin",
-        "Experience (user group)": "hybrid",
+        "Experience (user group)": "Hybrid",
         "Recruitment (user group)": "Wave 1",
         "Additional (user group)": "",
-        "Included in Reach? ": "reach",
+        "Included in Reach? ": "Reach",
         "Cap Users At": "1250",
         "Location, if applicable": "",
         "Link (en)": "",
-        "Link (lan)": ""
+        "Link (lan)": "https://wa.me/+40736444802?text=sprijin"
       },
       {
         "ID": "ro_wave_2",
         "Description": "Joining trigger for parents who are part of wave 2",
         "Trigger (en)": "tip",
         "Trigger (ron)": "sfat",
-        "Experience (user group)": "hybrid",
+        "Experience (user group)": "Hybrid",
         "Recruitment (user group)": "Wave 2",
         "Additional (user group)": "",
-        "Included in Reach? ": "reach",
+        "Included in Reach? ": "Reach",
         "Cap Users At": "1250",
         "Location, if applicable": "",
         "Link (en)": "",
-        "Link (lan)": ""
+        "Link (lan)": "https://wa.me/+40736444802?text=sfat"
       },
       {
         "ID": "ro_outreach",
         "Description": "Joining trigger for parents via social media outreach",
         "Trigger (en)": "compass",
         "Trigger (ron)": "busola",
-        "Experience (user group)": "digital",
+        "Experience (user group)": "Digital",
         "Recruitment (user group)": "Outreach",
         "Additional (user group)": "",
-        "Included in Reach? ": "reach",
+        "Included in Reach? ": "Reach",
         "Cap Users At": "2500",
         "Location, if applicable": "",
         "Link (en)": "",
-        "Link (lan)": ""
+        "Link (lan)": "https://wa.me/+40736444802?text=busola"
       }
     ],
     "content_index": [
@@ -159,50 +187,74 @@
     ],
     "joining_triggers_data": [
       {
-        "ID": "test_en",
-        "triggers": "test_eng",
-        "groups": "digital",
+        "ID": "test_en_digital",
+        "triggers": "test_eng_dig",
+        "groups": "Digital;testers",
         "cap": "",
         "location": ""
       },
       {
-        "ID": "test_ro",
+        "ID": "test_ro_digital",
+        "triggers": "test_ro_dig",
+        "groups": "Digital;testers",
+        "cap": "",
+        "location": ""
+      },
+      {
+        "ID": "test_en_hybrid",
+        "triggers": "test_eng",
+        "groups": "Hybrid;testers",
+        "cap": "",
+        "location": ""
+      },
+      {
+        "ID": "test_ro_hybrid",
         "triggers": "test_ro",
-        "groups": "digital",
+        "groups": "Hybrid;testers",
         "cap": "",
         "location": ""
       },
       {
         "ID": "ro_wave_1",
         "triggers": "support;sprijin",
-        "groups": "hybrid;Wave 1;reach",
+        "groups": "Hybrid;Wave 1;Reach",
         "cap": "1250",
         "location": ""
       },
       {
         "ID": "ro_wave_2",
         "triggers": "tip;sfat",
-        "groups": "hybrid;Wave 2;reach",
+        "groups": "Hybrid;Wave 2;Reach",
         "cap": "1250",
         "location": ""
       },
       {
         "ID": "ro_outreach",
         "triggers": "compass;busola",
-        "groups": "digital;Outreach;reach",
+        "groups": "Digital;Outreach;Reach",
         "cap": "2500",
         "location": ""
       }
     ],
     "cap_data": [
       {
-        "ID": "test_en",
-        "var_key": "n_test_en",
+        "ID": "test_en_digital",
+        "var_key": "n_test_en_digital",
         "var_value": ""
       },
       {
-        "ID": "test_ro",
-        "var_key": "n_test_ro",
+        "ID": "test_ro_digital",
+        "var_key": "n_test_ro_digital",
+        "var_value": ""
+      },
+      {
+        "ID": "test_en_hybrid",
+        "var_key": "n_test_en_hybrid",
+        "var_value": ""
+      },
+      {
+        "ID": "test_ro_hybrid",
+        "var_key": "n_test_ro_hybrid",
         "var_value": ""
       },
       {
@@ -214,6 +266,11 @@
         "ID": "ro_wave_2",
         "var_key": "n_ro_wave_2",
         "var_value": "1250"
+      },
+      {
+        "ID": "ro_outreach",
+        "var_key": "n_ro_outreach",
+        "var_value": "2500"
       }
     ]
   }

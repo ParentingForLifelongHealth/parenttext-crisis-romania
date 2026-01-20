@@ -18,13 +18,13 @@
     "note": ""
   },
   {
-    "SourceText": "▶️Press play to learn 4️⃣tips on how to take care of yourself: ",
-    "text": "▶️Apasă pe butonul de redare pentru a afla 4️⃣sfaturi despre cum să ai grijă de tine: ",
+    "SourceText": "▶️ Press play to learn 4️⃣ tips on how to take care of yourself: ",
+    "text": "▶️ Apasă pe butonul de redare pentru a afla 4️⃣ sfaturi despre cum să ai grijă de tine: ",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "1️⃣**REST**",
+    "SourceText": "1️⃣ **REST**",
     "text": "1️⃣ **ODIHNEȘTE-TE**",
     "type": "text",
     "note": ""
@@ -36,7 +36,7 @@
     "note": ""
   },
   {
-    "SourceText": "3️⃣**BREATHE**",
+    "SourceText": "3️⃣ **BREATHE**",
     "text": "3️⃣ **RESPIRĂ**",
     "type": "text",
     "note": ""
@@ -50,12 +50,6 @@
   {
     "SourceText": "Here are 4️⃣ tips on how to take care of yourself:",
     "text": "Iată 4️⃣ sfaturi despre cum să ai grijă de tine:",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "1️⃣ **REST**",
-    "text": "1️⃣ **ODIHNEȘTE-TE**",
     "type": "text",
     "note": ""
   },
@@ -80,12 +74,6 @@
   {
     "SourceText": "Find someone you can talk to about how you are feeling.",
     "text": "Căută o persoană cu care să poți vorbi despre ce simți.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "3️⃣ **BREATHE**",
-    "text": "3️⃣ **RESPIRĂ**",
     "type": "text",
     "note": ""
   },
@@ -240,8 +228,14 @@
     "note": ""
   },
   {
-    "SourceText": "Here are some regular activities you might want to try to do with your children:\\r\\rEat one meal together",
-    "text": "Iată câteva activități obișnuite pe care ai putea să le încerci împreună cu copiii tăi:\\r\\rLuați masa împreună",
+    "SourceText": "Here are some regular activities you might want to try to do with your children:",
+    "text": "Iată câteva activități obișnuite pe care ai putea să le încerci împreună cu copiii tăi:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Eat one meal together",
+    "text": "Luați masa împreună",
     "type": "text",
     "note": ""
   },
@@ -402,7 +396,7 @@
     "note": ""
   },
   {
-    "SourceText": "▶️Press play 3️⃣ tips on how to help your children when someone dies: ",
+    "SourceText": "▶️ Press play 3️⃣ tips on how to help your children when someone dies: ",
     "text": "▶️ Apasă pe butonul de redare pentru a descoperi 3️⃣ sfaturi utile despre cum să îți ajuți copiii când cineva moare: ",
     "type": "text",
     "note": ""
@@ -414,7 +408,7 @@
     "note": ""
   },
   {
-    "SourceText": "2️⃣**ACCEPT FEELINGS** ",
+    "SourceText": "2️⃣ **ACCEPT FEELINGS** ",
     "text": "2️⃣ **ACCEPTĂ EMOȚIILE** ",
     "type": "text",
     "note": ""
@@ -444,12 +438,6 @@
     "note": ""
   },
   {
-    "SourceText": "2️⃣ **ACCEPT FEELINGS** ",
-    "text": "2️⃣ **ACCEPTĂ EMOȚIILE** ",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "There is no right way for a child to react to loss. Children may act happy on the outside, even if they're feeling sad on the inside.",
     "text": "Nu există o modalitate corectă pentru un copil de a reacționa la pierdere. Copiii pot părea veseli în exterior, chiar dacă în interior se simt triști.",
     "type": "text",
@@ -468,8 +456,14 @@
     "note": ""
   },
   {
-    "SourceText": "Let us understand how children of different ages react to death.\\r\\rSmall children under the age of 5 years may ask if the person who has died is coming back.",
-    "text": "Hai să înțelegem cum reacționează copiii de vârste diferite la moarte.\\r\\rCopiii mici sub vârsta de 5 ani pot întreba dacă persoana care a murit se va întoarce.",
+    "SourceText": "Let us understand how children of different ages react to death.",
+    "text": "Hai să înțelegem cum reacționează copiii de vârste diferite la moarte.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Small children under the age of 5 years may ask if the person who has died is coming back.",
+    "text": "Copiii mici sub vârsta de 5 ani pot întreba dacă persoana care a murit se va întoarce.",
     "type": "text",
     "note": ""
   },
@@ -540,7 +534,7 @@
     "note": ""
   },
   {
-    "SourceText": "▶️Press play to learn 6️⃣ tips for protecting your child from sexual violence:",
+    "SourceText": "▶️ Press play to learn 6️⃣ tips for protecting your child from sexual violence:",
     "text": "▶️ Apasă pe butonul de redare pentru a descoperi 6️⃣ sfaturi utile pentru a-ți proteja copilul de violența sexuală:",
     "type": "text",
     "note": ""
@@ -570,7 +564,7 @@
     "note": ""
   },
   {
-    "SourceText": "5️⃣ **RESPOND",
+    "SourceText": "5️⃣ **RESPOND**",
     "text": "5️⃣ **REACȚIONEAZĂ**",
     "type": "text",
     "note": ""
@@ -804,6 +798,12 @@
     "note": ""
   },
   {
+    "SourceText": "2️⃣ **PLAN**",
+    "text": "2️⃣ **FACEȚI UN PLAN**",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "3️⃣ **ASSURE**",
     "text": "3️⃣ **ASIGURĂ**",
     "type": "text",
@@ -901,7 +901,7 @@
   },
   {
     "SourceText": "2️⃣ **PROTECT YOUR DOCUMENTS**",
-    "text": "2️⃣ **PROTEGEAZĂ DOCUMENTELE**",
+    "text": "2️⃣ **AI GRIJĂ DE DOCUMENTE**",
     "type": "text",
     "note": ""
   },
@@ -990,8 +990,8 @@
     "note": ""
   },
   {
-    "SourceText": "5️⃣ **MAKE AN IDENTITY TAG**\\r\\rYou will need something to write on, like paper or cardboard.",
-    "text": "5️⃣ **CREEAZĂ O ETICHETĂ DE IDENTIFICARE**\nAi nevoie de ceva pe care să scrii, cum ar fi hârtie sau carton.",
+    "SourceText": "You will need something to write on, like paper or cardboard.",
+    "text": "Ai nevoie de ceva pe care să scrii, cum ar fi hârtie sau carton.",
     "type": "text",
     "note": ""
   },
@@ -1159,7 +1159,7 @@
   },
   {
     "SourceText": "️5️⃣ **TEACH YOURSELF**",
-    "text": "5️⃣ **ÎNVĂȚĂ ȘI TU **",
+    "text": "️5️⃣ **ÎNVĂȚĂ ȘI TU**",
     "type": "text",
     "note": ""
   },
@@ -1273,7 +1273,7 @@
   },
   {
     "SourceText": "5️⃣ **TEACH YOURSELF**",
-    "text": "5️⃣ **ÎNVĂȚĂ ȘI TU **",
+    "text": "5️⃣ **ÎNVĂȚĂ ȘI TU**",
     "type": "text",
     "note": ""
   },
@@ -1447,7 +1447,7 @@
   },
   {
     "SourceText": "Press ▶️ to listen to an audio and practise taking a pause together",
-    "text": "Apasă ▶️ pentru a viziona un videoclip și să exersați împreună cum să luați o pauză",
+    "text": "Apasă ▶️ pentru a asculta conținutul audio și exersează împreună cu noi cum să-ți iei o pauză",
     "type": "text",
     "note": ""
   },

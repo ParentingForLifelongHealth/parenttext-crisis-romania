@@ -6,6 +6,12 @@
     "note": ""
   },
   {
+    "SourceText": "Press NEXT to continue",
+    "text": "Apasă \"URMĂTORUL\" pentru a merge mai departe",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Variables have been reset",
     "text": "Variabilele au fost resetate",
     "type": "text",
@@ -37,7 +43,25 @@
   },
   {
     "SourceText": "✅ In {prog_name} you'll receive lessons to help you support your child through tough times.",
-    "text": "✅ În {prog_name} vei primi lecții care să te ajute să-ți susții copilul în momentele dificile.",
+    "text": "✅ Prin {prog_name} vei primi sfaturi care să te ajute să-ți susții copilul în momentele dificile.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Before we begin, {prog_name} is only for people 18 years and older. Are you 18 years or above?",
+    "text": "Înainte de a începe, {prog_name} este destinat numai persoanelor cu vârsta de peste 18 ani. Ai peste 18 ani?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you confirm that you are under the age of 18?",
+    "text": "Confirmi că ai sub 18 ani?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for being honest 💛 {prog_name} is only for people 18+. Please talk to a trusted adult who can support you. If they’d like to join, they can type {joining_trigger}.  🌸",
+    "text": "Îți mulțumim pentru sinceritate 💛 {prog_name} este destinată numai persoanelor cu vârsta peste 18 ani. Te rugăm să discuți cu un adult de încredere care te poate sprijini. Dacă dorește să se alăture, poate tasta {joining_trigger}.  🌸",
     "type": "text",
     "note": ""
   },
@@ -60,20 +84,32 @@
     "note": ""
   },
   {
-    "SourceText": "✅Your anonymous information may also be shared with others working to help families like yours build strength and hope in tough times. All your information will be private and can’t be linked back to you.",
-    "text": "✅Informațiile tale anonime pot fi, de asemenea, partajate cu alte persoane care lucrează pentru a ajuta familii ca a ta să-și recâștige puterea și speranța în momente dificile. Toate informațiile tale vor rămâne confidențiale și nu vor putea fi asociate cu tine.",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "❌You can stop when you want. Just type {STOP}",
     "text": "❌Poți opri când dorești. Doar tastează {STOP}",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "✅ To read our privacy policy, visit {consent}. If you are over 18 and consent to our privacy policy, select YES. Type \"EXIT\" if you do not want to participate.",
-    "text": "✅ Pentru a citi politica noastră de confidențialitate, accesează {consent}. Dacă ai peste 18 ani și ești de acord cu politica noastră de confidențialitate, selectează DA. Tastează \"IEȘIRE\" dacă nu vrei să participi.",
+    "SourceText": "Before we start, we need to share some important information.",
+    "text": "Înainte de a începe, este important să îți comunicăm câteva informații importante.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📘 Please read our Terms & Conditions here: {tnc_link}.",
+    "text": "📘 Te rugăm să citești Termenii și Condițiile aici: {tnc_link}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you have read and accept the Terms & Conditions, please select YES.",
+    "text": "Dacă ai citit și accepți Termenii și Condițiile, selectează DA.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you do not accept, type \"EXIT\" to stop now.",
+    "text": "Dacă nu accepți, tastează „IEȘIRE” pentru a încheia acum interacțiunea cu chatbotul Busola Părintelui.",
     "type": "text",
     "note": ""
   },
@@ -92,6 +128,54 @@
   {
     "SourceText": "We hope to see you again soon.",
     "text": "Sperăm să ne revedem curând.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Now a quick note about your privacy.",
+    "text": "Acum, o scurtă precizare privind confidențialitatea datelor tale.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ Your personal information is safe and private. ",
+    "text": "✅Informațiile tale personale sunt în siguranță și confidențiale. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ Your name and information will not be public, but your responses will be used by researchers to learn how to support families like yours. ",
+    "text": "✅ Numele și informațiile furnizate de tine nu vor fi făcute publice, dar răspunsurile tale vor fi utilizate de cercetători pentru a înțelege cum pot sprijini familii ca a ta. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ The information you share may also be combined with other families’ experiences so that we can understand how these programmes work across the world.",
+    "text": "✅ Informațiile pe care le împărtășești pot fi cumulate cu experiențele altor familii, ca să putem înțelege cum funcționează aceste programe în întreaga lume.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🤐 If there are any questions that you feel uncomfortable answering, you do not have to answer them.",
+    "text": "🤐 Dacă există întrebări la care te simți incomod să răspunzi, nu trebuie să răspunzi la ele.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please read this information carefully: {consent}",
+    "text": "Te rugăm să citești cu atenție aceste informații: {consent}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you have read it and agree, please select YES.",
+    "text": "Dacă ai citit documentul și ești de acord, selectează DA.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "If you do not want to participate, type \"EXIT\" to stop now.",
+    "text": "Dacă nu dorești să participi, tastează „IEȘIRE” pentru a încheia acum interacțiunea cu chatbotul Busola Părintelui.",
     "type": "text",
     "note": ""
   },
@@ -156,14 +240,44 @@
     "note": ""
   },
   {
-    "SourceText": "📍 Do you live in a rural or urban area?",
-    "text": "📍Locuiești într-o zonă rurală sau urbană?",
+    "SourceText": "Which county do you live in?",
+    "text": "În ce județ locuiești?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What is your locality?",
+    "text": "În ce localitatea locuiești?",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "What is the highest level of education you have completed?",
     "text": "Care este ultimul nivel de educație pe care l-ai absolvit?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please enter the first letter of your county.",
+    "text": "Te rugăm să introduci prima literă a județului tău.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I'm sorry, I don't understand. Please enter the first letter of your county. For example, enter S if you live in Suceava.",
+    "text": "Scuze, nu înțeleg. Te rog să introduci prima literă a județului tău. De exemplu, tastează S dacă locuiești în Suceava.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Hmm. I don't know of any counties beginning with that letter. Can you please try again?",
+    "text": "Hmm. Nu cunosc niciun județ care să înceapă cu litera respectivă. Poți să încerci din nou, te rog?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📍 Do you live in a rural or urban area?",
+    "text": "📍Locuiești într-o zonă rurală sau urbană?",
     "type": "text",
     "note": ""
   },
@@ -198,6 +312,12 @@
     "note": ""
   },
   {
+    "SourceText": "NEXT",
+    "text": "URMĂTORUL",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "English",
     "text": "English",
     "type": "quick_replies",
@@ -206,6 +326,30 @@
   {
     "SourceText": "Romanian",
     "text": "Română",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, I am 18 years old or older",
+    "text": "Da, am 18 ani sau mai mult",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No, I am under 18",
+    "text": "Nu, am sub 18 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, I am under 18",
+    "text": "Da, am sub 18 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No, take me back to the question",
+    "text": "Nu, du-mă înapoi la întrebare",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -224,12 +368,6 @@
   {
     "SourceText": "BACK",
     "text": "ÎNAPOI",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
-    "SourceText": "NEXT",
-    "text": "URMĂTORUL",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -264,8 +402,20 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "45-54 years old",
+    "text": "45-54 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "Over 55 years old",
     "text": "Peste 55 ani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to say",
+    "text": "Prefer să nu răspund",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -312,12 +462,6 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Prefer not to say",
-    "text": "Prefer să nu răspund",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
     "SourceText": "None",
     "text": "Nici unul",
     "type": "quick_replies",
@@ -348,14 +492,212 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Rural",
-    "text": "Rural",
+    "SourceText": "Cluj",
+    "text": "Cluj",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Urban",
-    "text": "Urban",
+    "SourceText": "Dâmbovița",
+    "text": "Dâmbovița",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Dolj",
+    "text": "Dolj",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Galați",
+    "text": "Galați",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Giurgiu",
+    "text": "Giurgiu",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Iași",
+    "text": "Iași",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Olt",
+    "text": "Olt",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Teleorman",
+    "text": "Teleorman",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Vâlcea",
+    "text": "Vâlcea",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Vaslui",
+    "text": "Vaslui",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Mociu",
+    "text": "Mociu",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Apahida",
+    "text": "Apahida",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Other locality",
+    "text": "Altă localitate",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Mănești",
+    "text": "Mănești",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Grecești",
+    "text": "Grecești",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Breasta",
+    "text": "Breasta",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Seaca de Padure",
+    "text": "Seaca de Padure",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Botoșești-Paia",
+    "text": "Botoșești-Paia",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Pechea",
+    "text": "Pechea",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Valea Marului",
+    "text": "Valea Marului",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Cosmesti",
+    "text": "Cosmesti",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Bucesti",
+    "text": "Bucesti",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Vânătorii Mici",
+    "text": "Vânătorii Mici",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Vlădeni",
+    "text": "Vlădeni",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Golăiești",
+    "text": "Golăiești",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Vădastra",
+    "text": "Vădastra",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Traian",
+    "text": "Traian",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Runcu",
+    "text": "Runcu",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Pesceana",
+    "text": "Pesceana",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Stoilești",
+    "text": "Stoilești",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Scundu",
+    "text": "Scundu",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Parpanița",
+    "text": "Parpanița",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Todirești",
+    "text": "Todirești",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Tătărani",
+    "text": "Tătărani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Pogonești",
+    "text": "Pogonești",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -384,8 +726,212 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Prefer not to answer",
-    "text": "Prefer să nu răspund",
+    "SourceText": "Alba",
+    "text": "Alba",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Arad",
+    "text": "Arad",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Argeș",
+    "text": "Argeș",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Go back and enter a different letter",
+    "text": "Întoarce-te și tastează o altă literă",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Bacău",
+    "text": "Bacău",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Bihor",
+    "text": "Bihor",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Bistrița-Năsăud",
+    "text": "Bistrița-Năsăud",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Botoșani",
+    "text": "Botoșani",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Brașov",
+    "text": "Brașov",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Brăila",
+    "text": "Brăila",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Buzău",
+    "text": "Buzău",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Caraș-Severin",
+    "text": "Caraș-Severin",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Călărași",
+    "text": "Călărași",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Constanța",
+    "text": "Constanța",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Covasna",
+    "text": "Covasna",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Gorj",
+    "text": "Gorj",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Harghita",
+    "text": "Harghita",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Hunedoara",
+    "text": "Hunedoara",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Ialomița",
+    "text": "Ialomița",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Ilfov",
+    "text": "Ilfov",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Maramureș",
+    "text": "Maramureș",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Mehedinți",
+    "text": "Mehedinți",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Mureș",
+    "text": "Mureș",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Neamț",
+    "text": "Neamț",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "back",
+    "text": "înapoi",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prahova",
+    "text": "Prahova",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Satu Mare",
+    "text": "Satu Mare",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Sălaj",
+    "text": "Sălaj",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Sibiu",
+    "text": "Sibiu",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Suceava",
+    "text": "Suceava",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Timiș",
+    "text": "Timiș",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Tulcea",
+    "text": "Tulcea",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Vrancea",
+    "text": "Vrancea",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Rural",
+    "text": "Rural",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Urban",
+    "text": "Urban",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -420,6 +966,30 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "yes, i am 18 years old or older",
+    "text": "da, am 18 ani sau mai mult",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no, i am under 18",
+    "text": "nu, am sub 18 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no, take me back to the question",
+    "text": "nu, du-mă înapoi la întrebare",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, i am under 18",
+    "text": "da, am sub 18 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "yes",
     "text": "da",
     "type": "arguments",
@@ -428,6 +998,12 @@
   {
     "SourceText": "exit",
     "text": "ieșire",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "exti",
+    "text": "iesire",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -474,8 +1050,20 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "45-54 years old",
+    "text": "45-54 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "over 55 years old",
     "text": "peste 55 ani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to say",
+    "text": "prefer să nu răspund",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -522,12 +1110,6 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "prefer not to say",
-    "text": "prefer să nu răspund",
-    "type": "arguments",
-    "note": "This is an argument and it may be used to identify a corresponding quick reply"
-  },
-  {
     "SourceText": "none",
     "text": "nici unul",
     "type": "arguments",
@@ -558,14 +1140,212 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "rural",
-    "text": "rural",
+    "SourceText": "cluj",
+    "text": "cluj",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "urban",
-    "text": "urban",
+    "SourceText": "dâmbovița",
+    "text": "dâmbovița",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "dolj",
+    "text": "dolj",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "galați",
+    "text": "galați",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "giurgiu",
+    "text": "giurgiu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "iași",
+    "text": "iași",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "olt",
+    "text": "olt",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "teleorman",
+    "text": "teleorman",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "vâlcea",
+    "text": "vâlcea",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "vaslui",
+    "text": "vaslui",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mociu",
+    "text": "mociu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "apahida",
+    "text": "apahida",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "other locality",
+    "text": "altă localitate",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mănești",
+    "text": "mănești",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "grecești",
+    "text": "grecești",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "breasta",
+    "text": "breasta",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "seaca de padure",
+    "text": "seaca de padure",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "botoșești-paia",
+    "text": "botoșești-paia",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "pechea",
+    "text": "pechea",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "valea marului",
+    "text": "valea marului",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "cosmesti",
+    "text": "cosmesti",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "bucesti",
+    "text": "bucesti",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "vânătorii mici",
+    "text": "vânătorii mici",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "vlădeni",
+    "text": "vlădeni",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "golăiești",
+    "text": "golăiești",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "vădastra",
+    "text": "vădastra",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "traian",
+    "text": "traian",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "runcu",
+    "text": "runcu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "pesceana",
+    "text": "pesceana",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "stoilești",
+    "text": "stoilești",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "scundu",
+    "text": "scundu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "parpanița",
+    "text": "parpanița",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "todirești",
+    "text": "todirești",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "tătărani",
+    "text": "tătărani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "pogonești",
+    "text": "pogonești",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -594,8 +1374,206 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "prefer not to answer",
-    "text": "prefer să nu răspund",
+    "SourceText": "alba",
+    "text": "alba",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "arad",
+    "text": "arad",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "argeș",
+    "text": "argeș",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "go back and enter a different letter",
+    "text": "întoarce-te și tastează o altă literă",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "bacău",
+    "text": "bacău",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "bihor",
+    "text": "bihor",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "bistrița-năsăud",
+    "text": "bistrița-năsăud",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "botoșani",
+    "text": "botoșani",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "brașov",
+    "text": "brașov",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "brăila",
+    "text": "brăila",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "buzău",
+    "text": "buzău",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "caraș-severin",
+    "text": "caraș-severin",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "călărași",
+    "text": "călărași",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "constanța",
+    "text": "constanța",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "covasna",
+    "text": "covasna",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "gorj",
+    "text": "gorj",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "harghita",
+    "text": "harghita",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "hunedoara",
+    "text": "hunedoara",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "ialomița",
+    "text": "ialomița",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "ilfov",
+    "text": "ilfov",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "maramureș",
+    "text": "maramureș",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mehedinți",
+    "text": "mehedinți",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mureș",
+    "text": "mureș",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "neamț",
+    "text": "neamț",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prahova",
+    "text": "prahova",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "satu mare",
+    "text": "satu mare",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "sălaj",
+    "text": "sălaj",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "sibiu",
+    "text": "sibiu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "suceava",
+    "text": "suceava",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "timiș",
+    "text": "timiș",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "tulcea",
+    "text": "tulcea",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "vrancea",
+    "text": "vrancea",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "rural",
+    "text": "rural",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "urban",
+    "text": "urban",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },

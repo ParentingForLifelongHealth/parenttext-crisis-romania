@@ -48,14 +48,32 @@
     "note": ""
   },
   {
-    "SourceText": "That's okay.",
-    "text": "Este în regulă.",
+    "SourceText": "That's okay. We'll check-in again with you tomorrow.",
+    "text": "Este în regulă. Te vom consulta din nou mâine.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Sorry, I don't understand what you mean.",
     "text": "Îmi pare rău, nu înțeleg ce vrei să spui.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Hello again! ",
+    "text": "Salutare din nou! ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to continue? 🙂",
+    "text": "Dorești să continui? 🙂",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for letting us know.",
+    "text": "Îți mulțumim că ne-ai informat.",
     "type": "text",
     "note": ""
   },
@@ -150,14 +168,26 @@
     "note": ""
   },
   {
-    "SourceText": "It’ll take only 2 minutes ⏱️,  and your answers help make these tips better for you and other families 💛",
-    "text": "Va dura doar 2 minute ⏱️, iar răspunsurile tale ajută la îmbunătățirea acestor sfaturi pentru tine și alte familii 💛",
+    "SourceText": "Some of the next questions are more personal, about mood and parenting. 💛",
+    "text": "Unele dintre întrebările următoare sunt mai personale, privesc starea de spirit și rolul de părinte. 💛",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Would you like to continue?",
-    "text": "Ai vrea să continui?",
+    "SourceText": "Your answers are private and help make the programme better for families.",
+    "text": "Răspunsurile tale sunt confidențiale și contribuie la îmbunătățirea programului în beneficiul familiilor.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You can skip any question you don’t want to answer.",
+    "text": "Poți sări peste orice întrebare la care nu dorești să răspunzi.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you agree to answer these questions?",
+    "text": "Ești de acord să răspunzi la aceste întrebări?",
     "type": "text",
     "note": ""
   },
@@ -314,12 +344,6 @@
   {
     "SourceText": "Today you will receive your final tips. First, we have 3 questions to ask about how you and your children are doing. ❤️",
     "text": "Astăzi vei primi ultimele sfaturi. Înainte de a începe, avem 3 întrebări despre cum te simți tu și copiii tăi. ❤️",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "It’ll take only 2 minutes ⏱️, and your answers help make these tips better for you and other families 💛",
-    "text": "Va dura doar 2 minute ⏱️, iar răspunsurile tale ne vor ajuta să îmbunătățim aceste sfaturi pentru tine și pentru alte familii 💛",
     "type": "text",
     "note": ""
   },

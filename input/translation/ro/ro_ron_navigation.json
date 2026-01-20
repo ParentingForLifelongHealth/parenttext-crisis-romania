@@ -138,38 +138,62 @@
     "note": ""
   },
   {
-    "SourceText": "Are you sure you want to stop receiving tips?",
-    "text": "Ești sigur că nu mai vrei să primești aceste sfaturi?",
+    "SourceText": "It looks like you don't want to recieve messages from {prog_name} anymore.",
+    "text": "Pare că nu mai dorești să primești mesaje de la {prog_name}.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
-    "text": "Dacă nu vrei să mai primești mesaje, scrie „EXIT”.",
+    "SourceText": "Are you sure you want to STOP receiving daily tips?",
+    "text": "Ești sigur/ă că nu mai vrei să primești sfaturile zilnice?",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "If you made a mistake, please type \"BACK\".",
-    "text": "Dacă ai făcut o greșeală, te rugăm să tastezi \"ÎNAPOI\".",
+    "SourceText": "Great! We’re happy you’re staying with {prog_name}! We will resume tomorrow.",
+    "text": "Minunat! Ne bucurăm că rămâi pe {prog_name}! Vom continua mâine.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Thank you for participating. If you want to return to continue receiving tips, type HELLO. ",
-    "text": "Mulțumim pentru participare. Dacă vrei să te întorci pentru a continua să primești sfaturi, tastează SALUT. ",
+    "SourceText": "Thank you for joining {prog_name}.",
+    "text": "Îți mulțumim ca te-ai alăturat pe {prog_name}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you also want us to delete all your info?",
+    "text": "Vrei să ștergem și toate informațiile tale?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👉 This means we remove your contact and messages from our side.",
+    "text": "👉 Acest lucru înseamnă că vom șterge datele tale de contact și mesajele tale din sistemul nostru.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👉 You will still see the old messages you sent.",
+    "text": "👉 Vei putea vizualiza în continuare mesajele tale anterioare.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👉 If you join again, you will need to start from the beginning.",
+    "text": "👉 Dacă te vei înscrie din nou, va trebui să o iei de la început.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you! If you want to return to receiving daily tips, just type HELLO.",
+    "text": "Mulțumesc! Dacă dorești să primești din nou sfaturi zilnice, tastează SALUT.",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "We hope to see you again soon.",
     "text": "Sperăm să ne revedem curând.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "We are so glad you want to stick around! We will resume your progress tomorrow.",
-    "text": "Suntem bucuroși că vrei să continui! Vom relua progresul mâine.",
     "type": "text",
     "note": ""
   },
@@ -481,7 +505,7 @@
   },
   {
     "SourceText": "🕊️ In tough times, children notice more than we think. Today’s tips help you talk to your child about death so they can feel safer, less confused, and more supported. Would you like to receive the tips?",
-    "text": "În perioadele dificile, copiii observă mai multe decât credem noi. Sfaturile de azi te ajută să vorbești cu copilul tău despre moarte, astfel încât să se simtă mai în siguranță, mai puțin confuz și mai susținut. Ți-ar plăcea să primești sfaturile?",
+    "text": "🕊️ În perioadele dificile, copiii observă mai multe decât credem noi. Sfaturile de azi te ajută să vorbești cu copilul tău despre moarte, astfel încât să se simtă mai în siguranță, mai puțin confuz și mai susținut. Ți-ar plăcea să primești sfaturile?",
     "type": "text",
     "note": ""
   },
@@ -546,14 +570,8 @@
     "note": ""
   },
   {
-    "SourceText": "Are you sure you want to DELETE all your info? This will delete your contact and all messages associated with your account. To access this service again you will need to rejoin and start from the beginning.",
-    "text": "Ești sigur că vrei să ȘTERGI toate informațiile asociate contului tău? Acest lucru va șterge numărul tău de contact și toate mesajele asociate contului tău. Pentru a accesa din nou acest serviciu, va trebui să te reînscrii și să reiei lecțiile de la început.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Please contact {gdpr_contact} for account deletion, for a copy of all of your data we have, or to update any data we have.",
-    "text": "Te rugăm să contactezi {gdpr_contact} pentru ștergerea contului, pentru o copie a tuturor datelor tale pe care le deținem sau pentru a actualiza orice date pe care le deținem.",
+    "SourceText": "Are you sure you want to DELETE all your info? ",
+    "text": "Ești sigur/ă că vrei să ȘTERGI toate informațiile tale? ",
     "type": "text",
     "note": ""
   },
@@ -564,8 +582,14 @@
     "note": ""
   },
   {
-    "SourceText": "You are receiving content with Audio.",
-    "text": "Primești conținut cu Sunet.",
+    "SourceText": "You are receiving content with audio guides.",
+    "text": "Primești conținut cu ghidaj audio.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are receiving content with video guides.",
+    "text": "Primești conținut cu ghidaj video.",
     "type": "text",
     "note": ""
   },
@@ -576,14 +600,14 @@
     "note": ""
   },
   {
-    "SourceText": "You didn't provide this info.",
-    "text": "Nu ai furnizat această informație.",
+    "SourceText": "Would you like to change it?",
+    "text": "Dorești să o modifici?",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Would you like to change it?",
-    "text": "Dorești să o modifici?",
+    "SourceText": "Great! Your media settings are now updated 🎉",
+    "text": "Excelent! Setările tale media sunt actualizate acum 🎉",
     "type": "text",
     "note": ""
   },
@@ -614,6 +638,222 @@
   {
     "SourceText": "Would you like to update your gender?",
     "text": "Dorești să îți actualizezi genul?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! Your gender is now updated.",
+    "text": "Gata! Genul tău a fost actualizat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your guide is Dan.",
+    "text": "Ghidul tău este Dan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your guide is Maria.",
+    "text": "Ghidul tău este Maria.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your guide is",
+    "text": "Ghidul tău este",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Would you like to change your guide?",
+    "text": "Vrei să modifici ghidul?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! Your media guide is now updated 🎉",
+    "text": "Perfect! Ghidul tău media este acum actualizat 🎉",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You didn't provide this info.",
+    "text": "Nu ai furnizat această informație.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are 18-24 years old.",
+    "text": "Ne-ai spus că ai între 18 și 24 de ani.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are 25-34 years old.",
+    "text": "Ne-ai spus că ai între 25 și 34 de ani.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are 35-44 years old.",
+    "text": "Ne-ai spus că ai între 35 și 44 de ani.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are 45-54 years old.",
+    "text": "Ne-ai spus că ai între 45 și 54 de ani.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are over 55 years old.",
+    "text": "Ne-ai spus că ai peste 55 de ani.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are",
+    "text": "Ne-ai spus că ai",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! Your age is now updated.",
+    "text": "Gata! Vârsta a fost actualizată.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are single (not in a relationship).",
+    "text": "Ne-ai spus că ești singur/ă (nu ești într-o relație).",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are married.",
+    "text": "Ne-ai spus că ești căsătorit/ă.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are partnered but not married.",
+    "text": "Ne-ai spus că ești într-o relație, dar nu ești căsătorit/ă.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are divorced or separated.",
+    "text": "Ne-ai spus că ești divorțat/ă sau despărțit/ă.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you are widowed.",
+    "text": "Ne-ai spus că ești văduv/ă.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! Your relationship status is now updated.",
+    "text": "Gata! Statusul relației tale este acum actualizat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of no children.",
+    "text": "Ne-ai spus că nu ai în grijă niciun copil.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of one to three children.",
+    "text": "Ne-ai spus că ai grijă de unul până la trei copii.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of more than four children.",
+    "text": "Ne-ai spus că ai grijă de mai mult de patru copii.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of .",
+    "text": "Ne-ai spus că ai grijă de .",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that you take care of",
+    "text": "Ne-ai spus că ai grijă de",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! The number of children you take care of is now updated.",
+    "text": "Gata! Numărul copiilor de care ai grijă este acum actualizat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that the highest level of education you have completed is primary school.",
+    "text": "Ne-ai spus că cel ultimul nivel de studii pe care l-ai absolvit este școala primară.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that the highest level of education you have completed is secondary school.",
+    "text": "Ne-ai spus că cel ultimul nivel de studii pe care l-ai absolvit este școala gimnazială.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that the highest level of education you have completed is high school/vocational school.",
+    "text": "Ne-ai spus că cel ultimul nivel de studii pe care l-ai absolvit este liceul/școala profesională.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that the highest level of education you have completed is higher education.",
+    "text": "Ne-ai spus că cel ultimul nivel de studii pe care l-ai absolvit este învățământul superior.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You told us that the highest level of education you have completed is",
+    "text": "Ne-ai spus că cel ultimul nivel de studii pe care l-ai absolvit este",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! Your level of education is now updated.",
+    "text": "Gata! Nivelul tău de educație este acum actualizat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your told us that you live in a rural area.",
+    "text": "Ne-ai spus că locuiești într-o zonă rurală.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your told us that you live in a urban area.",
+    "text": "Ne-ai spus că locuiești într-o zonă urbană.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your told us that you live in a",
+    "text": "Ne-ai spus că locuiești într-o zonă",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Done! Your location is now updated.",
+    "text": "Gata! Locația ta este acum actualizată.",
     "type": "text",
     "note": ""
   },
@@ -656,6 +896,30 @@
   {
     "SourceText": "Here is a video about {prog_name}.",
     "text": "Iată un videoclip despre {prog_name}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for participating. Your contact and all messages associated with your account will be deleted within 30 days from now.",
+    "text": "Îți mulțumim pentru participare. Datele tale de contact și toate mesajele asociate contului tău vor fi șterse în termen de 30 de zile începând de astăzi.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please contact {gdprcontact} to request a copy of all of your data we have. Please make sure to specify your user ID:",
+    "text": "Te rugăm să contactezi {gdprcontact} pentru a solicita o copie a tuturor datelor tale colectate de noi. Asigură-te că specifici numărul tău de utilizator:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@contact.id",
+    "text": "@contact.id",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Please contact {gdprcontact} to request to update any data we have. Please make sure to specify your user ID:",
+    "text": "Te rugăm să contactezi {gdprcontact} pentru a solicita o copie a tuturor datelor tale colectate de noi. Asigură-te că specifici numărul tău de utilizator:",
     "type": "text",
     "note": ""
   },
@@ -768,8 +1032,26 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "BACK",
-    "text": "Înapoi",
+    "SourceText": "No, I want to continue",
+    "text": "Nu, îmi doresc să pot continua",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, stop sending me tips",
+    "text": "Da, oprește trimiterea sfaturilor",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "YES, delete my account and progress",
+    "text": "DA, șterge-mi contul și progresul",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "NO, I may use the chatbot again later",
+    "text": "NU, s-ar putea să folosesc din nou chatbotul mai târziu",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -930,20 +1212,20 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Request Account Deletion",
-    "text": "Solicită Ștergerea Contului",
+    "SourceText": "Delete my account",
+    "text": "Șterge-mi contul",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Request User Data",
-    "text": "Solicită Datele de Utilizator",
+    "SourceText": "Get a copy of my data",
+    "text": "Obține o copie a datelor mele",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Request Account Data Rectification",
-    "text": "Solicită Rectificarea Datelor Asociate Contului",
+    "SourceText": "Request account data rectification",
+    "text": "Solicită rectificarea datelor contului",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -960,20 +1242,44 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "Change my guide",
+    "text": "Modifică ghidul",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "Change my gender",
     "text": "Schimbă genul",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "YES - Delete my account",
-    "text": "DA - Ștergeți-mi contul",
+    "SourceText": "Change my age",
+    "text": "Modifică vârsta",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "NO - I want to keep using {prog_name}",
-    "text": "NU - Vreau să folosesc în continuare {prog_name}",
+    "SourceText": "Change my relationship status",
+    "text": "Modifică statutul relației",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change the number of children I take care of",
+    "text": "Modifică numărul copiilor de care am grijă",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my location",
+    "text": "Modifică locația",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Change my level of education",
+    "text": "Modifică nivelul de studii",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1122,14 +1428,26 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "exit",
-    "text": "ieșire",
+    "SourceText": "no, i want to continue",
+    "text": "nu, îmi doresc să pot continua",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "back",
-    "text": "înapoi",
+    "SourceText": "yes, stop sending me tips",
+    "text": "da, oprește trimiterea sfaturilor",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no, i may use the chatbot again later",
+    "text": "nu, s-ar putea să folosesc din nou chatbotul mai târziu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, delete my account and progress",
+    "text": "da, șterge-mi contul și progresul",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -1296,14 +1614,14 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "request account deletion",
-    "text": "solicită ștergerea contului",
+    "SourceText": "delete my account",
+    "text": "șterge-mi contul",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "request user data",
-    "text": "solicită datele de utilizator",
+    "SourceText": "get a copy of my data",
+    "text": "obține o copie a datelor mele",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -1326,20 +1644,44 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "change my guide",
+    "text": "modifică ghidul",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "change my gender",
     "text": "schimbă genul",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "yes - delete my account",
-    "text": "da - ștergeți-mi contul",
+    "SourceText": "change my age",
+    "text": "modifică vârsta",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "no - i want to keep using {prog_name}",
-    "text": "nu - vreau să folosesc în continuare {prog_name}",
+    "SourceText": "change my relationship status",
+    "text": "modifică statutul relației",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change the number of children i take care of",
+    "text": "modifică numărul copiilor de care am grijă",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my location",
+    "text": "modifică locația",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "change my level of education",
+    "text": "modifică nivelul de studii",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }

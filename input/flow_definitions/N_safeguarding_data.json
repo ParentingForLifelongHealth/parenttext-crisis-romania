@@ -163,32 +163,47 @@
     "safeguarding_leave_programme_data": [
       {
         "ID": "intro",
-        "msg": "Are you sure you want to stop receiving tips? ",
+        "msg": "It looks like you don't want to recieve messages from {prog_name} anymore.",
         "metadata.description": ""
       },
       {
         "ID": "confirm",
-        "msg": "If you do not want to receive any more messages, please type \"EXIT\".\n\nIf you made a mistake, please type \"BACK\".",
-        "metadata.description": "BACK needs to be consistent with \"back_option\"\nEXIT needs to be consistent with \"leave_option\""
+        "msg": "Are you sure you want to STOP receiving daily tips? ",
+        "metadata.description": ""
       },
       {
         "ID": "back_option",
-        "msg": "BACK",
-        "metadata.description": "needs to be consistent with \"confirm\" message"
-      },
-      {
-        "ID": "leave_option",
-        "msg": "EXIT",
-        "metadata.description": "needs to be consistent with \"confirm\" message"
-      },
-      {
-        "ID": "goodbye",
-        "msg": "Thank you for participating. If you want to return to continue receiving tips, type HELLO. \n\nWe hope to see you again soon.",
-        "metadata.description": "HELLO is just to suggest something to type, but anything typed in the chat will trigger the same behaviour"
+        "msg": "No, I want to continue",
+        "metadata.description": ""
       },
       {
         "ID": "stay",
-        "msg": "We are so glad you want to stick around! We will resume your progress tomorrow. ",
+        "msg": "Great! We’re happy you’re staying with {prog_name}! We will resume tomorrow. ",
+        "metadata.description": ""
+      },
+      {
+        "ID": "leave_option",
+        "msg": "Yes, stop sending me tips",
+        "metadata.description": ""
+      },
+      {
+        "ID": "delete?",
+        "msg": "Thank you for joining {prog_name}.\nDo you also want us to delete all your info?\n👉 This means we remove your contact and messages from our side.\n👉 You will still see the old messages you sent.\n👉 If you join again, you will need to start from the beginning.",
+        "metadata.description": ""
+      },
+      {
+        "ID": "yes_delete",
+        "msg": "YES, delete my account and progress",
+        "metadata.description": "then enters the flow for deleting a contact and the message on the lines of \" Thank you for participating. Your contact and all messages associated with your account will be deleted within 30 days from now. \" see RO menu data  response"
+      },
+      {
+        "ID": "no_delete",
+        "msg": "NO, I may use the chatbot again later",
+        "metadata.description": ""
+      },
+      {
+        "ID": "goodbye",
+        "msg": "Thank you! If you want to return to receiving daily tips, just type HELLO.\n\nWe hope to see you again soon.",
         "metadata.description": ""
       }
     ],
