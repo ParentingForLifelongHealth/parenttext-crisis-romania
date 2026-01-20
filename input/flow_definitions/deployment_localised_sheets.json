@@ -198,6 +198,21 @@
         "tags.1": "demo",
         "tags.2": "",
         "tags.3": ""
+      },
+      {
+        "type": "create_campaign",
+        "sheet_name": "1month_reminder_campaign_event",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "in 1month survey",
+        "tags.1": "campaign",
+        "tags.2": "",
+        "tags.3": ""
       }
     ],
     "testing_triggers": [
@@ -400,52 +415,52 @@
       {
         "ID": "care_for_yourself",
         "goal_id_c": "core",
-        "priority_in_goal_c": "01"
+        "priority_in_goal_c": "09"
       },
       {
         "ID": "make_a_routine",
         "goal_id_c": "core",
-        "priority_in_goal_c": "02"
+        "priority_in_goal_c": "10"
       },
       {
         "ID": "help_children_cope",
         "goal_id_c": "core",
-        "priority_in_goal_c": "03"
+        "priority_in_goal_c": "01"
       },
       {
         "ID": "when_someone_dies",
         "goal_id_c": "core",
-        "priority_in_goal_c": "04"
+        "priority_in_goal_c": "07"
       },
       {
         "ID": "protect_sexual_violence",
         "goal_id_c": "core",
-        "priority_in_goal_c": "05"
+        "priority_in_goal_c": "02"
       },
       {
         "ID": "keep_children_safe",
         "goal_id_c": "core",
-        "priority_in_goal_c": "06"
+        "priority_in_goal_c": "03"
       },
       {
         "ID": "prepare_to_travel",
         "goal_id_c": "core",
-        "priority_in_goal_c": "07"
+        "priority_in_goal_c": "04"
       },
       {
         "ID": "travel_safely",
         "goal_id_c": "core",
-        "priority_in_goal_c": "08"
+        "priority_in_goal_c": "05"
       },
       {
         "ID": "protect_from_traffickers",
         "goal_id_c": "core",
-        "priority_in_goal_c": "09"
+        "priority_in_goal_c": "06"
       },
       {
         "ID": "care_in_a_shelter",
         "goal_id_c": "core",
-        "priority_in_goal_c": "10"
+        "priority_in_goal_c": "08"
       }
     ],
     "goals_api_sources": [
@@ -2197,6 +2212,18 @@
         "edges.1.condition": "",
         "message_text": "msg.Which_WA_templa|",
         "save_name": ""
+      }
+    ],
+    "1month_reminder_campaign_event": [
+      {
+        "offset": "2",
+        "unit": "D",
+        "event_type": "F",
+        "delivery_hour": "",
+        "message": "",
+        "relative_to": "survey delivery time 1month",
+        "start_mode": "I",
+        "flow": "1month_survey_reminder_wrapper"
       }
     ]
   }
