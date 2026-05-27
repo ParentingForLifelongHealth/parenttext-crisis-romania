@@ -1,5 +1,5 @@
 # Inherit from your central pipeline image
-FROM ghcr.io/idemsinternational/parenttext-ckan-export:latest
+FROM docker.io/idems/parenttext-pipeline-ckan-export:latest
 
 RUN pip install pandas
 

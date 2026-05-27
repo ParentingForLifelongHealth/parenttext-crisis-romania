@@ -10,9 +10,6 @@ python -m parenttext.rapidpro_api_tools --steps export_contacts
 
 echo "=== Step 2: Post-Processing ==="
 
-echo "Running 01_clean_test_users.py..."
-python /app/scripts/01_clean_test_users.py -i "$OUTPUT_FILE"
-
 echo "Running map_waves.py..."
 python /app/scripts/map_waves.py -i "$OUTPUT_FILE" -o "$OUTPUT_FILE"
 
